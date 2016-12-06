@@ -12867,7 +12867,7 @@ FILE: ../../../flutter/lib/ui/window/window.h
 FILE: ../../../flutter/runtime/platform_impl.h
 FILE: ../../../flutter/shell/common/skia_event_tracer_impl.cc
 FILE: ../../../flutter/shell/platform/darwin/desktop/Info.plist
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_mac.xib
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_mac.xib
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Info.plist
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/module.modulemap
 FILE: ../../../flutter/sky/engine/core/editing/CompositionUnderlineRangeFilter.cpp
@@ -14073,6 +14073,8 @@ FILE: ../../../flutter/shell/gpu/gpu_rasterizer.h
 FILE: ../../../flutter/shell/platform/android/AndroidManifest.xml
 FILE: ../../../flutter/shell/platform/android/flutter_main.cc
 FILE: ../../../flutter/shell/platform/android/flutter_main.h
+FILE: ../../../flutter/shell/platform/android/io/flutter/app/FlutterActivity.java
+FILE: ../../../flutter/shell/platform/android/io/flutter/app/FlutterApplication.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/view/ResourceCleaner.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/view/ResourceExtractor.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/view/ResourcePaths.java
@@ -14084,15 +14086,15 @@ FILE: ../../../flutter/shell/platform/android/platform_view_android.h
 FILE: ../../../flutter/shell/platform/darwin/common/platform_mac.h
 FILE: ../../../flutter/shell/platform/darwin/common/platform_mac.mm
 FILE: ../../../flutter/shell/platform/darwin/common/string_conversions.h
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_app_delegate.h
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_app_delegate.m
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_application.h
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_application.mm
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_window.h
+FILE: ../../../flutter/shell/platform/darwin/desktop/flutter_window.mm
 FILE: ../../../flutter/shell/platform/darwin/desktop/main_mac.mm
 FILE: ../../../flutter/shell/platform/darwin/desktop/platform_view_mac.h
 FILE: ../../../flutter/shell/platform/darwin/desktop/platform_view_mac.mm
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_app_delegate.h
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_app_delegate.m
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_application.h
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_application.mm
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_window.h
-FILE: ../../../flutter/shell/platform/darwin/desktop/sky_window.mm
 FILE: ../../../flutter/shell/platform/darwin/desktop/vsync_waiter_mac.cc
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/vsync_waiter_ios.h
@@ -72009,4 +72011,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 688
-     31616 of 31616 ██████████ 100% (0 missing licenses)  Done.    
+     31618 of 31618 ██████████ 100% (0 missing licenses)  Done.    
