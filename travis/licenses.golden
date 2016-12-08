@@ -14203,6 +14203,7 @@ FILE: ../../../flutter/lib/ui/painting/image_filter.cc
 FILE: ../../../flutter/lib/ui/painting/image_filter.h
 FILE: ../../../flutter/lib/ui/painting/resource_context.cc
 FILE: ../../../flutter/lib/ui/painting/resource_context.h
+FILE: ../../../flutter/lib/ui/painting/utils.h
 FILE: ../../../flutter/lib/ui/semantics.dart
 FILE: ../../../flutter/lib/ui/semantics/semantics_node.cc
 FILE: ../../../flutter/lib/ui/semantics/semantics_node.h
@@ -72011,4 +72012,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 688
-     31618 of 31618 ██████████ 100% (0 missing licenses)  Done.    
+     31619 of 31619 ██████████ 100% (0 missing licenses)  Done.    
