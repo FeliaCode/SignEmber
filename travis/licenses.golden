@@ -14229,6 +14229,10 @@ FILE: ../../../flutter/runtime/runtime_init.cc
 FILE: ../../../flutter/runtime/runtime_init.h
 FILE: ../../../flutter/runtime/start_up.cc
 FILE: ../../../flutter/runtime/start_up.h
+FILE: ../../../flutter/runtime/test_font_data.cc
+FILE: ../../../flutter/runtime/test_font_data.h
+FILE: ../../../flutter/runtime/test_font_selector.cc
+FILE: ../../../flutter/runtime/test_font_selector.h
 FILE: ../../../flutter/shell/common/diagnostic/diagnostic_server.cc
 FILE: ../../../flutter/shell/common/diagnostic/diagnostic_server.dart
 FILE: ../../../flutter/shell/common/diagnostic/diagnostic_server.h
@@ -72012,4 +72016,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 688
-     31619 of 31619 ██████████ 100% (0 missing licenses)  Done.    
+     31623 of 31623 ██████████ 100% (0 missing licenses)  Done.    
