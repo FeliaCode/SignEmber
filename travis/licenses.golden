@@ -14171,6 +14171,7 @@ FILE: ../../../flutter/flow/layers/child_scene_layer.h
 FILE: ../../../flutter/flow/layers/shader_mask_layer.cc
 FILE: ../../../flutter/flow/layers/shader_mask_layer.h
 FILE: ../../../flutter/flow/open_gl.h
+FILE: ../../../flutter/flow/process_info.h
 FILE: ../../../flutter/flow/raster_cache.cc
 FILE: ../../../flutter/flow/raster_cache.h
 FILE: ../../../flutter/flow/scene_update_context.cc
@@ -14264,6 +14265,8 @@ FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/Platfor
 FILE: ../../../flutter/shell/platform/android/io/flutter/view/VsyncWaiter.java
 FILE: ../../../flutter/shell/platform/android/vsync_waiter_android.cc
 FILE: ../../../flutter/shell/platform/android/vsync_waiter_android.h
+FILE: ../../../flutter/shell/platform/darwin/common/process_info_mac.cc
+FILE: ../../../flutter/shell/platform/darwin/common/process_info_mac.h
 FILE: ../../../flutter/shell/platform/darwin/common/string_conversions.mm
 FILE: ../../../flutter/shell/platform/darwin/desktop/vsync_waiter_mac.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/Flutter.h
@@ -72016,4 +72019,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 688
-     31623 of 31623 ██████████ 100% (0 missing licenses)  Done.    
+     31626 of 31626 ██████████ 100% (0 missing licenses)  Done.    
