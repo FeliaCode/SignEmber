@@ -19922,6 +19922,7 @@ FILE: ../../../dart/runtime/observatory/lib/src/repositories/top_retaining_insta
 FILE: ../../../dart/runtime/observatory/lib/src/repositories/type_arguments.dart
 FILE: ../../../dart/runtime/observatory/web/timeline_message_handler.js
 FILE: ../../../dart/runtime/platform/utils_fuchsia.h
+FILE: ../../../dart/runtime/tools/kernel-service.dart
 FILE: ../../../dart/runtime/vm/assembler_dbc.cc
 FILE: ../../../dart/runtime/vm/assembler_dbc.h
 FILE: ../../../dart/runtime/vm/assembler_dbc_test.cc
@@ -19952,6 +19953,8 @@ FILE: ../../../dart/runtime/vm/isolate_reload_test.cc
 FILE: ../../../dart/runtime/vm/kernel.cc
 FILE: ../../../dart/runtime/vm/kernel.h
 FILE: ../../../dart/runtime/vm/kernel_binary.cc
+FILE: ../../../dart/runtime/vm/kernel_isolate.cc
+FILE: ../../../dart/runtime/vm/kernel_isolate.h
 FILE: ../../../dart/runtime/vm/kernel_reader.cc
 FILE: ../../../dart/runtime/vm/kernel_reader.h
 FILE: ../../../dart/runtime/vm/kernel_to_il.cc
@@ -72019,4 +72022,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 688
-     31626 of 31626 ██████████ 100% (0 missing licenses)  Done.    
+     31629 of 31629 ██████████ 100% (0 missing licenses)  Done.    
