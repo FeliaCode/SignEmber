@@ -15254,7 +15254,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/LICENSE
-TYPE: LicenseType.unknown
+TYPE: LicenseType.openssl
+FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S
+FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha512-armv4.S
 FILE: ../../../third_party/boringssl/src/crypto/bn/asm/x86_64-gcc.c
 FILE: ../../../third_party/boringssl/src/crypto/err/asn1.errordata
 FILE: ../../../third_party/boringssl/src/crypto/err/bio.errordata
@@ -18349,8 +18351,6 @@ FILE: ../../../third_party/boringssl/linux-arm/crypto/chacha/chacha-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/modes/ghash-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/modes/ghashv8-armx32.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha1-armv4-large.S
-FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S
-FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha512-armv4.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/aes-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/aesni-x86.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/vpaes-x86.S
