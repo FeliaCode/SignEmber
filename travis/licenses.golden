@@ -15274,8 +15274,23 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S + ../../../third_party/boringssl/src/LICENSE
+TYPE: LicenseType.unknown
+FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S
+----------------------------------------------------------------------------------------------------
+Copyright 2007-2016 The OpenSSL Project Authors. All Rights Reserved.
+
+Licensed under the OpenSSL license (the "License").  You may not use
+this file except in compliance with the License.  You can obtain a copy
+in the file LICENSE in the source distribution or at
+https://www.openssl.org/source/license.html
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/LICENSE
 TYPE: LicenseType.openssl
+FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha256-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha512-armv4.S
 FILE: ../../../third_party/boringssl/src/crypto/bn/asm/x86_64-gcc.c
@@ -15304,6 +15319,7 @@ FILE: ../../../third_party/boringssl/src/crypto/obj/obj_mac.num
 FILE: ../../../third_party/boringssl/src/crypto/obj/obj_xref.h
 FILE: ../../../third_party/boringssl/src/crypto/poly1305/poly1305_arm_asm.S
 FILE: ../../../third_party/boringssl/src/crypto/x509/charmap.h
+FILE: ../../../third_party/boringssl/src/decrepit/biossl/bio_ssl.c
 FILE: ../../../third_party/boringssl/src/infra/config/cq.cfg
 FILE: ../../../third_party/boringssl/src/util/all_tests.json
 FILE: ../../../third_party/boringssl/src/util/bot/UPDATING
@@ -15597,11 +15613,64 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../third_party/boringssl/src/crypto/aes/key_wrap.c
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/boringssl/src/crypto/aes/key_wrap.c
+FILE: ../../../third_party/boringssl/src/crypto/cipher/e_aes.c
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2001-2011 The OpenSSL Project.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in
+   the documentation and/or other materials provided with the
+   distribution.
+
+3. All advertising materials mentioning features or use of this
+   software must display the following acknowledgment:
+   "This product includes software developed by the OpenSSL Project
+   for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+   endorse or promote products derived from this software without
+   prior written permission. For written permission, please contact
+   openssl-core@openssl.org.
+
+5. Products derived from this software may not be called "OpenSSL"
+   nor may "OpenSSL" appear in their names without prior written
+   permission of the OpenSSL Project.
+
+6. Redistributions of any form whatsoever must retain the following
+   acknowledgment:
+   "This product includes software developed by the OpenSSL Project
+   for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/asn1/a_bitstr.c
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/boringssl/src/crypto/asn1/a_bitstr.c
 FILE: ../../../third_party/boringssl/src/crypto/asn1/a_bool.c
-FILE: ../../../third_party/boringssl/src/crypto/asn1/a_bytes.c
 FILE: ../../../third_party/boringssl/src/crypto/asn1/a_d2i_fp.c
 FILE: ../../../third_party/boringssl/src/crypto/asn1/a_dup.c
 FILE: ../../../third_party/boringssl/src/crypto/asn1/a_enum.c
@@ -15673,7 +15742,6 @@ FILE: ../../../third_party/boringssl/src/crypto/des/internal.h
 FILE: ../../../third_party/boringssl/src/crypto/dh/check.c
 FILE: ../../../third_party/boringssl/src/crypto/dh/dh.c
 FILE: ../../../third_party/boringssl/src/crypto/dh/dh_test.cc
-FILE: ../../../third_party/boringssl/src/crypto/dh/internal.h
 FILE: ../../../third_party/boringssl/src/crypto/digest/digest.c
 FILE: ../../../third_party/boringssl/src/crypto/digest/digests.c
 FILE: ../../../third_party/boringssl/src/crypto/digest/internal.h
@@ -15706,6 +15774,7 @@ FILE: ../../../third_party/boringssl/src/crypto/rsa/internal.h
 FILE: ../../../third_party/boringssl/src/crypto/rsa/rsa.c
 FILE: ../../../third_party/boringssl/src/crypto/rsa/rsa_impl.c
 FILE: ../../../third_party/boringssl/src/crypto/rsa/rsa_test.cc
+FILE: ../../../third_party/boringssl/src/crypto/sha/sha1-altivec.c
 FILE: ../../../third_party/boringssl/src/crypto/sha/sha1.c
 FILE: ../../../third_party/boringssl/src/crypto/sha/sha256.c
 FILE: ../../../third_party/boringssl/src/crypto/sha/sha512.c
@@ -15767,7 +15836,6 @@ FILE: ../../../third_party/boringssl/src/decrepit/ripemd/ripemd.c
 FILE: ../../../third_party/boringssl/src/decrepit/rsa/rsa_decrepit.c
 FILE: ../../../third_party/boringssl/src/decrepit/ssl/ssl_decrepit.c
 FILE: ../../../third_party/boringssl/src/include/openssl/asn1.h
-FILE: ../../../third_party/boringssl/src/include/openssl/asn1_mac.h
 FILE: ../../../third_party/boringssl/src/include/openssl/base64.h
 FILE: ../../../third_party/boringssl/src/include/openssl/bio.h
 FILE: ../../../third_party/boringssl/src/include/openssl/blowfish.h
@@ -15949,20 +16017,19 @@ FILE: ../../../third_party/boringssl/src/crypto/bytestring/asn1_compat.c
 FILE: ../../../third_party/boringssl/src/crypto/chacha/chacha_test.cc
 FILE: ../../../third_party/boringssl/src/crypto/cpu-aarch64-linux.c
 FILE: ../../../third_party/boringssl/src/crypto/cpu-arm-linux.c
+FILE: ../../../third_party/boringssl/src/crypto/cpu-ppc64le.c
 FILE: ../../../third_party/boringssl/src/crypto/curve25519/spake25519.c
 FILE: ../../../third_party/boringssl/src/crypto/curve25519/spake25519_test.cc
-FILE: ../../../third_party/boringssl/src/crypto/newhope/error_correction.c
-FILE: ../../../third_party/boringssl/src/crypto/newhope/internal.h
-FILE: ../../../third_party/boringssl/src/crypto/newhope/newhope.c
-FILE: ../../../third_party/boringssl/src/crypto/newhope/newhope_statistical_test.cc
-FILE: ../../../third_party/boringssl/src/crypto/newhope/newhope_test.cc
-FILE: ../../../third_party/boringssl/src/crypto/newhope/newhope_vectors_test.cc
-FILE: ../../../third_party/boringssl/src/crypto/newhope/ntt.c
-FILE: ../../../third_party/boringssl/src/crypto/newhope/poly.c
-FILE: ../../../third_party/boringssl/src/crypto/newhope/precomp.c
-FILE: ../../../third_party/boringssl/src/crypto/newhope/reduce.c
+FILE: ../../../third_party/boringssl/src/crypto/ec/p256-x86_64_test.cc
+FILE: ../../../third_party/boringssl/src/crypto/ecdh/ecdh_test.cc
+FILE: ../../../third_party/boringssl/src/crypto/ecdsa/ecdsa_sign_test.cc
+FILE: ../../../third_party/boringssl/src/crypto/ecdsa/ecdsa_verify_test.cc
+FILE: ../../../third_party/boringssl/src/crypto/modes/polyval.c
 FILE: ../../../third_party/boringssl/src/crypto/obj/obj_test.cc
 FILE: ../../../third_party/boringssl/src/crypto/poly1305/internal.h
+FILE: ../../../third_party/boringssl/src/crypto/pool/internal.h
+FILE: ../../../third_party/boringssl/src/crypto/pool/pool.c
+FILE: ../../../third_party/boringssl/src/crypto/pool/pool_test.cc
 FILE: ../../../third_party/boringssl/src/crypto/rand/deterministic.c
 FILE: ../../../third_party/boringssl/src/crypto/x509/internal.h
 FILE: ../../../third_party/boringssl/src/crypto/x509/x509_test.cc
@@ -15971,8 +16038,13 @@ FILE: ../../../third_party/boringssl/src/decrepit/evp/evp_do_all.c
 FILE: ../../../third_party/boringssl/src/decrepit/obj/obj_decrepit.c
 FILE: ../../../third_party/boringssl/src/decrepit/ripemd/ripemd_test.cc
 FILE: ../../../third_party/boringssl/src/decrepit/x509/x509_decrepit.c
-FILE: ../../../third_party/boringssl/src/include/openssl/newhope.h
+FILE: ../../../third_party/boringssl/src/include/openssl/asn1_mac.h
 FILE: ../../../third_party/boringssl/src/include/openssl/obj_mac.h
+FILE: ../../../third_party/boringssl/src/include/openssl/pool.h
+FILE: ../../../third_party/boringssl/src/ssl/tls13_both.c
+FILE: ../../../third_party/boringssl/src/ssl/tls13_client.c
+FILE: ../../../third_party/boringssl/src/ssl/tls13_enc.c
+FILE: ../../../third_party/boringssl/src/ssl/tls13_server.c
 FILE: ../../../third_party/boringssl/src/util/BUILD.toplevel
 FILE: ../../../third_party/boringssl/src/util/diff_asm.go
 FILE: ../../../third_party/boringssl/src/util/run_android_tests.go
@@ -16305,6 +16377,27 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../third_party/boringssl/src/crypto/bn/montgomery_inv.c
+TYPE: LicenseType.unknown
+FILE: ../../../third_party/boringssl/src/crypto/bn/montgomery_inv.c
+----------------------------------------------------------------------------------------------------
+Copyright 2016 Brian Smith.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/bn/rsaz_exp.c
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/boringssl/src/crypto/bn/rsaz_exp.c
@@ -16382,59 +16475,6 @@ are met:
    acknowledgment:
    "This product includes software developed by the OpenSSL Project
    for use in the OpenSSL Toolkit (http://www.OpenSSL.org/)"
-
-THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
-EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
-ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
-OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../third_party/boringssl/src/crypto/cipher/e_aes.c
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/boringssl/src/crypto/cipher/e_aes.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2001-2011 The OpenSSL Project.  All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in
-   the documentation and/or other materials provided with the
-   distribution.
-
-3. All advertising materials mentioning features or use of this
-   software must display the following acknowledgment:
-   "This product includes software developed by the OpenSSL Project
-   for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
-
-4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
-   endorse or promote products derived from this software without
-   prior written permission. For written permission, please contact
-   openssl-core@openssl.org.
-
-5. Products derived from this software may not be called "OpenSSL"
-   nor may "OpenSSL" appear in their names without prior written
-   permission of the OpenSSL Project.
-
-6. Redistributions of any form whatsoever must retain the following
-   acknowledgment:
-   "This product includes software developed by the OpenSSL Project
-   for use in the OpenSSL Toolkit (http://www.openssl.org/)"
 
 THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
 EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -16968,6 +17008,7 @@ LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/ec/p256-x86_64.c
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/boringssl/src/crypto/ec/p256-x86_64.c
+FILE: ../../../third_party/boringssl/src/crypto/ec/p256-x86_64.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2014, Intel Corporation.
 
@@ -17284,7 +17325,7 @@ FILE: ../../../third_party/boringssl/src/crypto/modes/cbc.c
 FILE: ../../../third_party/boringssl/src/crypto/modes/cfb.c
 FILE: ../../../third_party/boringssl/src/crypto/modes/ctr.c
 FILE: ../../../third_party/boringssl/src/crypto/modes/gcm.c
-FILE: ../../../third_party/boringssl/src/crypto/modes/gcm_test.c
+FILE: ../../../third_party/boringssl/src/crypto/modes/gcm_test.cc
 FILE: ../../../third_party/boringssl/src/crypto/modes/internal.h
 FILE: ../../../third_party/boringssl/src/crypto/modes/ofb.c
 ----------------------------------------------------------------------------------------------------
@@ -18032,6 +18073,20 @@ SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../third_party/boringssl/src/decrepit/biossl/bio_ssl.c + ../../../third_party/boringssl/src/LICENSE
+TYPE: LicenseType.unknown
+FILE: ../../../third_party/boringssl/src/decrepit/biossl/bio_ssl.c
+----------------------------------------------------------------------------------------------------
+Copyright 1995-2016 The OpenSSL Project Authors. All Rights Reserved.
+
+Licensed under the OpenSSL license (the "License").  You may not use
+this file except in compliance with the License.  You can obtain a copy
+in the file LICENSE in the source distribution or at
+https://www.openssl.org/source/license.html
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/decrepit/dh/dh_decrepit.c
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/boringssl/src/decrepit/dh/dh_decrepit.c
@@ -18349,6 +18404,8 @@ FILE: ../../../third_party/boringssl/linux-arm/crypto/chacha/chacha-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/modes/ghash-armv4.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/modes/ghashv8-armx32.S
 FILE: ../../../third_party/boringssl/linux-arm/crypto/sha/sha1-armv4-large.S
+FILE: ../../../third_party/boringssl/linux-ppc64le/crypto/aes/aesp8-ppc.S
+FILE: ../../../third_party/boringssl/linux-ppc64le/crypto/modes/ghashp8-ppc.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/aes-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/aesni-x86.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/aes/vpaes-x86.S
@@ -18358,7 +18415,6 @@ FILE: ../../../third_party/boringssl/linux-x86/crypto/bn/x86-mont.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/chacha/chacha-x86.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/md5/md5-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/modes/ghash-x86.S
-FILE: ../../../third_party/boringssl/linux-x86/crypto/rc4/rc4-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/sha/sha1-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/sha/sha256-586.S
 FILE: ../../../third_party/boringssl/linux-x86/crypto/sha/sha512-586.S
@@ -18376,7 +18432,6 @@ FILE: ../../../third_party/boringssl/linux-x86_64/crypto/md5/md5-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/modes/aesni-gcm-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/modes/ghash-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/rand/rdrand-x86_64.S
-FILE: ../../../third_party/boringssl/linux-x86_64/crypto/rc4/rc4-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/sha/sha1-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/sha/sha256-x86_64.S
 FILE: ../../../third_party/boringssl/linux-x86_64/crypto/sha/sha512-x86_64.S
@@ -18389,7 +18444,6 @@ FILE: ../../../third_party/boringssl/mac-x86/crypto/bn/x86-mont.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/chacha/chacha-x86.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/md5/md5-586.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/modes/ghash-x86.S
-FILE: ../../../third_party/boringssl/mac-x86/crypto/rc4/rc4-586.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/sha/sha1-586.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/sha/sha256-586.S
 FILE: ../../../third_party/boringssl/mac-x86/crypto/sha/sha512-586.S
@@ -18407,7 +18461,6 @@ FILE: ../../../third_party/boringssl/mac-x86_64/crypto/md5/md5-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/modes/aesni-gcm-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/modes/ghash-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/rand/rdrand-x86_64.S
-FILE: ../../../third_party/boringssl/mac-x86_64/crypto/rc4/rc4-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/sha/sha1-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/sha/sha256-x86_64.S
 FILE: ../../../third_party/boringssl/mac-x86_64/crypto/sha/sha512-x86_64.S
@@ -18420,7 +18473,6 @@ FILE: ../../../third_party/boringssl/win-x86/crypto/bn/x86-mont.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/chacha/chacha-x86.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/md5/md5-586.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/modes/ghash-x86.asm
-FILE: ../../../third_party/boringssl/win-x86/crypto/rc4/rc4-586.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/sha/sha1-586.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/sha/sha256-586.asm
 FILE: ../../../third_party/boringssl/win-x86/crypto/sha/sha512-586.asm
@@ -18438,7 +18490,6 @@ FILE: ../../../third_party/boringssl/win-x86_64/crypto/md5/md5-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/modes/aesni-gcm-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/modes/ghash-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/rand/rdrand-x86_64.asm
-FILE: ../../../third_party/boringssl/win-x86_64/crypto/rc4/rc4-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/sha/sha1-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/sha/sha256-x86_64.asm
 FILE: ../../../third_party/boringssl/win-x86_64/crypto/sha/sha512-x86_64.asm
@@ -19200,6 +19251,8 @@ FILE: ../../../dart/runtime/vm/precompiler.cc
 FILE: ../../../dart/runtime/vm/precompiler.h
 FILE: ../../../dart/runtime/vm/profiler_service.cc
 FILE: ../../../dart/runtime/vm/profiler_service.h
+FILE: ../../../dart/runtime/vm/program_visitor.cc
+FILE: ../../../dart/runtime/vm/program_visitor.h
 FILE: ../../../dart/runtime/vm/regexp_assembler_bytecode.cc
 FILE: ../../../dart/runtime/vm/regexp_assembler_bytecode.h
 FILE: ../../../dart/runtime/vm/regexp_assembler_bytecode_inl.h
@@ -19350,7 +19403,7 @@ FILE: ../../../dart/runtime/lib/stacktrace.dart
 FILE: ../../../dart/runtime/lib/symbol_patch.dart
 FILE: ../../../dart/runtime/lib/timer_impl.dart
 FILE: ../../../dart/runtime/lib/typed_data.cc
-FILE: ../../../dart/runtime/lib/typed_data.dart
+FILE: ../../../dart/runtime/lib/typed_data_patch.dart
 FILE: ../../../dart/runtime/lib/uri.cc
 FILE: ../../../dart/runtime/lib/uri_patch.dart
 FILE: ../../../dart/runtime/observatory/lib/src/app/application.dart
@@ -19848,11 +19901,13 @@ FILE: ../../../dart/runtime/observatory/lib/src/models/objects/script.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/sentinel.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/source_location.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/target.dart
+FILE: ../../../dart/runtime/observatory/lib/src/models/objects/thread.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/timeline_event.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/token_stream.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/type_arguments.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/unknown.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/objects/vm.dart
+FILE: ../../../dart/runtime/observatory/lib/src/models/objects/zone.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/repositories/allocation_profile.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/repositories/breakpoint.dart
 FILE: ../../../dart/runtime/observatory/lib/src/models/repositories/class.dart
@@ -19948,6 +20003,7 @@ FILE: ../../../dart/runtime/vm/intrinsifier_dbc.cc
 FILE: ../../../dart/runtime/vm/isolate_reload.cc
 FILE: ../../../dart/runtime/vm/isolate_reload.h
 FILE: ../../../dart/runtime/vm/isolate_reload_test.cc
+FILE: ../../../dart/runtime/vm/json_parser.h
 FILE: ../../../dart/runtime/vm/kernel.cc
 FILE: ../../../dart/runtime/vm/kernel.h
 FILE: ../../../dart/runtime/vm/kernel_binary.cc
@@ -20225,6 +20281,43 @@ TYPE: LicenseType.bsd
 FILE: ../../../dart/runtime/vm/flags.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2012, the Dart project authors[.  Please see the AUTHORS file
+for details. All rights reserved. Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google Inc. nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: dart
+ORIGIN: ../../../dart/runtime/vm/malloc_hooks.cc + ../../../dart/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../dart/runtime/vm/malloc_hooks.cc
+FILE: ../../../dart/runtime/vm/malloc_hooks.h
+FILE: ../../../dart/runtime/vm/malloc_hooks_unsupported.cc
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved. Use of this source code is governed by a
 BSD-style license that can be found in the LICENSE file
 
@@ -72059,5 +72152,5 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
-Total license count: 689
-     31656 of 31656 ██████████ 100% (0 missing licenses)  Done.    
+Total license count: 693
+     31666 of 31666 ██████████ 100% (0 missing licenses)  Done.    
