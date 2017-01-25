@@ -48983,8 +48983,11 @@ FILE: ../../../lib/ftl/functional/closure.h
 FILE: ../../../lib/ftl/functional/make_copyable.h
 FILE: ../../../lib/ftl/functional/make_copyable_unittest.cc
 FILE: ../../../lib/ftl/functional/make_runnable.h
-FILE: ../../../lib/ftl/log_level.cc
 FILE: ../../../lib/ftl/log_level.h
+FILE: ../../../lib/ftl/log_settings.cc
+FILE: ../../../lib/ftl/log_settings.h
+FILE: ../../../lib/ftl/log_settings_state.cc
+FILE: ../../../lib/ftl/log_settings_unittest.cc
 FILE: ../../../lib/ftl/logging.cc
 FILE: ../../../lib/ftl/logging.h
 FILE: ../../../lib/ftl/macros.h
@@ -49001,6 +49004,9 @@ FILE: ../../../lib/ftl/memory/weak_ptr_unittest.cc
 FILE: ../../../lib/ftl/strings/ascii.cc
 FILE: ../../../lib/ftl/strings/ascii.h
 FILE: ../../../lib/ftl/strings/ascii_unittest.cc
+FILE: ../../../lib/ftl/strings/concatenate.cc
+FILE: ../../../lib/ftl/strings/concatenate.h
+FILE: ../../../lib/ftl/strings/concatenate_unittest.cc
 FILE: ../../../lib/ftl/strings/split_string.cc
 FILE: ../../../lib/ftl/strings/split_string.h
 FILE: ../../../lib/ftl/strings/split_string_unittest.cc
@@ -72153,4 +72159,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 693
-     31666 of 31666 ██████████ 100% (0 missing licenses)  Done.    
+     31672 of 31672 ██████████ 100% (0 missing licenses)  Done.    
