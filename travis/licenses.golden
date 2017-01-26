@@ -21165,6 +21165,8 @@ ORIGIN: ../../../flutter/content_handler/content_handler_thread.cc + ../../../LI
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/content_handler/content_handler_thread.cc
 FILE: ../../../flutter/content_handler/content_handler_thread.h
+FILE: ../../../flutter/content_handler/direct_input.cc
+FILE: ../../../flutter/content_handler/direct_input.h
 FILE: ../../../flutter/content_handler/software_rasterizer.cc
 FILE: ../../../flutter/content_handler/software_rasterizer.h
 FILE: ../../../flutter/content_handler/vulkan_rasterizer.cc
@@ -72161,4 +72163,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 693
-     31674 of 31674 ██████████ 100% (0 missing licenses)  Done.    
+     31676 of 31676 ██████████ 100% (0 missing licenses)  Done.    
