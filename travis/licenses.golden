@@ -19975,7 +19975,6 @@ FILE: ../../../dart/runtime/observatory/lib/src/repositories/top_retaining_insta
 FILE: ../../../dart/runtime/observatory/lib/src/repositories/type_arguments.dart
 FILE: ../../../dart/runtime/observatory/web/timeline_message_handler.js
 FILE: ../../../dart/runtime/platform/utils_fuchsia.h
-FILE: ../../../dart/runtime/tools/kernel-service.dart
 FILE: ../../../dart/runtime/vm/assembler_dbc.cc
 FILE: ../../../dart/runtime/vm/assembler_dbc.h
 FILE: ../../../dart/runtime/vm/assembler_dbc_test.cc
@@ -20043,6 +20042,7 @@ FILE: ../../../dart/sdk/lib/developer/service.dart
 FILE: ../../../dart/sdk/lib/js_util/dart2js/js_util_dart2js.dart
 FILE: ../../../dart/sdk/lib/js_util/dartium/js_util_dartium.dart
 FILE: ../../../dart/sdk/lib/vmservice/devfs.dart
+FILE: ../../../dart/utils/kernel-service/kernel-service.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2016, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved. Use of this source code is governed by a
@@ -20315,6 +20315,7 @@ ORIGIN: ../../../dart/runtime/vm/malloc_hooks.cc + ../../../dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../dart/runtime/vm/malloc_hooks.cc
 FILE: ../../../dart/runtime/vm/malloc_hooks.h
+FILE: ../../../dart/runtime/vm/malloc_hooks_test.cc
 FILE: ../../../dart/runtime/vm/malloc_hooks_unsupported.cc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
@@ -72163,4 +72164,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 693
-     31676 of 31676 ██████████ 100% (0 missing licenses)  Done.    
+     31677 of 31677 ██████████ 100% (0 missing licenses)  Done.    
