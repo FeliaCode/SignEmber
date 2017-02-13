@@ -18501,6 +18501,12 @@ LIBRARY: colorama
 ORIGIN: ../../../third_party/colorama/src/LICENSE.txt
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/colorama/src/MANIFEST.in
+FILE: ../../../third_party/colorama/src/colorama/__init__.pyc
+FILE: ../../../third_party/colorama/src/colorama/ansi.pyc
+FILE: ../../../third_party/colorama/src/colorama/ansitowin32.pyc
+FILE: ../../../third_party/colorama/src/colorama/initialise.pyc
+FILE: ../../../third_party/colorama/src/colorama/win32.pyc
+FILE: ../../../third_party/colorama/src/colorama/winterm.pyc
 FILE: ../../../third_party/colorama/src/screenshots/ubuntu-demo.png
 FILE: ../../../third_party/colorama/src/screenshots/windows-demo.png
 ----------------------------------------------------------------------------------------------------
@@ -18777,6 +18783,7 @@ FILE: ../../../dart/runtime/vm/exceptions_test.cc
 FILE: ../../../dart/runtime/vm/find_code_object_test.cc
 FILE: ../../../dart/runtime/vm/flag_list.h
 FILE: ../../../dart/runtime/vm/flags.cc
+FILE: ../../../dart/runtime/vm/flags.h
 FILE: ../../../dart/runtime/vm/flags_test.cc
 FILE: ../../../dart/runtime/vm/flow_graph.cc
 FILE: ../../../dart/runtime/vm/flow_graph_builder.cc
@@ -19729,6 +19736,9 @@ FILE: ../../../dart/build/win/chrome_win.croc
 FILE: ../../../dart/build/win/compatibility.manifest
 FILE: ../../../dart/build/win/dbghelp_xp/dbghelp.dll
 FILE: ../../../dart/build/win/importlibs/x86/user32.winxp.lib
+FILE: ../../../dart/client/idea/.idea/inspectionProfiles/Project_Default.xml
+FILE: ../../../dart/client/idea/.idea/modules.xml
+FILE: ../../../dart/client/idea/.idea/vcs.xml
 FILE: ../../../dart/runtime/CPPLINT.cfg
 FILE: ../../../dart/runtime/bin/vmserviceio_dartium.dart
 FILE: ../../../dart/runtime/observatory/.analysis_options
@@ -19743,6 +19753,7 @@ FILE: ../../../dart/runtime/observatory/web/favicon.ico
 FILE: ../../../dart/runtime/observatory/web/index.html
 FILE: ../../../dart/runtime/observatory/web/third_party/trace_viewer_full.html
 FILE: ../../../dart/runtime/observatory/web/timeline.html
+FILE: ../../../dart/runtime/tools/utils.pyc
 FILE: ../../../dart/runtime/vm/snapshot_test_in.dat
 FILE: ../../../dart/samples/build_dart/test.foo
 FILE: ../../../dart/samples/build_dart_simple/test.foo
@@ -20074,6 +20085,54 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: dart
+ORIGIN: ../../../dart/runtime/bin/error_exit.cc + ../../../dart/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../dart/runtime/bin/error_exit.cc
+FILE: ../../../dart/runtime/bin/error_exit.h
+FILE: ../../../dart/runtime/bin/snapshot_utils.cc
+FILE: ../../../dart/runtime/bin/snapshot_utils.h
+FILE: ../../../dart/runtime/vm/fixed_cache.h
+FILE: ../../../dart/runtime/vm/fixed_cache_test.cc
+FILE: ../../../dart/runtime/vm/malloc_hooks.cc
+FILE: ../../../dart/runtime/vm/malloc_hooks.h
+FILE: ../../../dart/runtime/vm/malloc_hooks_test.cc
+FILE: ../../../dart/runtime/vm/malloc_hooks_unsupported.cc
+FILE: ../../../dart/runtime/vm/stack_trace.cc
+FILE: ../../../dart/runtime/vm/stack_trace.h
+FILE: ../../../dart/runtime/vm/zone_text_buffer.cc
+FILE: ../../../dart/runtime/vm/zone_text_buffer.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved. Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google Inc. nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: dart
 ORIGIN: ../../../dart/runtime/bin/process_test.cc + ../../../dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../dart/runtime/bin/process_test.cc
@@ -20247,79 +20306,6 @@ TYPE: LicenseType.bsd
 FILE: ../../../dart/runtime/lib/bigint.dart
 ----------------------------------------------------------------------------------------------------
 Copyright 2009 The Go Authors. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials provided
-      with the distribution.
-    * Neither the name of Google Inc. nor the names of its
-      contributors may be used to endorse or promote products derived
-      from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: dart
-ORIGIN: ../../../dart/runtime/vm/flags.h + ../../../dart/LICENSE
-TYPE: LicenseType.bsd
-FILE: ../../../dart/runtime/vm/flags.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2012, the Dart project authors[.  Please see the AUTHORS file
-for details. All rights reserved. Use of this source code is governed by a
-BSD-style license that can be found in the LICENSE file
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials provided
-      with the distribution.
-    * Neither the name of Google Inc. nor the names of its
-      contributors may be used to endorse or promote products derived
-      from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: dart
-ORIGIN: ../../../dart/runtime/vm/malloc_hooks.cc + ../../../dart/LICENSE
-TYPE: LicenseType.bsd
-FILE: ../../../dart/runtime/vm/malloc_hooks.cc
-FILE: ../../../dart/runtime/vm/malloc_hooks.h
-FILE: ../../../dart/runtime/vm/malloc_hooks_test.cc
-FILE: ../../../dart/runtime/vm/malloc_hooks_unsupported.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
-for details. All rights reserved. Use of this source code is governed by a
-BSD-style license that can be found in the LICENSE file
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -72127,5 +72113,5 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
-Total license count: 696
-     31528 of 31528 ██████████ 100% (0 missing licenses)  Done.    
+Total license count: 695
+     31548 of 31548 ██████████ 100% (0 missing licenses)  Done.    
