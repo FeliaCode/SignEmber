@@ -19730,6 +19730,7 @@ FILE: ../../../dart/build/win/chrome_win.croc
 FILE: ../../../dart/build/win/compatibility.manifest
 FILE: ../../../dart/build/win/dbghelp_xp/dbghelp.dll
 FILE: ../../../dart/build/win/importlibs/x86/user32.winxp.lib
+FILE: ../../../dart/client/idea/.idea/.name
 FILE: ../../../dart/client/idea/.idea/inspectionProfiles/Project_Default.xml
 FILE: ../../../dart/client/idea/.idea/modules.xml
 FILE: ../../../dart/client/idea/.idea/vcs.xml
@@ -72140,4 +72141,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 696
-     31540 of 31540 ██████████ 100% (0 missing licenses)  Done.    
+     31541 of 31541 ██████████ 100% (0 missing licenses)  Done.    
