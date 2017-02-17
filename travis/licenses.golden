@@ -14159,8 +14159,6 @@ FILE: ../../../flutter/content_handler/rasterizer.cc
 FILE: ../../../flutter/content_handler/rasterizer.h
 FILE: ../../../flutter/content_handler/runtime_holder.cc
 FILE: ../../../flutter/content_handler/runtime_holder.h
-FILE: ../../../flutter/flow/bitmap_image.cc
-FILE: ../../../flutter/flow/bitmap_image.h
 FILE: ../../../flutter/flow/gl_connection.cc
 FILE: ../../../flutter/flow/gl_connection.h
 FILE: ../../../flutter/flow/layers/backdrop_filter_layer.cc
@@ -14175,9 +14173,6 @@ FILE: ../../../flutter/flow/raster_cache.cc
 FILE: ../../../flutter/flow/raster_cache.h
 FILE: ../../../flutter/flow/scene_update_context.cc
 FILE: ../../../flutter/flow/scene_update_context.h
-FILE: ../../../flutter/flow/texture_image.h
-FILE: ../../../flutter/flow/texture_image_gles2.cc
-FILE: ../../../flutter/flow/texture_image_none.cc
 FILE: ../../../flutter/glue/stack_trace.h
 FILE: ../../../flutter/glue/stack_trace_base.cc
 FILE: ../../../flutter/glue/stack_trace_fuchsia.cc
@@ -72110,4 +72105,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 695
-     31544 of 31544 ██████████ 100% (0 missing licenses)  Done.    
+     31539 of 31539 ██████████ 100% (0 missing licenses)  Done.    
