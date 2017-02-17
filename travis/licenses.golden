@@ -21146,6 +21146,8 @@ FILE: ../../../flutter/content_handler/software_rasterizer.cc
 FILE: ../../../flutter/content_handler/software_rasterizer.h
 FILE: ../../../flutter/content_handler/vulkan_rasterizer.cc
 FILE: ../../../flutter/content_handler/vulkan_rasterizer.h
+FILE: ../../../flutter/flow/layers/physical_model_layer.cc
+FILE: ../../../flutter/flow/layers/physical_model_layer.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/flutter_main_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/flutter_main_ios.mm
 FILE: ../../../flutter/vulkan/vulkan_native_surface_magma.cc
@@ -72105,4 +72107,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 695
-     31539 of 31539 ██████████ 100% (0 missing licenses)  Done.    
+     31541 of 31541 ██████████ 100% (0 missing licenses)  Done.    
