@@ -21148,8 +21148,20 @@ FILE: ../../../flutter/content_handler/vulkan_rasterizer.cc
 FILE: ../../../flutter/content_handler/vulkan_rasterizer.h
 FILE: ../../../flutter/flow/layers/physical_model_layer.cc
 FILE: ../../../flutter/flow/layers/physical_model_layer.h
+FILE: ../../../flutter/fml/platform/darwin/cf_utils.cc
+FILE: ../../../flutter/fml/platform/darwin/cf_utils.h
+FILE: ../../../flutter/shell/gpu/gpu_surface_software.cc
+FILE: ../../../flutter/shell/gpu/gpu_surface_software.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/flutter_main_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/flutter_main_ios.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_gl_context.h
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_gl_context.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface.h
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_gl.h
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_gl.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.h
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.mm
 FILE: ../../../flutter/vulkan/vulkan_native_surface_magma.cc
 FILE: ../../../flutter/vulkan/vulkan_native_surface_magma.h
 ----------------------------------------------------------------------------------------------------
@@ -72107,4 +72119,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 695
-     31541 of 31541 ██████████ 100% (0 missing licenses)  Done.    
+     31553 of 31553 ██████████ 100% (0 missing licenses)  Done.    
