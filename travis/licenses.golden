@@ -18493,12 +18493,6 @@ LIBRARY: colorama
 ORIGIN: ../../../third_party/colorama/src/LICENSE.txt
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/colorama/src/MANIFEST.in
-FILE: ../../../third_party/colorama/src/colorama/__init__.pyc
-FILE: ../../../third_party/colorama/src/colorama/ansi.pyc
-FILE: ../../../third_party/colorama/src/colorama/ansitowin32.pyc
-FILE: ../../../third_party/colorama/src/colorama/initialise.pyc
-FILE: ../../../third_party/colorama/src/colorama/win32.pyc
-FILE: ../../../third_party/colorama/src/colorama/winterm.pyc
 FILE: ../../../third_party/colorama/src/screenshots/ubuntu-demo.png
 FILE: ../../../third_party/colorama/src/screenshots/windows-demo.png
 ----------------------------------------------------------------------------------------------------
@@ -72140,4 +72134,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 695
-     31572 of 31572 ██████████ 100% (0 missing licenses)  Done.    
+     31566 of 31566 ██████████ 100% (0 missing licenses)  Done.    
