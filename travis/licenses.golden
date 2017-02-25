@@ -18956,7 +18956,6 @@ FILE: ../../../dart/sdk/lib/html/html_common/metadata.dart
 FILE: ../../../dart/sdk/lib/indexed_db/dart2js/indexed_db_dart2js.dart
 FILE: ../../../dart/sdk/lib/indexed_db/dartium/indexed_db_dartium.dart
 FILE: ../../../dart/sdk/lib/internal/internal.dart
-FILE: ../../../dart/sdk/lib/internal/lists.dart
 FILE: ../../../dart/sdk/lib/io/common.dart
 FILE: ../../../dart/sdk/lib/io/crypto.dart
 FILE: ../../../dart/sdk/lib/io/directory.dart
@@ -19740,10 +19739,12 @@ FILE: ../../../dart/runtime/observatory/web/favicon.ico
 FILE: ../../../dart/runtime/observatory/web/index.html
 FILE: ../../../dart/runtime/observatory/web/third_party/trace_viewer_full.html
 FILE: ../../../dart/runtime/observatory/web/timeline.html
+FILE: ../../../dart/runtime/vm/libraries.json
 FILE: ../../../dart/runtime/vm/snapshot_test_in.dat
 FILE: ../../../dart/samples/build_dart/test.foo
 FILE: ../../../dart/samples/build_dart_simple/test.foo
 FILE: ../../../dart/sdk/lib/_internal/js_runtime/.packages
+FILE: ../../../dart/sdk/lib/dart_server.json
 FILE: ../../../dart/sdk/lib/html/html_common/conversions_dart2js.dart
 FILE: ../../../dart/sdk/lib/html/html_common/conversions_dartium.dart
 FILE: ../../../dart/sdk/lib/html/html_common/html_common.dart
@@ -19806,7 +19807,6 @@ FILE: ../../../dart/runtime/bin/process_fuchsia.cc
 FILE: ../../../dart/runtime/bin/process_unsupported.cc
 FILE: ../../../dart/runtime/bin/reference_counting.h
 FILE: ../../../dart/runtime/bin/root_certificates_unsupported.cc
-FILE: ../../../dart/runtime/bin/run_vm_tests_fuchsia.cc
 FILE: ../../../dart/runtime/bin/secure_socket_ios.cc
 FILE: ../../../dart/runtime/bin/secure_socket_ios.h
 FILE: ../../../dart/runtime/bin/secure_socket_macos.cc
@@ -20075,6 +20075,7 @@ ORIGIN: ../../../dart/runtime/bin/error_exit.cc + ../../../dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../dart/runtime/bin/error_exit.cc
 FILE: ../../../dart/runtime/bin/error_exit.h
+FILE: ../../../dart/runtime/bin/isolate_data.cc
 FILE: ../../../dart/runtime/bin/snapshot_utils.cc
 FILE: ../../../dart/runtime/bin/snapshot_utils.h
 FILE: ../../../dart/runtime/vm/fixed_cache.h
@@ -72134,4 +72135,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 Total license count: 695
-     31566 of 31566 ██████████ 100% (0 missing licenses)  Done.    
+     31567 of 31567 ██████████ 100% (0 missing licenses)  Done.    
