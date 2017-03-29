@@ -1,4 +1,4 @@
-Signature: 9dd392a07aeda5399aa3abfe147da784
+Signature: 366e0bce41d69623b36830ce66543dee
 
 UNUSED LICENSES:
 
@@ -37708,7 +37708,6 @@ FILE: ../../../third_party/skia/include/core/SkRasterHandleAllocator.h
 FILE: ../../../third_party/skia/include/core/SkSwizzle.h
 FILE: ../../../third_party/skia/include/core/SkYUVSizeInfo.h
 FILE: ../../../third_party/skia/include/effects/SkArithmeticImageFilter.h
-FILE: ../../../third_party/skia/include/effects/SkGaussianEdgeShader.h
 FILE: ../../../third_party/skia/include/effects/SkPaintImageFilter.h
 FILE: ../../../third_party/skia/include/effects/SkRRectsGaussianEdgeMaskFilter.h
 FILE: ../../../third_party/skia/include/gpu/GrBuffer.h
@@ -37849,6 +37848,7 @@ FILE: ../../../third_party/skia/src/effects/GrAlphaThresholdFragmentProcessor.h
 FILE: ../../../third_party/skia/src/effects/SkArithmeticImageFilter.cpp
 FILE: ../../../third_party/skia/src/effects/SkArithmeticModePriv.h
 FILE: ../../../third_party/skia/src/effects/SkGaussianEdgeShader.cpp
+FILE: ../../../third_party/skia/src/effects/SkGaussianEdgeShader.h
 FILE: ../../../third_party/skia/src/effects/SkOverdrawColorFilter.cpp
 FILE: ../../../third_party/skia/src/effects/SkOverdrawColorFilter.h
 FILE: ../../../third_party/skia/src/effects/SkPaintImageFilter.cpp
@@ -50861,6 +50861,7 @@ FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expecte
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Ubuntu16-Clang-NUC-GPU-IntelIris540-x86_64-Debug-Vulkan.json
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Ubuntu16-Clang-NUC-GPU-IntelIris540-x86_64-Release.json
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Ubuntu16-Clang-NUC5PPYH-GPU-IntelHD405-x86_64-Debug.json
+FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Ubuntu16-Clang-NUCDE3815TYKHE-GPU-IntelBayTrail-x86_64-Debug.json
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Win10-MSVC-AlphaR2-GPU-RadeonR9M470X-x86_64-Debug-Vulkan.json
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Win10-MSVC-NUC-GPU-IntelIris540-x86_64-Debug-ANGLE.json
 FILE: ../../../third_party/skia/infra/bots/recipe_modules/sktest/example.expected/Test-Win10-MSVC-NUC-GPU-IntelIris540-x86_64-Debug-Vulkan.json
@@ -51232,7 +51233,6 @@ FILE: ../../../third_party/skia/src/core/SkTypefaceCache.cpp
 FILE: ../../../third_party/skia/src/core/SkTypefaceCache.h
 FILE: ../../../third_party/skia/src/core/SkUnPreMultiply.cpp
 FILE: ../../../third_party/skia/src/core/SkWriter32.cpp
-FILE: ../../../third_party/skia/src/effects/SkBlurDrawLooper.cpp
 FILE: ../../../third_party/skia/src/effects/SkColorMatrix.cpp
 FILE: ../../../third_party/skia/src/effects/SkColorMatrixFilter.cpp
 FILE: ../../../third_party/skia/src/effects/SkLayerDrawLooper.cpp
@@ -51546,10 +51546,9 @@ FILE: ../../../third_party/skia/src/gpu/GrPathRange.h
 FILE: ../../../third_party/skia/src/gpu/GrPathRendering.cpp
 FILE: ../../../third_party/skia/src/gpu/GrPathRendering.h
 FILE: ../../../third_party/skia/src/gpu/GrPendingProgramElement.h
-FILE: ../../../third_party/skia/src/gpu/GrPipelineInput.h
+FILE: ../../../third_party/skia/src/gpu/GrPipelineAnalysis.cpp
+FILE: ../../../third_party/skia/src/gpu/GrPipelineAnalysis.h
 FILE: ../../../third_party/skia/src/gpu/GrPrimitiveProcessor.cpp
-FILE: ../../../third_party/skia/src/gpu/GrProcOptInfo.cpp
-FILE: ../../../third_party/skia/src/gpu/GrProcOptInfo.h
 FILE: ../../../third_party/skia/src/gpu/GrProgramDesc.h
 FILE: ../../../third_party/skia/src/gpu/GrRectanizer_pow2.h
 FILE: ../../../third_party/skia/src/gpu/GrRectanizer_skyline.h
@@ -52694,9 +52693,10 @@ FILE: ../../../third_party/skia/include/core/SkVertices.h
 FILE: ../../../third_party/skia/include/effects/SkHighContrastFilter.h
 FILE: ../../../third_party/skia/include/gpu/GrExternalTextureData.h
 FILE: ../../../third_party/skia/include/gpu/effects/GrBlurredEdgeFragmentProcessor.h
-FILE: ../../../third_party/skia/include/private/SkMemory.h
+FILE: ../../../third_party/skia/include/private/SkMalloc.h
 FILE: ../../../third_party/skia/include/private/SkShadowFlags.h
 FILE: ../../../third_party/skia/include/utils/SkShadowUtils.h
+FILE: ../../../third_party/skia/samplecode/SamplePathFinder.cpp
 FILE: ../../../third_party/skia/samplecode/SamplePathText.cpp
 FILE: ../../../third_party/skia/src/c/sk_effects.cpp
 FILE: ../../../third_party/skia/src/codec/SkJpegPriv.h
