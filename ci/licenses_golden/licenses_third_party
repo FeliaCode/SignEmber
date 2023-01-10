@@ -1,4 +1,4 @@
-Signature: e597cfe931e7b4964f4d51218347aff0
+Signature: e0d2a30edffb57a66287705548386e33
 
 ====================================================================================================
 LIBRARY: angle
@@ -40027,6 +40027,7 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/class_id.dart + ../
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/convert_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/core_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/date_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/deferred.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/developer.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/double.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/errors_patch.dart + ../../../third_party/dart/LICENSE
@@ -40113,6 +40114,7 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/class_id.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/convert_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/core_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/date_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/deferred.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/developer.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/double.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/errors_patch.dart
