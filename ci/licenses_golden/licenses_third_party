@@ -1,4 +1,4 @@
-Signature: 77f9bd9b1689036bfc5ee73f17f9d033
+Signature: 09c4066dc497bea861d9940e98123cfd
 
 ====================================================================================================
 LIBRARY: angle
@@ -34516,6 +34516,7 @@ ORIGIN: ../../../third_party/dart/runtime/bin/io_natives.h + ../../../third_part
 ORIGIN: ../../../third_party/dart/runtime/bin/isolate_data.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/lockers.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/main.cc + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/bin/main_impl.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/platform.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/platform.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/platform_android.cc + ../../../third_party/dart/LICENSE
@@ -34881,6 +34882,7 @@ FILE: ../../../third_party/dart/runtime/bin/io_natives.h
 FILE: ../../../third_party/dart/runtime/bin/isolate_data.h
 FILE: ../../../third_party/dart/runtime/bin/lockers.h
 FILE: ../../../third_party/dart/runtime/bin/main.cc
+FILE: ../../../third_party/dart/runtime/bin/main_impl.cc
 FILE: ../../../third_party/dart/runtime/bin/platform.cc
 FILE: ../../../third_party/dart/runtime/bin/platform.h
 FILE: ../../../third_party/dart/runtime/bin/platform_android.cc
@@ -40032,7 +40034,6 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/developer.dart + ..
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/double.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/errors_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/expando_patch.dart + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/function.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/growable_list.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/hash_factories.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/identical_patch.dart + ../../../third_party/dart/LICENSE
@@ -40119,7 +40120,6 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/developer.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/double.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/errors_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/expando_patch.dart
-FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/function.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/growable_list.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/hash_factories.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/identical_patch.dart
@@ -40184,9 +40184,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: dart
+ORIGIN: ../../../third_party/dart/runtime/bin/main_impl.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/closure.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
+FILE: ../../../third_party/dart/runtime/bin/main_impl.h
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/closure.dart
+FILE: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved.
