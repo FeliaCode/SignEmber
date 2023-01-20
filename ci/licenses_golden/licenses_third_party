@@ -1,4 +1,4 @@
-Signature: 09c4066dc497bea861d9940e98123cfd
+Signature: 06d86e56e9a4b1a2f498739e5e320155
 
 ====================================================================================================
 LIBRARY: angle
@@ -40185,11 +40185,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: dart
 ORIGIN: ../../../third_party/dart/runtime/bin/main_impl.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/closure.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/main_impl.h
+FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc
+FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.h
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/closure.dart
 FILE: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart
