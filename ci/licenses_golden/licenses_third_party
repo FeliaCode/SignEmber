@@ -1,4 +1,4 @@
-Signature: 652524685d7be770a4d6e69473de7739
+Signature: 11c0ecd17551b00b0d61ef215364fbd4
 
 ====================================================================================================
 LIBRARY: angle
@@ -283,11 +283,13 @@ LIBRARY: spirv-cross
 LIBRARY: vulkan-headers
 LIBRARY: vulkan-validation-layers
 LIBRARY: wuffs
+ORIGIN: ../../../third_party/angle/src/libANGLE/overlay/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/swift/LICENSE
 ORIGIN: ../../../third_party/fuchsia-vulkan/LICENSE.txt
 ORIGIN: ../../../third_party/shaderc/LICENSE
 ORIGIN: ../../../third_party/vulkan-deps/spirv-cross/src/LICENSE
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-headers/src/LICENSE.txt
 ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/LICENSE.txt
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_enums.hpp
@@ -329,6 +331,7 @@ ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_handles.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_hash.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_raii.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_static_assertions.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_structs.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_to_string.hpp
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/EGL/egl.h
@@ -516,6 +519,7 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/android_system_settings/src/com/android/angle/common/Receiver.java
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/android_system_settings/src/com/android/angle/common/SearchProvider.java
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/common/vulkan/vk_google_filtering_precision.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/flatbuffers/conan/test_package/test_package.cpp
@@ -809,6 +813,7 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/res/values/strings.xml
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_ndk_types.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_error_enums.h
@@ -817,8 +822,8 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cast_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_dynamic_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.cpp
@@ -835,6 +840,7 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.cpp
@@ -844,8 +850,7 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/chassis_dispatch_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/command_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/command_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/corechecks_optick_instrumentation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/corechecks_optick_instrumentation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/enum_flag_bits.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_as_inspection_comp.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_pre_dispatch_comp.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_pre_draw_vert.h
@@ -902,15 +907,21 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/qfo_transfer.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/range_vector.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sampler_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.cpp
@@ -927,16 +938,20 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_validation.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_data.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings_ext.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_loader_platform.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/wsi_validation.cpp
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/algorithm.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/container.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/equal_benchmark.cc
@@ -2010,6 +2025,8 @@ FILE: ../../../third_party/angle/src/android_system_settings/src/com/android/ang
 FILE: ../../../third_party/angle/src/android_system_settings/src/com/android/angle/common/Receiver.java
 FILE: ../../../third_party/angle/src/android_system_settings/src/com/android/angle/common/SearchProvider.java
 FILE: ../../../third_party/angle/src/common/vulkan/vk_google_filtering_precision.h
+FILE: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
+FILE: ../../../third_party/angle/src/libANGLE/overlay/RobotoMono-Bold.ttf
 FILE: ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 FILE: ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 FILE: ../../../third_party/flatbuffers/composer.json
@@ -2567,6 +2584,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hls
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/unary-enclose.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/unorm-snorm-packing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/various-glsl-ops.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/basic.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/clip-cull-distance.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/instancing.vert
@@ -2594,13 +2613,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/block-name-alias-global.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/buffer-write-relative-addr.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/buffer-write.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/copy-object-ssbo-to-ssbo.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/copy-object-ubo-to-ssbo.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/global-parameter-name-alias.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/image-load-store-short-vector.invalid.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/multiple-entry.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/op-spec-constant-op-vector-related.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/quantize.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/relaxed-block-layout.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/specialization-constant-workgroup.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/struct-resource-name-aliasing.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/uint_smulextended.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/undefined-constant-composite.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/undefined-spec-constant-composite.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/variable-pointers-2.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/variable-pointers-store-forwarding.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/vector-builtin-type-cast-func.asm.comp
@@ -2707,6 +2732,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/outer-product.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/packing-test-1.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/packing-test-2.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/raw-buffer-descriptor-aliasing.argument.discrete.device-argument-buffer.msl2.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/raw-buffer-descriptor-aliasing.argument.discrete.msl2.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/ray-query.nocompat.spv14.vk.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/ray-query.spv14.vk.ios.msl24..invalid.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/read-write-only.comp
@@ -2792,6 +2819,9 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/for-loop-continue-control-flow.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/for-loop-init.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/fp16-packing.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/frag-demote-checks.discard-checks.msl23.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/frag-discard-checks-continue-block.discard-checks.msl23.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/frag-discard-checks.discard-checks.msl23.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/fragment-component-padding.pad-fragment.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/front-facing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/gather-dref.frag
@@ -2902,6 +2932,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/masking/write-outputs.mask-point-size.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/masking/write-outputs.mask-position.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/masking/write-outputs.mask-position.tesc
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/arrayed-block-io.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/basic.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/basic.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/complex-control-point-inout-types.multi-patch.tesc
@@ -2919,18 +2950,24 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/struct-output.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/water_tess.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tesc/water_tess.tesc
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/in-array-of-struct.raw-tess-in.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/in-block-with-nested-struct.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/in-block-with-nested-struct.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/input-array.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/input-types.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/input-types.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/load-control-point-array-of-matrix.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/load-control-point-array.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/quad.domain.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/quad.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/read-tess-level-in-func-quad.msl2.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/read-tess-level-in-func-quad.raw-tess-in.msl2.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/read-tess-level-in-func.msl2.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/read-tess-level-in-func.raw-tess-in.msl2.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/set-from-function.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/triangle-tess-level.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/triangle.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/water_tess.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/tese/water_tess.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/vert/array-component-io.for-tess.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/vert/array-component-io.vert
@@ -3045,6 +3082,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/comp/recompile-block-naming.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/comp/specialization-constant-workgroup.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/comp/switch-break-ladder.asm.invalid.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/comp/undefined-constant-composite.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/frag/combined-sampler-reuse.vk.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/frag/combined-sampler-reuse.vk.asm.frag.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/asm/frag/complex-name-workarounds.asm.frag
@@ -3274,8 +3312,6 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/leg
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/mesh/mesh-shader-basic-points.spv14.vk.nocompat.mesh.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh.vk
-FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/task/task-shader-basic-2.vk.spv14.nocompat.task.vk
-FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/task/task-shader-basic.vk.spv14.nocompat.task.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/tesc/basic.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/tesc/water_tess.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/tese/ccw.tese
@@ -3296,6 +3332,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/ver
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/ocean.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/read-from-row-major-array.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/return-array.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/row-major-workaround.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/texture_buffer.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/transform-feedback-decorations.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/vert/ubo.vert
@@ -3449,6 +3486,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/frag/unordered-compare.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/frag/unordered-compare.relax-nan.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/frag/vector-shuffle-undef-index.asm.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/mesh/mesh-shader-plain-builtin-outputs.spv14.asm.vk.nocompat.mesh
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/temporary.zero-initialize.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/vert/block-struct-initializer.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/asm/vert/builtin-output-initializer.asm.vert
@@ -3475,6 +3513,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/frag/ubo-offset-out-of-order.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/frag/variables.zero-initialize.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/frag/volatile-helper-invocation.fxconly.nofxc.spv16.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/vert/base-instance.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/vert/base-vertex.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/vert/block-io-auto-location-assignment.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/vert/empty-shader.nofxc.sm30.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl-no-opt/vert/flatten-matrix-input.flatten-matrix-vertex-input.vert
@@ -3616,6 +3656,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/fr
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/unary-enclose.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/unorm-snorm-packing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/various-glsl-ops.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/basic.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/clip-cull-distance.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/instancing.vert
@@ -3647,6 +3689,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/constant-composite-undef.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/constant-lut-name-aliasing.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/copy-logical-2.spv14.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/copy-logical-offset-and-array-stride-diffs.spv14.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/copy-logical.spv14.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/device-array-load-temporary.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/device-array-load-temporary.force-native-array.asm.comp
@@ -3658,10 +3701,17 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/local-size-id-override.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/local-size-id.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/modf-storage-class.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/opptrdiff-basic.spv14.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/opptrdiff-opptraccesschain-elem-offset.spv14.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/opptrequal-basic.spv14.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/opptrequal-row-maj-mtx-bypass-transpose.spv14.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/opptrnotequal-basic.spv14.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/spec-constant-name-aliasing.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/storage-buffer-basic.invalid.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/storage-buffer-pointer-argument.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/comp/variable-pointers.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/frag/access-chain-array-ubo-partial.argument.msl2.asm.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/frag/access-chain-array-ubo-partial.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/frag/anonymous-inner-struct-names.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/frag/component-insert-packed-expression.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/frag/composite-insert-inheritance.asm.frag
@@ -3748,11 +3798,14 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/vert/pointer-to-pointer.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/array-copy-threadgroup-memory.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/basic.dynamic-buffer.msl2.invalid.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/bda-restrict-pointer-variable.msl2.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/bitcast-16bit-1.invalid.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/bitcast-16bit-2.invalid.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/bitfield.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/buffer-device-address-from-pointer-complex-chain.msl23.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/glsl.std450.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/illegal-struct-name.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/implicit-integer-promotion.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/int16min-literal.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/int64.invalid.msl22.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/comp/int64min-literal.msl22.comp
@@ -3877,13 +3930,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/block-name-alias-global.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/buffer-write-relative-addr.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/buffer-write.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/copy-object-ssbo-to-ssbo.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/copy-object-ubo-to-ssbo.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/global-parameter-name-alias.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/image-load-store-short-vector.invalid.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/multiple-entry.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/op-spec-constant-op-vector-related.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/quantize.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/relaxed-block-layout.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/specialization-constant-workgroup.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/struct-resource-name-aliasing.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/uint_smulextended.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/undefined-constant-composite.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/undefined-spec-constant-composite.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/variable-pointers-2.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/variable-pointers-store-forwarding.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/vector-builtin-type-cast-func.asm.comp
@@ -3990,6 +4049,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/com
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/outer-product.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/packing-test-1.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/packing-test-2.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/raw-buffer-descriptor-aliasing.argument.discrete.device-argument-buffer.msl2.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/raw-buffer-descriptor-aliasing.argument.discrete.msl2.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/ray-query.spv14.vk.ios.msl24..invalid.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/read-write-only.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/rmw-matrix.comp
@@ -4074,6 +4135,9 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/fra
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/for-loop-continue-control-flow.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/for-loop-init.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/fp16-packing.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/frag-demote-checks.discard-checks.msl23.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/frag-discard-checks-continue-block.discard-checks.msl23.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/frag-discard-checks.discard-checks.msl23.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/fragment-component-padding.pad-fragment.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/front-facing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/gather-dref.frag
@@ -4184,6 +4248,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/mas
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/masking/write-outputs.mask-point-size.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/masking/write-outputs.mask-position.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/masking/write-outputs.mask-position.tesc
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/arrayed-block-io.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/basic.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/basic.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/complex-control-point-inout-types.multi-patch.tesc
@@ -4201,18 +4266,24 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tes
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/struct-output.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/water_tess.multi-patch.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tesc/water_tess.tesc
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/in-array-of-struct.raw-tess-in.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/in-block-with-nested-struct.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/in-block-with-nested-struct.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/input-array.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/input-types.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/input-types.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/load-control-point-array-of-matrix.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/load-control-point-array.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/quad.domain.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/quad.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/read-tess-level-in-func-quad.msl2.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/read-tess-level-in-func-quad.raw-tess-in.msl2.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/read-tess-level-in-func.msl2.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/read-tess-level-in-func.raw-tess-in.msl2.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/set-from-function.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/triangle-tess-level.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/triangle.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/water_tess.raw-tess-in.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/tese/water_tess.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/vert/array-component-io.for-tess.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/vert/array-component-io.vert
@@ -4334,6 +4405,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/array-builtin-bitcast-load-store.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/collapsed-switch-phi-flush.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/combined-image-sampler-dxc-min16float.asm.invalid.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/complex-opaque-handle-reuse-in-loop.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/composite-insert-hoisted-temporaries-1.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/composite-insert-hoisted-temporaries-2.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/composite-insert-inheritance.asm.frag
@@ -4386,8 +4458,9 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/frag/while-loop-inverted-test.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/geom/store-uint-layer.invalid.asm.geom
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/loop-header-self-continue-break.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/mesh/mesh-shader-plain-builtin-outputs.spv14.asm.vk.nocompat.mesh.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/rgen/acceleration-nonuniform.spv14.vk.nocompat.asm.rgen.vk
-FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/task/task-shader.vk.nocompat.invalid.spv14.asm.task.vk
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/task/task-shader.vk.nocompat.spv14.asm.task.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/temporary.zero-initialize.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/tesc/array-of-block-output-initializer.asm.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/tesc/copy-memory-control-point.asm.tesc
@@ -4412,6 +4485,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/int64min-literal.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/intmin-literal.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/loop-break-merge-after-inner-continue.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/loop-resolve-debug-semantics.g.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/loop-resolve-debug-semantics.gV.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/loop.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/return.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/shader_ballot_nonuniform_invocations.invalid.comp
@@ -4444,6 +4519,8 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/texture1d-emulation.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/variables.zero-initialize.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/legacy/frag/switch-single-case-multiple-exit-cfg.legacy.asm.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/task/task-shader-basic-2.vk.spv14.nocompat.task.vk
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/task/task-shader-basic.vk.spv14.nocompat.task.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/vert/io-blocks.force-flattened-io.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/vert/pass-array-by-value.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/vulkan/frag/shading-rate.vk.nocompat.frag.vk
@@ -4532,6 +4609,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/com
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/comp/recompile-block-naming.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/comp/specialization-constant-workgroup.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/comp/switch-break-ladder.asm.invalid.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/comp/undefined-constant-composite.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/frag/combined-sampler-reuse.vk.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/frag/combined-sampler-reuse.vk.asm.frag.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/asm/frag/complex-name-workarounds.asm.frag
@@ -4761,8 +4839,6 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/mesh/mesh-shader-basic-points.spv14.vk.nocompat.mesh.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh.vk
-FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/task/task-shader-basic-2.vk.spv14.nocompat.task.vk
-FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/task/task-shader-basic.vk.spv14.nocompat.task.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/tesc/basic.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/tesc/water_tess.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/tese/ccw.tese
@@ -4783,6 +4859,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/no
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/ocean.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/read-from-row-major-array.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/return-array.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/row-major-workaround.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/texture_buffer.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/transform-feedback-decorations.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/vert/ubo.vert
@@ -4936,6 +5013,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/tests-other/msl_ycbcr_con
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/tests-other/msl_ycbcr_conversion_test_2.spv
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/tests-other/small_vector.cpp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/tests-other/typed_id_test.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/INTEGRATION.md
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_decode.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -4965,6 +5043,7 @@ FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_metal.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_raii.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_screen.h
+FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_static_assertions.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_structs.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_to_string.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_vi.h
@@ -4973,11 +5052,13 @@ FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xcb.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xlib.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xlib_xrandr.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/CMakePresets.json
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/GOVERNANCE.md
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/AndroidManifest.xml
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/res/values/strings.xml
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_ndk_types.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_error_enums.h
@@ -4986,8 +5067,8 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cast_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_dynamic_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.cpp
@@ -5004,6 +5085,7 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descr
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_state.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.cpp
@@ -5013,8 +5095,7 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gener
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/chassis_dispatch_helper.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/command_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/command_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/corechecks_optick_instrumentation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/corechecks_optick_instrumentation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/enum_flag_bits.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_as_inspection_comp.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_pre_dispatch_comp.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/gpu_pre_draw_vert.h
@@ -5074,15 +5155,21 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipel
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/qfo_transfer.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/range_vector.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sampler_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.cpp
@@ -5099,17 +5186,21 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_validation.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_data.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings.txt
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings_ext.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_loader_platform.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/wsi_validation.cpp
 FILE: ../../../third_party/wuffs/release/c/wuffs-v0.2.c
 FILE: ../../../third_party/wuffs/release/c/wuffs-v0.3.c
 ----------------------------------------------------------------------------------------------------
@@ -23610,13 +23701,10 @@ written authorization of the copyright holder.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: vulkan-validation-layers
 LIBRARY: xxhash
 ORIGIN: ../../../third_party/angle/src/common/third_party/xxhash/xxhash.c
-ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/third_party/xxhash/xxhash.c
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
 ----------------------------------------------------------------------------------------------------
 Copyright (C) 2012-2016, Yann Collet
 
@@ -23647,13 +23735,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: vulkan-validation-layers
 LIBRARY: xxhash
 ORIGIN: ../../../third_party/angle/src/common/third_party/xxhash/xxhash.h
-ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/third_party/xxhash/xxhash.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
 ----------------------------------------------------------------------------------------------------
 Copyright (C) 2012-2016, Yann Collet.
 
@@ -23669,6 +23754,42 @@ notice, this list of conditions and the following disclaimer.
 copyright notice, this list of conditions and the following disclaimer
 in the documentation and/or other materials provided with the
 distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: vulkan-validation-layers
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 2012-2020 Yann Collet
+
+BSD 2-Clause License (https://www.opensource.org/licenses/bsd-license.php)
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+     copyright notice, this list of conditions and the following disclaimer
+     in the documentation and/or other materials provided with the
+     distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -25869,7 +25990,7 @@ LIBRARY: glslang
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.h
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.cpp
-ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.h
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/ResourceLimits.h
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/AST.FromFile.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/BuiltInResource.FromFile.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/Config.FromFile.cpp
@@ -25885,7 +26006,7 @@ TYPE: LicenseType.bsd
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.h
 FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.cpp
-FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.h
+FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/ResourceLimits.h
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/AST.FromFile.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/BuiltInResource.FromFile.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/Config.FromFile.cpp
@@ -33975,47 +34096,19 @@ freely, subject to the following restrictions:
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: smhasher
-ORIGIN: ../../../third_party/angle/src/common/third_party/smhasher/LICENSE
-TYPE: LicenseType.mit
-FILE: ../../../third_party/angle/src/common/third_party/smhasher/src/PMurHash.cpp
-FILE: ../../../third_party/angle/src/common/third_party/smhasher/src/PMurHash.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2011 Google, Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: base
+LIBRARY: angle
 LIBRARY: zlib
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/containers/mru_cache.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/sha1.cc + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/sha1.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/containers/mru_cache.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/sha1.cc + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/sha1.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip_internal.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip_internal.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip_reader.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/containers/mru_cache.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/sha1.cc
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/sha1.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/containers/mru_cache.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/sha1.cc
+FILE: ../../../third_party/angle/src/common/base/anglebase/sha1.h
 FILE: ../../../third_party/zlib/google/zip.h
 FILE: ../../../third_party/zlib/google/zip_internal.cc
 FILE: ../../../third_party/zlib/google/zip_internal.h
@@ -35234,10 +35327,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: trace_event
-ORIGIN: ../../../third_party/angle/src/third_party/trace_event/trace_event.h + ../../../LICENSE
+LIBRARY: angle
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/trace_event/trace_event.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/third_party/trace_event/trace_event.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/trace_event/trace_event.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2013 The Chromium Authors. All rights reserved.
 
@@ -38716,6 +38809,37 @@ THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: glslang
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/NonSemanticShaderDebugInfo100.h
+TYPE: LicenseType.unknown
+FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/NonSemanticShaderDebugInfo100.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2018 The Khronos Group Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and/or associated documentation files (the "Materials"),
+to deal in the Materials without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Materials, and to permit persons to whom the
+Materials are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Materials.
+
+MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS
+STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND
+HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
+IN THE MATERIALS.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/bytestring/unicode.c
 ORIGIN: ../../../third_party/boringssl/src/crypto/chacha/internal.h
@@ -39495,10 +39619,10 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 LIBRARY: glslang
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.cpp
-ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.h
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/resource_limits_c.h
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.cpp
-FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.h
+FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/resource_limits_c.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2020, Travis Fort
 All rights reserved.
@@ -39707,6 +39831,34 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: etc_decoder
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/third_party/etc_decoder/etc_decoder.h
+TYPE: LicenseType.mit
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/third_party/etc_decoder/etc_decoder.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2020-2022 Hans-Kristian Arntzen
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: glfw
 ORIGIN: ../../../third_party/glfw/src/posix_module.c
 ORIGIN: ../../../third_party/glfw/src/win32_module.c
@@ -39912,6 +40064,37 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: glslang
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.ARM.h
+TYPE: LicenseType.unknown
+FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.ARM.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2022 ARM Limited
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and/or associated documentation files (the "Materials"),
+to deal in the Materials without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Materials, and to permit persons to whom the
+Materials are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Materials.
+
+MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS
+STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND
+HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
+IN THE MATERIALS.
 ====================================================================================================
 
 ====================================================================================================
@@ -41981,6 +42164,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: angle
+ORIGIN: ../../../third_party/angle/src/common/BinaryStream.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/Float16ToFloat32.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/event_tracer.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/event_tracer.h + ../../../third_party/angle/LICENSE
@@ -42003,7 +42187,6 @@ ORIGIN: ../../../third_party/angle/src/compiler/translator/Diagnostics.h + ../..
 ORIGIN: ../../../third_party/angle/src/compiler/translator/DirectiveHandler.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/DirectiveHandler.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/Pragma.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/BinaryStream.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Query.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Query.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/angletypes.h + ../../../third_party/angle/LICENSE
@@ -42052,6 +42235,7 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/d3d/d3d9/shaders/Blit.v
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/renderergl_utils.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/renderergl_utils.h + ../../../third_party/angle/LICENSE
 TYPE: LicenseType.bsd
+FILE: ../../../third_party/angle/src/common/BinaryStream.h
 FILE: ../../../third_party/angle/src/common/Float16ToFloat32.cpp
 FILE: ../../../third_party/angle/src/common/event_tracer.cpp
 FILE: ../../../third_party/angle/src/common/event_tracer.h
@@ -42074,7 +42258,6 @@ FILE: ../../../third_party/angle/src/compiler/translator/Diagnostics.h
 FILE: ../../../third_party/angle/src/compiler/translator/DirectiveHandler.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/DirectiveHandler.h
 FILE: ../../../third_party/angle/src/compiler/translator/Pragma.h
-FILE: ../../../third_party/angle/src/libANGLE/BinaryStream.h
 FILE: ../../../third_party/angle/src/libANGLE/Query.cpp
 FILE: ../../../third_party/angle/src/libANGLE/Query.h
 FILE: ../../../third_party/angle/src/libANGLE/angletypes.h
@@ -42882,17 +43065,17 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: base
+LIBRARY: angle
 LIBRARY: icu
 LIBRARY: zlib
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/icu/icu.isolate + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/compression_utils.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/compression_utils.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_impl.h
 FILE: ../../../third_party/icu/icu.isolate
 FILE: ../../../third_party/zlib/google/compression_utils.cc
 FILE: ../../../third_party/zlib/google/compression_utils.h
@@ -43485,16 +43668,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: angle
-LIBRARY: base
 ORIGIN: ../../../third_party/angle/src/common/Color.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/Color.inc + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/logging.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/WorkerThread.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/WorkerThread.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/logging.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/vector_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/vulkan/vk_headers.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/fuzz/translator_fuzzer.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/ConstantUnion.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/OutputVulkanGLSL.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/OutputVulkanGLSL.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/Severity.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TextureFunctionHLSL.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TextureFunctionHLSL.h + ../../../third_party/angle/LICENSE
@@ -43534,8 +43716,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/Stream.cpp + ../../../third_part
 ORIGIN: ../../../third_party/angle/src/libANGLE/Stream.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Thread.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Thread.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/WorkerThread.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/WorkerThread.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/es3_copy_conversion_table_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/format_map_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/queryutils.cpp + ../../../third_party/angle/LICENSE
@@ -43586,10 +43766,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/WindowSurfaceEGL
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/android/DisplayAndroid.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/android/DisplayAndroid.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/functionsegl_typedefs.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/DisplayGbm.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/DisplayGbm.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/SurfaceGbm.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/SurfaceGbm.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/SurfaceGLX.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/null/BufferNULL.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/null/BufferNULL.h + ../../../third_party/angle/LICENSE
@@ -43643,8 +43819,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FenceNVVk.cpp + 
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FenceNVVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FramebufferVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FramebufferVk.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/GlslangWrapperVk.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/GlslangWrapperVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ImageVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ImageVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ProgramVk.cpp + ../../../third_party/angle/LICENSE
@@ -43671,6 +43845,8 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/TransformFeedbac
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/TransformFeedbackVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VertexArrayVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VertexArrayVk.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/DeviceVkLinux.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/DeviceVkLinux.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/DisplayVkXcb.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/DisplayVkXcb.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/WindowSurfaceVkXcb.cpp + ../../../third_party/angle/LICENSE
@@ -43688,13 +43864,13 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/validationES31.cpp + ../../../th
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/Color.h
 FILE: ../../../third_party/angle/src/common/Color.inc
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/logging.h
+FILE: ../../../third_party/angle/src/common/WorkerThread.cpp
+FILE: ../../../third_party/angle/src/common/WorkerThread.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/logging.h
 FILE: ../../../third_party/angle/src/common/vector_utils.h
 FILE: ../../../third_party/angle/src/common/vulkan/vk_headers.h
 FILE: ../../../third_party/angle/src/compiler/fuzz/translator_fuzzer.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/ConstantUnion.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/OutputVulkanGLSL.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/OutputVulkanGLSL.h
 FILE: ../../../third_party/angle/src/compiler/translator/Severity.h
 FILE: ../../../third_party/angle/src/compiler/translator/TextureFunctionHLSL.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/TextureFunctionHLSL.h
@@ -43734,8 +43910,6 @@ FILE: ../../../third_party/angle/src/libANGLE/Stream.cpp
 FILE: ../../../third_party/angle/src/libANGLE/Stream.h
 FILE: ../../../third_party/angle/src/libANGLE/Thread.cpp
 FILE: ../../../third_party/angle/src/libANGLE/Thread.h
-FILE: ../../../third_party/angle/src/libANGLE/WorkerThread.cpp
-FILE: ../../../third_party/angle/src/libANGLE/WorkerThread.h
 FILE: ../../../third_party/angle/src/libANGLE/es3_copy_conversion_table_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/format_map_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/queryutils.cpp
@@ -43786,10 +43960,6 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/WindowSurfaceEGL.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/android/DisplayAndroid.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/android/DisplayAndroid.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/functionsegl_typedefs.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/DisplayGbm.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/DisplayGbm.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/SurfaceGbm.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/gbm/SurfaceGbm.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/SurfaceGLX.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/null/BufferNULL.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/null/BufferNULL.h
@@ -43843,8 +44013,6 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FenceNVVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FenceNVVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FramebufferVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/FramebufferVk.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/GlslangWrapperVk.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/GlslangWrapperVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ImageVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ImageVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ProgramVk.cpp
@@ -43871,6 +44039,8 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/TransformFeedbackV
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/TransformFeedbackVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VertexArrayVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VertexArrayVk.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/DeviceVkLinux.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/DeviceVkLinux.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/DisplayVkXcb.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/DisplayVkXcb.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/xcb/WindowSurfaceVkXcb.cpp
@@ -43978,7 +44148,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: angle
-LIBRARY: base
 ORIGIN: ../../../third_party/angle/include/EGL/eglext_angle.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/GLES2/gl2ext_angle.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/PackedCLEnums_autogen.cpp + ../../../third_party/angle/LICENSE
@@ -43990,9 +44159,9 @@ ORIGIN: ../../../third_party/angle/src/common/PackedGLEnums_autogen.cpp + ../../
 ORIGIN: ../../../third_party/angle/src/common/PackedGLEnums_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/aligned_memory.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/aligned_memory.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/base_export.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/macros.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/sys_byteorder.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/base_export.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/macros.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/sys_byteorder.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/uniform_type_info_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/Declarator.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/Declarator.h + ../../../third_party/angle/LICENSE
@@ -44079,9 +44248,9 @@ FILE: ../../../third_party/angle/src/common/PackedGLEnums_autogen.cpp
 FILE: ../../../third_party/angle/src/common/PackedGLEnums_autogen.h
 FILE: ../../../third_party/angle/src/common/aligned_memory.cpp
 FILE: ../../../third_party/angle/src/common/aligned_memory.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/base_export.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/macros.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/sys_byteorder.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/base_export.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/macros.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/sys_byteorder.h
 FILE: ../../../third_party/angle/src/common/uniform_type_info_autogen.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/Declarator.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/Declarator.h
@@ -44191,19 +44360,19 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: base
+LIBRARY: angle
 LIBRARY: zlib
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/checked_math.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/checked_math_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/clamped_math.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/clamped_math_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/math_constants.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/ranges.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions_arm_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_arm_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_clang_gcc_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_shared_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/clamped_math.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/clamped_math_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/math_constants.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/ranges.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_arm_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_arm_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_clang_gcc_impl.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_shared_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/adler32_simd.c + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/adler32_simd.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/chromeconf.h + ../../../LICENSE
@@ -44212,17 +44381,17 @@ ORIGIN: ../../../third_party/zlib/crc32_simd.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip_writer.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/google/zip_writer.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/checked_math.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/checked_math_impl.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/clamped_math.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/clamped_math_impl.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/math_constants.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/ranges.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_conversions_arm_impl.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_arm_impl.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_clang_gcc_impl.h
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/numerics/safe_math_shared_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/clamped_math.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/clamped_math_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/math_constants.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/ranges.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_arm_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_arm_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_clang_gcc_impl.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_shared_impl.h
 FILE: ../../../third_party/zlib/adler32_simd.c
 FILE: ../../../third_party/zlib/adler32_simd.h
 FILE: ../../../third_party/zlib/chromeconf.h
@@ -44317,7 +44486,6 @@ FILE: ../../../third_party/angle/src/feature_support_util/a4a_rules.json
 FILE: ../../../third_party/angle/src/libANGLE/es3_copy_conversion_formats.json
 FILE: ../../../third_party/angle/src/libANGLE/es3_format_type_combinations.json
 FILE: ../../../third_party/angle/src/libANGLE/format_map_data.json
-FILE: ../../../third_party/angle/src/libANGLE/overlay/DejaVuSansMono-Bold.ttf
 FILE: ../../../third_party/angle/src/libANGLE/renderer/angle_format_data.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/angle_format_map.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/d3d/d3d11/shaders/BufferToTexture11.hlsl
@@ -44700,6 +44868,9 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/Conv
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000005.inc + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000006.inc + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000007.inc + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/EtcToBc.comp.00000000.inc + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/EtcToBc.comp.00000001.inc + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ExportStencil.frag.00000000.inc + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/FullScreenTri.vert.00000000.inc + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/GenerateMipmap.comp.00000000.inc + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/GenerateMipmap.comp.00000001.inc + ../../../third_party/angle/LICENSE
@@ -44945,6 +45116,9 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/Conver
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000005.inc
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000006.inc
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ConvertVertex.comp.00000007.inc
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/EtcToBc.comp.00000000.inc
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/EtcToBc.comp.00000001.inc
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/ExportStencil.frag.00000000.inc
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/FullScreenTri.vert.00000000.inc
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/GenerateMipmap.comp.00000000.inc
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/gen/GenerateMipmap.comp.00000001.inc
@@ -45091,14 +45265,14 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: base
+LIBRARY: angle
 LIBRARY: zlib
-ORIGIN: ../../../third_party/angle/src/common/third_party/base/anglebase/no_destructor.h + ../../../LICENSE
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/contrib/bench/zlib_bench.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/cpu_features.c + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/cpu_features.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/common/third_party/base/anglebase/no_destructor.h
+FILE: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h
 FILE: ../../../third_party/zlib/contrib/bench/zlib_bench.cc
 FILE: ../../../third_party/zlib/cpu_features.c
 FILE: ../../../third_party/zlib/cpu_features.h
@@ -45196,6 +45370,10 @@ ORIGIN: ../../../third_party/angle/include/vulkan/vulkan_fuchsia_ext.h + ../../.
 ORIGIN: ../../../third_party/angle/src/common/PoolAlloc.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/PoolAlloc.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/apple_platform_utils.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/gl_enum_utils.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/gl_enum_utils.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/gl_enum_utils_autogen.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/gl_enum_utils_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/system_utils_win32.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/system_utils_winuwp.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/third_party/xxhash/xxhash_fuzzer.cpp + ../../../third_party/angle/LICENSE
@@ -45205,8 +45383,6 @@ ORIGIN: ../../../third_party/angle/src/compiler/preprocessor/preprocessor_lex_au
 ORIGIN: ../../../third_party/angle/src/compiler/preprocessor/preprocessor_tab_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/BuiltinsWorkaroundGLSL.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/BuiltinsWorkaroundGLSL.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetal.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetal.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/ValidateAST.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/ValidateAST.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/glslang.l + ../../../third_party/angle/LICENSE
@@ -45254,10 +45430,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_0_params.
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_1_params.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_params.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_params.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils_autogen.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/format_map_desktop.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/overlay_widgets.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/EGLSyncImpl.h + ../../../third_party/angle/LICENSE
@@ -45286,8 +45458,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/SyncEGL.cpp + ..
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/SyncEGL.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/RendererGLX.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/RendererGLX.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/glslang_wrapper_utils.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/glslang_wrapper_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/BufferMtl.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/BufferMtl.mm + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/CompilerMtl.h + ../../../third_party/angle/LICENSE
@@ -45323,10 +45493,8 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_common.mm + .
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_map.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_utils.mm + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_mtl_utils.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_mtl_utils.mm + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_utils.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_utils.mm + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_msl_utils.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_msl_utils.mm + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_render_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_render_utils.mm + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_resources.h + ../../../third_party/angle/LICENSE
@@ -45370,8 +45538,11 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/Conv
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndexIndirectLineLoop.comp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndirectLineLoop.comp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndirectLineLoop.comp.json + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/EtcToBc.comp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ImageClear.frag + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ImageClear.frag.json + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/spv_utils.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/spv_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/vk_wrapper.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/trace.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/validationES32.cpp + ../../../third_party/angle/LICENSE
@@ -45392,6 +45563,10 @@ FILE: ../../../third_party/angle/include/vulkan/vulkan_fuchsia_ext.h
 FILE: ../../../third_party/angle/src/common/PoolAlloc.cpp
 FILE: ../../../third_party/angle/src/common/PoolAlloc.h
 FILE: ../../../third_party/angle/src/common/apple_platform_utils.h
+FILE: ../../../third_party/angle/src/common/gl_enum_utils.cpp
+FILE: ../../../third_party/angle/src/common/gl_enum_utils.h
+FILE: ../../../third_party/angle/src/common/gl_enum_utils_autogen.cpp
+FILE: ../../../third_party/angle/src/common/gl_enum_utils_autogen.h
 FILE: ../../../third_party/angle/src/common/system_utils_win32.cpp
 FILE: ../../../third_party/angle/src/common/system_utils_winuwp.cpp
 FILE: ../../../third_party/angle/src/common/third_party/xxhash/xxhash_fuzzer.cpp
@@ -45401,8 +45576,6 @@ FILE: ../../../third_party/angle/src/compiler/preprocessor/preprocessor_lex_auto
 FILE: ../../../third_party/angle/src/compiler/preprocessor/preprocessor_tab_autogen.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/BuiltinsWorkaroundGLSL.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/BuiltinsWorkaroundGLSL.h
-FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetal.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetal.h
 FILE: ../../../third_party/angle/src/compiler/translator/ValidateAST.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/ValidateAST.h
 FILE: ../../../third_party/angle/src/compiler/translator/glslang.l
@@ -45450,10 +45623,6 @@ FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_0_params.cp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_1_params.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_params.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_params.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils.h
-FILE: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils_autogen.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/gl_enum_utils_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/format_map_desktop.cpp
 FILE: ../../../third_party/angle/src/libANGLE/overlay_widgets.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/EGLSyncImpl.h
@@ -45482,8 +45651,6 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/SyncEGL.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/SyncEGL.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/RendererGLX.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/glx/RendererGLX.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/glslang_wrapper_utils.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/glslang_wrapper_utils.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/BufferMtl.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/BufferMtl.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/CompilerMtl.h
@@ -45519,10 +45686,8 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_common.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_map.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_utils.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_format_utils.mm
-FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_mtl_utils.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_mtl_utils.mm
-FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_utils.h
-FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_glslang_utils.mm
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_msl_utils.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_msl_utils.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_render_utils.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_render_utils.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_resources.h
@@ -45566,8 +45731,11 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/Conver
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndexIndirectLineLoop.comp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndirectLineLoop.comp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndirectLineLoop.comp.json
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/EtcToBc.comp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ImageClear.frag
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ImageClear.frag.json
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/spv_utils.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/spv_utils.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/vk_wrapper.h
 FILE: ../../../third_party/angle/src/libANGLE/trace.h
 FILE: ../../../third_party/angle/src/libANGLE/validationES32.cpp
@@ -45704,10 +45872,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: angle
-ORIGIN: ../../../third_party/angle/include/platform/Platform.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/apple/SoftLinking.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/entry_points_enum_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/entry_points_enum_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/frame_capture_utils_autogen.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/frame_capture_utils_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/gl/cgl/FunctionsCGL.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/gl/cgl/FunctionsCGL.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/system_utils_apple.cpp + ../../../third_party/angle/LICENSE
@@ -45834,6 +46003,8 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/Context_gles_ext_autogen.h + ../
 ORIGIN: ../../../third_party/angle/src/libANGLE/InfoLog.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/ProgramExecutable.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/ProgramExecutable.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_egl_autogen.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_egl_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_2_autogen.cpp + ../../../third_party/angle/LICENSE
@@ -45854,11 +46025,8 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_autogen
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_autogen.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_replay_autogen.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_autogen.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/capture/serialize.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/capture/serialize.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/BufferImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/EGLReusableSync.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/EGLReusableSync.h + ../../../third_party/angle/LICENSE
@@ -45923,6 +46091,7 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/headless/W
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/mac/IOSurfaceSurfaceVkMac.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/mac/IOSurfaceSurfaceVkMac.mm + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndexIndirectLineLoop.comp.json + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/EtcToBc.comp.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/GenerateMipmap.comp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/GenerateMipmap.comp.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/vk_format_table_autogen.cpp + ../../../third_party/angle/LICENSE
@@ -45957,6 +46126,7 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/validationGL46_autogen.h + ../..
 ORIGIN: ../../../third_party/angle/src/libANGLE/validationGL4_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libEGL/libEGL_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libEGL/libEGL_autogen.def + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libEGL/libEGL_vulkan_secondaries_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/egl_ext_stubs.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/egl_ext_stubs_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/egl_get_labeled_object_data.json + ../../../third_party/angle/LICENSE
@@ -45991,15 +46161,17 @@ ORIGIN: ../../../third_party/angle/src/libGLESv2/entry_points_gles_ext_autogen.h
 ORIGIN: ../../../third_party/angle/src/libGLESv2/libGLESv2_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/libGLESv2_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/libGLESv2_no_capture_autogen.def + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libGLESv2/libGLESv2_vulkan_secondaries_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/libGLESv2_with_capture_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/opengl32_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/opengl32_with_wgl_autogen.def + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libOpenCL/libOpenCL_autogen.cpp + ../../../third_party/angle/LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/include/platform/Platform.h
 FILE: ../../../third_party/angle/src/common/apple/SoftLinking.h
 FILE: ../../../third_party/angle/src/common/entry_points_enum_autogen.cpp
 FILE: ../../../third_party/angle/src/common/entry_points_enum_autogen.h
+FILE: ../../../third_party/angle/src/common/frame_capture_utils_autogen.cpp
+FILE: ../../../third_party/angle/src/common/frame_capture_utils_autogen.h
 FILE: ../../../third_party/angle/src/common/gl/cgl/FunctionsCGL.cpp
 FILE: ../../../third_party/angle/src/common/gl/cgl/FunctionsCGL.h
 FILE: ../../../third_party/angle/src/common/system_utils_apple.cpp
@@ -46126,6 +46298,8 @@ FILE: ../../../third_party/angle/src/libANGLE/Context_gles_ext_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/InfoLog.h
 FILE: ../../../third_party/angle/src/libANGLE/ProgramExecutable.cpp
 FILE: ../../../third_party/angle/src/libANGLE/ProgramExecutable.h
+FILE: ../../../third_party/angle/src/libANGLE/capture/capture_egl_autogen.cpp
+FILE: ../../../third_party/angle/src/libANGLE/capture/capture_egl_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_2_autogen.cpp
@@ -46146,11 +46320,8 @@ FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_autogen.c
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_3_2_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gles_ext_autogen.h
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_replay_autogen.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils.h
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_autogen.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_autogen.h
+FILE: ../../../third_party/angle/src/libANGLE/capture/serialize.cpp
+FILE: ../../../third_party/angle/src/libANGLE/capture/serialize.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/BufferImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/EGLReusableSync.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/EGLReusableSync.h
@@ -46215,6 +46386,7 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/headless/Win
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/mac/IOSurfaceSurfaceVkMac.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/mac/IOSurfaceSurfaceVkMac.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ConvertIndexIndirectLineLoop.comp.json
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/EtcToBc.comp.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/GenerateMipmap.comp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/GenerateMipmap.comp.json
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/vk_format_table_autogen.cpp
@@ -46249,6 +46421,7 @@ FILE: ../../../third_party/angle/src/libANGLE/validationGL46_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/validationGL4_autogen.h
 FILE: ../../../third_party/angle/src/libEGL/libEGL_autogen.cpp
 FILE: ../../../third_party/angle/src/libEGL/libEGL_autogen.def
+FILE: ../../../third_party/angle/src/libEGL/libEGL_vulkan_secondaries_autogen.def
 FILE: ../../../third_party/angle/src/libGLESv2/egl_ext_stubs.cpp
 FILE: ../../../third_party/angle/src/libGLESv2/egl_ext_stubs_autogen.h
 FILE: ../../../third_party/angle/src/libGLESv2/egl_get_labeled_object_data.json
@@ -46283,6 +46456,7 @@ FILE: ../../../third_party/angle/src/libGLESv2/entry_points_gles_ext_autogen.h
 FILE: ../../../third_party/angle/src/libGLESv2/libGLESv2_autogen.cpp
 FILE: ../../../third_party/angle/src/libGLESv2/libGLESv2_autogen.def
 FILE: ../../../third_party/angle/src/libGLESv2/libGLESv2_no_capture_autogen.def
+FILE: ../../../third_party/angle/src/libGLESv2/libGLESv2_vulkan_secondaries_autogen.def
 FILE: ../../../third_party/angle/src/libGLESv2/libGLESv2_with_capture_autogen.def
 FILE: ../../../third_party/angle/src/libGLESv2/opengl32_autogen.def
 FILE: ../../../third_party/angle/src/libGLESv2/opengl32_with_wgl_autogen.def
@@ -46392,15 +46566,13 @@ ORIGIN: ../../../third_party/angle/src/compiler/translator/OutputSPIRV.cpp + ../
 ORIGIN: ../../../third_party/angle/src/compiler/translator/OutputSPIRV.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/ValidateTypeSizeLimitations.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/ValidateTypeSizeLimitations.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/glslang_wrapper.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/glslang_wrapper.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/ClampIndirectIndices.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/ClampIndirectIndices.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/DeclarePerVertexBlocks.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/DeclarePerVertexBlocks.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/MonomorphizeUnsupportedFunctions.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/MonomorphizeUnsupportedFunctions.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/RewriteArrayOfArrayOfOpaqueUniforms.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/DeclarePerVertexBlocks.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/DeclarePerVertexBlocks.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFragColorData.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFragColorData.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteR32fImages.cpp + ../../../third_party/angle/LICENSE
@@ -46434,9 +46606,7 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/CLRefPointer.h + ../../../third_
 ORIGIN: ../../../third_party/angle/src/libANGLE/CLSampler.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/CLSampler.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/CLtypes.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_mock.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/trace_fixture.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/trace_fixture.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/capture/serialize_mock.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/cl_utils.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/cl_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/gles_extensions_autogen.cpp + ../../../third_party/angle/LICENSE
@@ -46463,8 +46633,6 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/CLSamplerImpl.cpp + ../
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/CLSamplerImpl.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/CLtypes.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/ImageImpl.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/ShaderInterfaceVariableInfoMap.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/ShaderInterfaceVariableInfoMap.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/cl/CLCommandQueueCL.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/cl/CLCommandQueueCL.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/cl/CLContextCL.cpp + ../../../third_party/angle/LICENSE
@@ -46515,6 +46683,8 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLProgramVk.cpp 
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLProgramVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLSamplerVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLSamplerVk.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShaderInterfaceVariableInfoMap.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShaderInterfaceVariableInfoMap.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VkImageImageSiblingVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VkImageImageSiblingVk.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VulkanSecondaryCommandBuffer.cpp + ../../../third_party/angle/LICENSE
@@ -46570,15 +46740,13 @@ FILE: ../../../third_party/angle/src/compiler/translator/OutputSPIRV.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/OutputSPIRV.h
 FILE: ../../../third_party/angle/src/compiler/translator/ValidateTypeSizeLimitations.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/ValidateTypeSizeLimitations.h
-FILE: ../../../third_party/angle/src/compiler/translator/glslang_wrapper.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/glslang_wrapper.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/ClampIndirectIndices.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/ClampIndirectIndices.h
+FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/DeclarePerVertexBlocks.cpp
+FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/DeclarePerVertexBlocks.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/MonomorphizeUnsupportedFunctions.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/MonomorphizeUnsupportedFunctions.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/RewriteArrayOfArrayOfOpaqueUniforms.h
-FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/DeclarePerVertexBlocks.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/DeclarePerVertexBlocks.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFragColorData.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFragColorData.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteR32fImages.cpp
@@ -46612,9 +46780,7 @@ FILE: ../../../third_party/angle/src/libANGLE/CLRefPointer.h
 FILE: ../../../third_party/angle/src/libANGLE/CLSampler.cpp
 FILE: ../../../third_party/angle/src/libANGLE/CLSampler.h
 FILE: ../../../third_party/angle/src/libANGLE/CLtypes.h
-FILE: ../../../third_party/angle/src/libANGLE/capture/frame_capture_utils_mock.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/trace_fixture.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/trace_fixture.h
+FILE: ../../../third_party/angle/src/libANGLE/capture/serialize_mock.cpp
 FILE: ../../../third_party/angle/src/libANGLE/cl_utils.cpp
 FILE: ../../../third_party/angle/src/libANGLE/cl_utils.h
 FILE: ../../../third_party/angle/src/libANGLE/gles_extensions_autogen.cpp
@@ -46641,8 +46807,6 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/CLSamplerImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/CLSamplerImpl.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/CLtypes.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/ImageImpl.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/ShaderInterfaceVariableInfoMap.cpp
-FILE: ../../../third_party/angle/src/libANGLE/renderer/ShaderInterfaceVariableInfoMap.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/cl/CLCommandQueueCL.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/cl/CLCommandQueueCL.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/cl/CLContextCL.cpp
@@ -46693,6 +46857,8 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLProgramVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLProgramVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLSamplerVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/CLSamplerVk.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShaderInterfaceVariableInfoMap.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShaderInterfaceVariableInfoMap.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VkImageImageSiblingVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VkImageImageSiblingVk.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/VulkanSecondaryCommandBuffer.cpp
@@ -46851,9 +47017,18 @@ ORIGIN: ../../../third_party/angle/include/platform/frontend_features.json + ../
 ORIGIN: ../../../third_party/angle/include/platform/gl_features.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/platform/mtl_features.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/platform/vk_features.json + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/CompiledShaderState.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/CompiledShaderState.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/RingBufferAllocator.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/RingBufferAllocator.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/apple_platform_utils.mm + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/backtrace_utils.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/backtrace_utils_android.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/backtrace_utils_noop.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/frame_capture_utils.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/common/frame_capture_utils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/BaseTypes.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalConstantNames.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/ConstantNames.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/GuardFragDepthWrite.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/GuardFragDepthWrite.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/RewritePixelLocalStorage.cpp + ../../../third_party/angle/LICENSE
@@ -46868,29 +47043,44 @@ ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/Emula
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateDithering.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateYUVBuiltIns.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateYUVBuiltIns.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/image_util/AstcDecompressor.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/image_util/AstcDecompressor.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/image_util/AstcDecompressorNoOp.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/image_util/AstcDecompressorTestUtils.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/image_util/loadimage_astc.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/image_util/loadimage_paletted.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/MemoryShaderCache.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/MemoryShaderCache.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/PixelLocalStorage.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/PixelLocalStorage.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_egl.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_egl.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_params.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_2_params.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_3_params.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/capture/capture_gl_4_params.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/entry_points_utils.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/FramebufferImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/ProgramImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/ProgramPipelineImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/RenderbufferImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/TransformFeedbackImpl.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/VertexArrayImpl.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/PLSProgramCache.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/PLSProgramCache.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/DeviceEGL.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/DeviceEGL.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_buffer_manager.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_buffer_manager.mm + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperPool.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperPool.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperRing.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperRing.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/Suballocation.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/Suballocation.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/gbm/DisplayVkGbm.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/gbm/DisplayVkGbm.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ExportStencil.frag + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/OverlayDraw.frag + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/OverlayDraw.vert + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/entry_points_glx.cpp + ../../../third_party/angle/LICENSE
@@ -46906,9 +47096,18 @@ FILE: ../../../third_party/angle/include/platform/frontend_features.json
 FILE: ../../../third_party/angle/include/platform/gl_features.json
 FILE: ../../../third_party/angle/include/platform/mtl_features.json
 FILE: ../../../third_party/angle/include/platform/vk_features.json
+FILE: ../../../third_party/angle/src/common/CompiledShaderState.cpp
+FILE: ../../../third_party/angle/src/common/CompiledShaderState.h
+FILE: ../../../third_party/angle/src/common/RingBufferAllocator.cpp
+FILE: ../../../third_party/angle/src/common/RingBufferAllocator.h
 FILE: ../../../third_party/angle/src/common/apple_platform_utils.mm
+FILE: ../../../third_party/angle/src/common/backtrace_utils.h
+FILE: ../../../third_party/angle/src/common/backtrace_utils_android.cpp
+FILE: ../../../third_party/angle/src/common/backtrace_utils_noop.cpp
+FILE: ../../../third_party/angle/src/common/frame_capture_utils.cpp
+FILE: ../../../third_party/angle/src/common/frame_capture_utils.h
 FILE: ../../../third_party/angle/src/compiler/translator/BaseTypes.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalConstantNames.cpp
+FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/ConstantNames.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/GuardFragDepthWrite.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/GuardFragDepthWrite.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/RewritePixelLocalStorage.cpp
@@ -46923,29 +47122,44 @@ FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/Emulate
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateDithering.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateYUVBuiltIns.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateYUVBuiltIns.h
+FILE: ../../../third_party/angle/src/image_util/AstcDecompressor.cpp
+FILE: ../../../third_party/angle/src/image_util/AstcDecompressor.h
+FILE: ../../../third_party/angle/src/image_util/AstcDecompressorNoOp.cpp
+FILE: ../../../third_party/angle/src/image_util/AstcDecompressorTestUtils.h
 FILE: ../../../third_party/angle/src/image_util/loadimage_astc.cpp
+FILE: ../../../third_party/angle/src/image_util/loadimage_paletted.cpp
 FILE: ../../../third_party/angle/src/libANGLE/MemoryShaderCache.cpp
 FILE: ../../../third_party/angle/src/libANGLE/MemoryShaderCache.h
 FILE: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.h
 FILE: ../../../third_party/angle/src/libANGLE/PixelLocalStorage.cpp
 FILE: ../../../third_party/angle/src/libANGLE/PixelLocalStorage.h
-FILE: ../../../third_party/angle/src/libANGLE/capture/capture_egl.cpp
-FILE: ../../../third_party/angle/src/libANGLE/capture/capture_egl.h
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_1_params.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_2_params.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_3_params.cpp
 FILE: ../../../third_party/angle/src/libANGLE/capture/capture_gl_4_params.cpp
+FILE: ../../../third_party/angle/src/libANGLE/entry_points_utils.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/FramebufferImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/ProgramImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/ProgramPipelineImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/RenderbufferImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/TransformFeedbackImpl.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/VertexArrayImpl.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/PLSProgramCache.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/PLSProgramCache.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/DeviceEGL.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/gl/egl/DeviceEGL.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_buffer_manager.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_buffer_manager.mm
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperPool.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperPool.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperRing.cpp
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/AllocatorHelperRing.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/Suballocation.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/Suballocation.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/gbm/DisplayVkGbm.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/linux/gbm/DisplayVkGbm.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/ExportStencil.frag
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/OverlayDraw.frag
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/OverlayDraw.vert
 FILE: ../../../third_party/angle/src/libGLESv2/entry_points_glx.cpp
@@ -63708,4 +63922,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 868
+Total license count: 871
