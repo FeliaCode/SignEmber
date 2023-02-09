@@ -1,4 +1,4 @@
-Signature: 30b6df5c8717e55aa4b4bfa50f7a4c78
+Signature: bb4689eace80fa19571c375ed760f822
 
 ====================================================================================================
 LIBRARY: angle
@@ -41996,6 +41996,8 @@ LIBRARY: dart
 ORIGIN: ../../../third_party/dart/runtime/bin/main_impl.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/js_allow_interop_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_interop_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_types.dart + ../../../third_party/dart/LICENSE
@@ -42010,6 +42012,8 @@ TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/main_impl.h
 FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc
 FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.h
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/js_allow_interop_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_interop_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_types.dart
