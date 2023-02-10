@@ -1,4 +1,4 @@
-Signature: bb4689eace80fa19571c375ed760f822
+Signature: 68ef31d53f6f0a3a1692f2d447057617
 
 ====================================================================================================
 LIBRARY: angle
@@ -42006,8 +42006,9 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/date_patch_patch.da
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/js_interop_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/js_types.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/string_buffer_create.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/sync_star_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/weak_patch.dart + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/main_impl.h
 FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc
@@ -42022,8 +42023,9 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/date_patch_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/js_interop_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/js_types.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/string_buffer_create.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/sync_star_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/weak_patch.dart
-FILE: ../../../third_party/dart/sdk/lib/_js_interop/js_interop.dart
+FILE: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved.
