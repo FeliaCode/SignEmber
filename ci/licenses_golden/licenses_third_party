@@ -1,4 +1,4 @@
-Signature: f2c17c0d1c739ba302918c7b994a185b
+Signature: b4df9372cf82c5419ad37b57d8bffee1
 
 ====================================================================================================
 LIBRARY: angle
@@ -53709,6 +53709,7 @@ FILE: ../../../third_party/icu/source/tools/tzcode/zic.c
 FILE: ../../../third_party/icu/tzres/metaZones.res
 FILE: ../../../third_party/icu/tzres/timezoneTypes.res
 FILE: ../../../third_party/icu/tzres/zoneinfo64.res
+FILE: ../../../third_party/icu/version.json
 ----------------------------------------------------------------------------------------------------
 UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
 
