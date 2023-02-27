@@ -1,4 +1,4 @@
-Signature: 4dce4c706de843cde7116dd57c7de78f
+Signature: 633ab5be530d59107d9bcb7b687d6d0f
 
 ====================================================================================================
 LIBRARY: angle
@@ -53644,6 +53644,7 @@ FILE: ../../../third_party/icu/patches/khmer-dictbe.patch
 FILE: ../../../third_party/icu/patches/locale1.patch
 FILE: ../../../third_party/icu/patches/locale_google.patch
 FILE: ../../../third_party/icu/patches/restrace.patch
+FILE: ../../../third_party/icu/patches/revert-en-ca-date.patch
 FILE: ../../../third_party/icu/patches/wordbrk.patch
 FILE: ../../../third_party/icu/patches/wpo.patch
 FILE: ../../../third_party/icu/source/data/in/coll/ucadata-implicithan-icu4x.icu
