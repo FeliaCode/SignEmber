@@ -1,4 +1,4 @@
-Signature: 8cb504d68f0949b6ef99a53b05b03396
+Signature: fe206abdaaab06f9ef39882143546fcc
 
 ====================================================================================================
 LIBRARY: angle
@@ -33692,8 +33692,12 @@ written authorization of the copyright holder.
 
 ====================================================================================================
 LIBRARY: dart
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/bigint_patch.dart
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/bigint_patch.dart
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/vm_shared/lib/bigint_patch.dart
 TYPE: LicenseType.mit
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/bigint_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/bigint_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/vm_shared/lib/bigint_patch.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2003-2005  Tom Wu
@@ -36442,6 +36446,7 @@ ORIGIN: ../../../third_party/dart/runtime/vm/zone.h + ../../../third_party/dart/
 ORIGIN: ../../../third_party/dart/sdk/lib/_http/crypto.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_http/http_date.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/bigint_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/core_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/isolate_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/math_patch.dart + ../../../third_party/dart/LICENSE
@@ -36455,6 +36460,7 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/nativ
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/regexp_helper.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/string_helper.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/async_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/bigint_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/constant_map.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/core_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/foreign_helper.dart + ../../../third_party/dart/LICENSE
@@ -36808,6 +36814,7 @@ FILE: ../../../third_party/dart/runtime/vm/zone.h
 FILE: ../../../third_party/dart/sdk/lib/_http/crypto.dart
 FILE: ../../../third_party/dart/sdk/lib/_http/http_date.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/bigint_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/core_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/isolate_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/math_patch.dart
@@ -36821,6 +36828,7 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/native_
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/regexp_helper.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/string_helper.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/async_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/bigint_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/constant_map.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/core_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/foreign_helper.dart
@@ -41988,6 +41996,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: dart
 ORIGIN: ../../../third_party/dart/runtime/bin/main_impl.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/compiler/backend/parallel_move_resolver.cc + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/compiler/backend/parallel_move_resolver.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/ffi/native_assets.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart + ../../../third_party/dart/LICENSE
@@ -42006,6 +42016,8 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/weak_patch.dart + .
 ORIGIN: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/main_impl.h
+FILE: ../../../third_party/dart/runtime/vm/compiler/backend/parallel_move_resolver.cc
+FILE: ../../../third_party/dart/runtime/vm/compiler/backend/parallel_move_resolver.h
 FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.cc
 FILE: ../../../third_party/dart/runtime/vm/ffi/native_assets.h
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart
