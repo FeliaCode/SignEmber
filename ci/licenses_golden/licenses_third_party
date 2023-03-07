@@ -1,4 +1,4 @@
-Signature: 5e1563c4dd9d9a18358dec9bcdeabab7
+Signature: 59c307501001cbfeede53977a819043c
 
 ====================================================================================================
 LIBRARY: angle
@@ -33577,42 +33577,6 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: tcmalloc
-ORIGIN: ../../../third_party/dart/third_party/tcmalloc/include/gperftools/tcmalloc.h
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/dart/third_party/tcmalloc/include/gperftools/tcmalloc.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2003, Google Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-    * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-    * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../third_party/icu/source/common/ucat.cpp + ../../../third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -34420,43 +34384,6 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: tcmalloc
-ORIGIN: ../../../third_party/dart/third_party/tcmalloc/COPYING
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/dart/third_party/tcmalloc/configure_command
-FILE: ../../../third_party/dart/third_party/tcmalloc/include/config.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2005, Google Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-    * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-    * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -40131,13 +40058,6 @@ ORIGIN: ../../../third_party/dart/runtime/vm/image_snapshot.h + ../../../third_p
 ORIGIN: ../../../third_party/dart/runtime/vm/json_writer.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/json_writer.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/kernel_binary.h + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks.h + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_arm.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_arm64.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_ia32.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_tcmalloc.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_unsupported.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_x64.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/simulator_riscv.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/simulator_riscv.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/stack_trace.cc + ../../../third_party/dart/LICENSE
@@ -40285,13 +40205,6 @@ FILE: ../../../third_party/dart/runtime/vm/image_snapshot.h
 FILE: ../../../third_party/dart/runtime/vm/json_writer.cc
 FILE: ../../../third_party/dart/runtime/vm/json_writer.h
 FILE: ../../../third_party/dart/runtime/vm/kernel_binary.h
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks.h
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_arm.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_arm64.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_ia32.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_tcmalloc.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_unsupported.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_x64.cc
 FILE: ../../../third_party/dart/runtime/vm/simulator_riscv.cc
 FILE: ../../../third_party/dart/runtime/vm/simulator_riscv.h
 FILE: ../../../third_party/dart/runtime/vm/stack_trace.cc
@@ -41825,7 +41738,6 @@ ORIGIN: ../../../third_party/dart/runtime/vm/heap/page.h + ../../../third_party/
 ORIGIN: ../../../third_party/dart/runtime/vm/heap/sampler.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/heap/sampler.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/instructions.cc + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/malloc_hooks_riscv.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/os_thread_absl.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/os_thread_absl.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/simulator_x64.cc + ../../../third_party/dart/LICENSE
@@ -41908,7 +41820,6 @@ FILE: ../../../third_party/dart/runtime/vm/heap/page.h
 FILE: ../../../third_party/dart/runtime/vm/heap/sampler.cc
 FILE: ../../../third_party/dart/runtime/vm/heap/sampler.h
 FILE: ../../../third_party/dart/runtime/vm/instructions.cc
-FILE: ../../../third_party/dart/runtime/vm/malloc_hooks_riscv.cc
 FILE: ../../../third_party/dart/runtime/vm/os_thread_absl.cc
 FILE: ../../../third_party/dart/runtime/vm/os_thread_absl.h
 FILE: ../../../third_party/dart/runtime/vm/simulator_x64.cc
@@ -65577,4 +65488,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 872
+Total license count: 870
