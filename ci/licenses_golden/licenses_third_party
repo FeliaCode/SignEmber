@@ -1,4 +1,4 @@
-Signature: 702b93263fdaa0bcbe469fc3bce2470f
+Signature: c2e638c82892019fa5170fc786eba038
 
 ====================================================================================================
 LIBRARY: angle
@@ -54089,6 +54089,7 @@ FILE: ../../../third_party/icu/common/icudtb.dat
 FILE: ../../../third_party/icu/common/icudtl.dat
 FILE: ../../../third_party/icu/flutter/brkitr.patch
 FILE: ../../../third_party/icu/flutter/icudtl.dat
+FILE: ../../../third_party/icu/flutter_desktop/icudtl.dat
 FILE: ../../../third_party/icu/ios/icudtl.dat
 FILE: ../../../third_party/icu/patches/ardatepattern.patch
 FILE: ../../../third_party/icu/patches/atomic_template_instantiation.patch
