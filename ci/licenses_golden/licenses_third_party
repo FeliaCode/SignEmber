@@ -1,4 +1,4 @@
-Signature: 58aa849eb45241be7423c08dad2aa7a0
+Signature: 7ea770e2e44fb8185050261387151d17
 
 ====================================================================================================
 LIBRARY: angle
@@ -35962,7 +35962,6 @@ ORIGIN: ../../../third_party/dart/sdk/lib/html/html_common/filtered_element_list
 ORIGIN: ../../../third_party/dart/sdk/lib/html/html_common/lists.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/internal/iterable.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/internal/sort.dart + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/utils/peg/pegparser.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/snapshot_empty.cc
 FILE: ../../../third_party/dart/runtime/bin/snapshot_in.cc
@@ -36039,7 +36038,6 @@ FILE: ../../../third_party/dart/sdk/lib/html/html_common/filtered_element_list.d
 FILE: ../../../third_party/dart/sdk/lib/html/html_common/lists.dart
 FILE: ../../../third_party/dart/sdk/lib/internal/iterable.dart
 FILE: ../../../third_party/dart/sdk/lib/internal/sort.dart
-FILE: ../../../third_party/dart/utils/peg/pegparser.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2011, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved.
