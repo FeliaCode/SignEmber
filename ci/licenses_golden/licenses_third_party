@@ -1,4 +1,4 @@
-Signature: 7c30a2e45672e44f4d80f62471a5e1b0
+Signature: 04549c2b0f18b5f79d1c9105c0cac6eb
 
 ====================================================================================================
 LIBRARY: angle
@@ -41857,12 +41857,12 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/timer_patch.dart + 
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/type.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/typed_data_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/uri_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_wasm/wasm_types.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/core/record.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/ffi/c_type.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/ffi/native_finalizer.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/js/js_wasm.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/js_util/js_util_wasm.dart + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/sdk/lib/wasm/wasm_types.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/test_utils.cc
 FILE: ../../../third_party/dart/runtime/bin/test_utils.h
@@ -41939,12 +41939,12 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/timer_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/type.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/typed_data_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/uri_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_wasm/wasm_types.dart
 FILE: ../../../third_party/dart/sdk/lib/core/record.dart
 FILE: ../../../third_party/dart/sdk/lib/ffi/c_type.dart
 FILE: ../../../third_party/dart/sdk/lib/ffi/native_finalizer.dart
 FILE: ../../../third_party/dart/sdk/lib/js/js_wasm.dart
 FILE: ../../../third_party/dart/sdk/lib/js_util/js_util_wasm.dart
-FILE: ../../../third_party/dart/sdk/lib/wasm/wasm_types.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2022, the Dart project authors.  Please see the AUTHORS file
 for details. All rights reserved.
@@ -41995,6 +41995,7 @@ ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/record_patch.dart +
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/string_buffer_create.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/sync_star_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/weak_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/async/future_extensions.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/dart/runtime/bin/main_impl.h
@@ -42015,6 +42016,7 @@ FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/record_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/string_buffer_create.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/sync_star_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/wasm/lib/weak_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/async/future_extensions.dart
 FILE: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, the Dart project authors.  Please see the AUTHORS file
