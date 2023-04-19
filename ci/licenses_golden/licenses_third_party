@@ -1,4 +1,4 @@
-Signature: c59b84f00148ce4051d9571543f8831f
+Signature: ed96a56c53cd826ad02fcf45852b1758
 
 ====================================================================================================
 LIBRARY: angle
@@ -9200,9 +9200,7 @@ FILE: ../../../third_party/libpng/config.h.in
 FILE: ../../../third_party/libpng/example.c
 FILE: ../../../third_party/libpng/intel/filter_sse2_intrinsics.c
 FILE: ../../../third_party/libpng/intel/intel_init.c
-FILE: ../../../third_party/libpng/libpng.3
 FILE: ../../../third_party/libpng/libpng.pc.in
-FILE: ../../../third_party/libpng/libpngpf.3
 FILE: ../../../third_party/libpng/png.c
 FILE: ../../../third_party/libpng/png.h
 FILE: ../../../third_party/libpng/pngbar.jpg
@@ -10778,6 +10776,7 @@ FILE: ../../../third_party/zlib/inftrees.h
 FILE: ../../../third_party/zlib/trees.c
 FILE: ../../../third_party/zlib/uncompr.c
 FILE: ../../../third_party/zlib/zconf.h
+FILE: ../../../third_party/zlib/zconf.h.cmakein
 FILE: ../../../third_party/zlib/zlib.h
 FILE: ../../../third_party/zlib/zutil.c
 FILE: ../../../third_party/zlib/zutil.h
@@ -28364,7 +28363,7 @@ TYPE: LicenseType.bsd
 FILE: ../../../third_party/zlib/contrib/optimizations/chunkcopy.h
 ----------------------------------------------------------------------------------------------------
 Copyright (C) 2017 ARM, Inc.
-Copyright 2017 The Chromium Authors. All rights reserved.
+Copyright 2017 The Chromium Authors
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -35733,22 +35732,13 @@ freely, subject to the following restrictions:
 
 ====================================================================================================
 LIBRARY: angle
-LIBRARY: zlib
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/containers/mru_cache.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/sha1.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/sha1.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_internal.cc + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_internal.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_reader.h + ../../../LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/base/anglebase/containers/mru_cache.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/sha1.cc
 FILE: ../../../third_party/angle/src/common/base/anglebase/sha1.h
-FILE: ../../../third_party/zlib/google/zip.h
-FILE: ../../../third_party/zlib/google/zip_internal.cc
-FILE: ../../../third_party/zlib/google/zip_internal.h
-FILE: ../../../third_party/zlib/google/zip_reader.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2011 The Chromium Authors. All rights reserved.
 
@@ -36105,43 +36095,6 @@ Except as contained in this notice, the name of a copyright holder
 shall not be used in advertising or otherwise to promote the sale,
 use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: zlib
-ORIGIN: ../../../third_party/zlib/google/zip.cc + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_reader.cc + ../../../LICENSE
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/zlib/google/zip.cc
-FILE: ../../../third_party/zlib/google/zip_reader.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2012 The Chromium Authors. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-   * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-   * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -41746,41 +41699,6 @@ freely, subject to the following restrictions:
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: zlib
-ORIGIN: ../../../third_party/zlib/google/redact.h + ../../../LICENSE
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/zlib/google/redact.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2022 The Chromium Authors. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-   * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-   * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: dart
 ORIGIN: ../../../third_party/dart/runtime/bin/test_utils.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/bin/test_utils.h + ../../../third_party/dart/LICENSE
@@ -44710,18 +44628,13 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: angle
 LIBRARY: icu
-LIBRARY: zlib
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/icu/icu.isolate + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/compression_utils.cc + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/compression_utils.h + ../../../LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_conversions_impl.h
 FILE: ../../../third_party/icu/icu.isolate
-FILE: ../../../third_party/zlib/google/compression_utils.cc
-FILE: ../../../third_party/zlib/google/compression_utils.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2014 The Chromium Authors. All rights reserved.
 
@@ -46003,8 +45916,48 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: angle
 LIBRARY: zlib
+ORIGIN: ../../../third_party/zlib/adler32_simd.c + ../../../LICENSE
+ORIGIN: ../../../third_party/zlib/adler32_simd.h + ../../../LICENSE
+ORIGIN: ../../../third_party/zlib/crc32_simd.c + ../../../LICENSE
+ORIGIN: ../../../third_party/zlib/crc32_simd.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/zlib/adler32_simd.c
+FILE: ../../../third_party/zlib/adler32_simd.h
+FILE: ../../../third_party/zlib/crc32_simd.c
+FILE: ../../../third_party/zlib/crc32_simd.h
+----------------------------------------------------------------------------------------------------
+Copyright 2017 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: angle
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/clamped_math.h + ../../../LICENSE
@@ -46016,13 +45969,6 @@ ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math.
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_arm_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_clang_gcc_impl.h + ../../../LICENSE
 ORIGIN: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_shared_impl.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/adler32_simd.c + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/adler32_simd.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/chromeconf.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/crc32_simd.c + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/crc32_simd.h + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_writer.cc + ../../../LICENSE
-ORIGIN: ../../../third_party/zlib/google/zip_writer.h + ../../../LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/checked_math_impl.h
@@ -46035,13 +45981,6 @@ FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_arm_impl.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_clang_gcc_impl.h
 FILE: ../../../third_party/angle/src/common/base/anglebase/numerics/safe_math_shared_impl.h
-FILE: ../../../third_party/zlib/adler32_simd.c
-FILE: ../../../third_party/zlib/adler32_simd.h
-FILE: ../../../third_party/zlib/chromeconf.h
-FILE: ../../../third_party/zlib/crc32_simd.c
-FILE: ../../../third_party/zlib/crc32_simd.h
-FILE: ../../../third_party/zlib/google/zip_writer.cc
-FILE: ../../../third_party/zlib/google/zip_writer.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2017 The Chromium Authors. All rights reserved.
 
@@ -46908,17 +46847,49 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: angle
 LIBRARY: zlib
-ORIGIN: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/contrib/bench/zlib_bench.cc + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/cpu_features.c + ../../../LICENSE
 ORIGIN: ../../../third_party/zlib/cpu_features.h + ../../../LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h
 FILE: ../../../third_party/zlib/contrib/bench/zlib_bench.cc
 FILE: ../../../third_party/zlib/cpu_features.c
 FILE: ../../../third_party/zlib/cpu_features.h
+----------------------------------------------------------------------------------------------------
+Copyright 2018 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: angle
+ORIGIN: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/angle/src/common/base/anglebase/no_destructor.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2018 The Chromium Authors. All rights reserved.
 
@@ -47484,7 +47455,7 @@ FILE: ../../../third_party/zlib/contrib/optimizations/insert_string.h
 FILE: ../../../third_party/zlib/google/compression_utils_portable.cc
 FILE: ../../../third_party/zlib/google/compression_utils_portable.h
 ----------------------------------------------------------------------------------------------------
-Copyright 2019 The Chromium Authors. All rights reserved.
+Copyright 2019 The Chromium Authors
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -48847,7 +48818,7 @@ ORIGIN: ../../../third_party/zlib/slide_hash_simd.h + ../../../LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/zlib/slide_hash_simd.h
 ----------------------------------------------------------------------------------------------------
-Copyright 2022 The Chromium Authors. All rights reserved.
+Copyright 2022 The Chromium Authors
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -65986,6 +65957,7 @@ Disclaimer and license
 LIBRARY: zlib
 ORIGIN: ../../../third_party/zlib/LICENSE
 TYPE: LicenseType.zlib
+FILE: ../../../third_party/zlib/chromeconf.h
 FILE: ../../../third_party/zlib/contrib/minizip/ChangeLogUnzip
 FILE: ../../../third_party/zlib/contrib/minizip/ioapi.c
 FILE: ../../../third_party/zlib/contrib/minizip/ioapi.h
@@ -65998,6 +65970,19 @@ FILE: ../../../third_party/zlib/contrib/minizip/unzip.h
 FILE: ../../../third_party/zlib/contrib/minizip/zip.c
 FILE: ../../../third_party/zlib/contrib/minizip/zip.h
 FILE: ../../../third_party/zlib/crc32.h
+FILE: ../../../third_party/zlib/google/compression_utils.cc
+FILE: ../../../third_party/zlib/google/compression_utils.h
+FILE: ../../../third_party/zlib/google/redact.h
+FILE: ../../../third_party/zlib/google/test_data.filelist
+FILE: ../../../third_party/zlib/google/test_data.globlist
+FILE: ../../../third_party/zlib/google/zip.cc
+FILE: ../../../third_party/zlib/google/zip.h
+FILE: ../../../third_party/zlib/google/zip_internal.cc
+FILE: ../../../third_party/zlib/google/zip_internal.h
+FILE: ../../../third_party/zlib/google/zip_reader.cc
+FILE: ../../../third_party/zlib/google/zip_reader.h
+FILE: ../../../third_party/zlib/google/zip_writer.cc
+FILE: ../../../third_party/zlib/google/zip_writer.h
 FILE: ../../../third_party/zlib/inffixed.h
 FILE: ../../../third_party/zlib/patches/0000-build.patch
 FILE: ../../../third_party/zlib/patches/0001-simd.patch
@@ -66009,7 +65994,11 @@ FILE: ../../../third_party/zlib/patches/0006-fix-check_match.patch
 FILE: ../../../third_party/zlib/patches/0007-zero-init-deflate-window.patch
 FILE: ../../../third_party/zlib/patches/0008-minizip-zip-unzip-tools.patch
 FILE: ../../../third_party/zlib/patches/0009-infcover-oob.patch
+FILE: ../../../third_party/zlib/patches/0010-cmake-enable-simd.patch
+FILE: ../../../third_party/zlib/patches/0011-avx512.patch
 FILE: ../../../third_party/zlib/trees.h
+FILE: ../../../third_party/zlib/zlib.map
+FILE: ../../../third_party/zlib/zlib.pc.cmakein
 ----------------------------------------------------------------------------------------------------
 version 1.2.12, March 27th, 2022
 
