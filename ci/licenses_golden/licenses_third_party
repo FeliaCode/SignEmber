@@ -1,4 +1,4 @@
-Signature: ed96a56c53cd826ad02fcf45852b1758
+Signature: 6847d1dca1cd68f5d0af5c3c412a4f10
 
 ====================================================================================================
 LIBRARY: angle
@@ -273,6 +273,7 @@ limitations under the License.
 ====================================================================================================
 LIBRARY: abseil-cpp
 LIBRARY: angle
+LIBRARY: dart
 LIBRARY: expat
 LIBRARY: flatbuffers
 LIBRARY: fuchsia-vulkan
@@ -521,6 +522,14 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/android_system_settings/src/com/android/angle/common/SearchProvider.java
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/common/vulkan/vk_google_filtering_precision.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/thread_descriptor.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_descriptor.proto
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_event.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/flatbuffers/conan/test_package/test_package.cpp
@@ -2499,6 +2508,14 @@ FILE: ../../../third_party/angle/src/android_system_settings/src/com/android/ang
 FILE: ../../../third_party/angle/src/common/vulkan/vk_google_filtering_precision.h
 FILE: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/overlay/RobotoMono-Bold.ttf
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/thread_descriptor.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_descriptor.proto
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_event.proto
 FILE: ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 FILE: ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 FILE: ../../../third_party/flatbuffers/composer.json
@@ -33576,42 +33593,6 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: tcmalloc
-ORIGIN: ../../../third_party/dart/third_party/tcmalloc/include/gperftools/tcmalloc.h
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/dart/third_party/tcmalloc/include/gperftools/tcmalloc.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2003, Google Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-    * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-    * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../third_party/icu/source/common/ucat.cpp + ../../../third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -34419,43 +34400,6 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: tcmalloc
-ORIGIN: ../../../third_party/dart/third_party/tcmalloc/COPYING
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/dart/third_party/tcmalloc/configure_command
-FILE: ../../../third_party/dart/third_party/tcmalloc/include/config.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2005, Google Inc.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-    * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-    * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -41944,6 +41888,57 @@ FILE: ../../../third_party/dart/sdk/lib/async/future_extensions.dart
 FILE: ../../../third_party/dart/sdk/lib/js_interop/js_interop.dart
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: dart
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/thread_descriptor.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_descriptor.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_event.pbzero.h + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/runtime/vm/protos/tools/compile_perfetto_protos.dart + ../../../third_party/dart/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/thread_descriptor.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_descriptor.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_event.pbzero.h
+FILE: ../../../third_party/dart/runtime/vm/protos/tools/compile_perfetto_protos.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2023, the Dart project authors. Please see the AUTHORS file
 for details. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -66021,4 +66016,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 883
+Total license count: 882
