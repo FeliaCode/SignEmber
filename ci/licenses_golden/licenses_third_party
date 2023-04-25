@@ -1,4 +1,4 @@
-Signature: 788dd42ae24dfe56ac7b4d945e9fc8ca
+Signature: 65d9650e06fba593e188676452f5ee2a
 
 ====================================================================================================
 LIBRARY: angle
@@ -41918,6 +41918,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: dart
+ORIGIN: ../../../third_party/dart/runtime/vm/perfetto_utils.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h + ../../../third_party/dart/LICENSE
@@ -41928,6 +41929,7 @@ ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/t
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/track_event.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/tools/compile_perfetto_protos.dart + ../../../third_party/dart/LICENSE
 TYPE: LicenseType.bsd
+FILE: ../../../third_party/dart/runtime/vm/perfetto_utils.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/common/builtin_clock.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h
