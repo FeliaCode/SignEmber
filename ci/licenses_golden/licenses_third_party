@@ -1,4 +1,4 @@
-Signature: 65d9650e06fba593e188676452f5ee2a
+Signature: 12effdf746bbe30f3dfbd5304c646197
 
 ====================================================================================================
 LIBRARY: angle
@@ -328,6 +328,7 @@ ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/spirv-c
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/spirv-cross/src/spirv_reflect.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_enums.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_extension_inspection.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_format_traits.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_funcs.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_handles.hpp
@@ -1290,40 +1291,67 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/spirv-cross/src/tests-other/small_vector.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_icd.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_layer.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_sdk_platform.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/res/values/strings.xml
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_ndk_types.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_error_enums.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cast_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_dynamic_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_error_location.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_error_location.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation_error_enums.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/debug_printf.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/debug_printf.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_sets.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_sets.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_error_enums.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_cmd_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_copy_blit_resolve.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_descriptor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_device_memory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_drawdispatch.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_framebuffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_image.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_instance_device.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_pipeline.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_ray_tracing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_render_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_synchronization.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_video.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_wsi.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/custom_containers.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/qfo_transfer.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/range_vector.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/sparse_containers.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_android.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_buffer_address.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_cmd_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_cmd_buffer_dynamic.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_copy_blit_resolve.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_descriptor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_memory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_drawdispatch.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_external_object.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_image.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_image_layout.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_compute.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_graphics.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_ray_tracing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_query.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_queue.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ray_tracing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_render_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_video.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_wsi.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ycbcr.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/core_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/core_error_location.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/core_error_location.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/validation_error_enums.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/chassis.cpp
@@ -1347,10 +1375,12 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_grammar_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_tools_commit_id.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_validation_helper.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/synchronization_validation_types.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/synchronization_validation_types.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/sync_validation_types.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/sync_validation_types.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/thread_safety.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/thread_safety.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/valid_param_values.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/valid_param_values.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_dispatch_table_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_enum_string_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_extension_helper.h
@@ -1365,74 +1395,88 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_dispatch.comp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_draw.vert
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_shaders_constants.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_vuids.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/hash_util.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/hash_vk_types.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_layout_map.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_layout_map.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_lifetime_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/parameter_name.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/parameter_validation_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_layout_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_layout_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/qfo_transfer.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/range_vector.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sampler_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sparse_containers.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/subresource_adapter.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/subresource_adapter.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_validation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_lifetime_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_tracker_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/base_node.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/base_node.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_layout_map.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_layout_map.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_layout_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_layout_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_sub_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_sub_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/query_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/queue_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/queue_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/ray_tracing_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/render_pass_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/render_pass_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/sampler_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_instruction.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_instruction.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/parameter_name.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer_dynamic.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_descriptor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_memory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_external_object.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_framebuffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_image.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_instance_device.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_pipeline.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_ray_tracing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_render_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_synchronization.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_wsi.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/stateless_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_validation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_vuid_maps.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_vuid_maps.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/android_ndk_types.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/cast_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/convert_to_renderpass2.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/convert_to_renderpass2.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/hash_util.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/hash_vk_types.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_data.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings_ext.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/wsi_validation.cpp
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/algorithm.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/container.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/abseil-cpp/absl/algorithm/equal_benchmark.cc
@@ -3499,6 +3543,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hls
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/for-loop-continue-control-flow.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/fp16-packing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/front-facing.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/hyperbolic.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/image-query-selective.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/image-query-uav.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/image-query-uav.nonwritable-uav-texture.frag
@@ -3546,16 +3591,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hls
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/frag/various-glsl-ops.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/task/task-basic.spv14.vk.nocompat.task
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/basic.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/clip-cull-distance.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/instancing.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/invariant.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/legacy-int-attribute.sm30.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/locations.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/matrix-attribute.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/matrix-output.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/no-contraction.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/no-input.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/point-size-compat.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/point-size.sm30.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/qualifiers.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/read-from-row-major-array.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-hlsl/vert/return-array.vert
@@ -3575,6 +3623,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/buffer-write.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/copy-object-ssbo-to-ssbo.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/copy-object-ubo-to-ssbo.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/duplicate-spec-id.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/global-parameter-name-alias.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/image-load-store-short-vector.invalid.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/asm/comp/multiple-entry.asm.comp
@@ -3650,6 +3699,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/argument-buffers-image-load-store.msl2.argument.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/array-length.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/array-length.msl2.argument.discrete.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/atomic-float.msl3.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/atomic.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/barriers.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/basic.comp
@@ -3685,6 +3735,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/inverse.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/local-invocation-id.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/local-invocation-index.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/local-size-duplicate-spec-id.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/mat3-row-maj-read-write-const.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/mat3.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/comp/mod.comp
@@ -3767,6 +3818,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/constant-composites.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/control-dependent-in-branch.desktop.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/cull-distance-varying.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/depth-array-texture-lod.lod-as-grad.1d-as-2d.msl23.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/depth-greater-than.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/depth-less-than.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders-msl/frag/depth-out-early-frag-tests.frag
@@ -4236,6 +4288,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/fra
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/sampler.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/scalar-refract-reflect.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/selection-block-dominator.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/shader-clock.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/struct-type-unrelated-alias.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/switch-unreachable-break.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/frag/switch-unsigned-case.frag
@@ -4257,13 +4310,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/geo
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/explicit-lod.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/explicit-lod.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/fma.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/hyperbolic.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/io-blocks.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/isnan-isinf.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/modf.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/multiple-struct-flattening.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/round.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/struct-varying.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/fragment/switch.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/implicit-lod.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/int-attribute.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/inverse.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/io-block.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/outer-product.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/struct-flatten-inner-array.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/struct-flatten-stores-multi-dimension.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/opt/shaders/legacy/vert/struct-varying.legacy.vert
@@ -4571,6 +4630,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/fr
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/for-loop-continue-control-flow.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/fp16-packing.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/front-facing.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/hyperbolic.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/image-query-selective.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/image-query-uav.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/image-query-uav.nonwritable-uav-texture.frag
@@ -4618,16 +4678,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/fr
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/frag/various-glsl-ops.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/mesh/mesh-shader-basic-lines.spv14.vk.nocompat.mesh
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/mesh/mesh-shader-basic-triangle.spv14.vk.nocompat.mesh
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/task/task-basic.spv14.vk.nocompat.task
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/basic.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/clip-cull-distance.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/instancing.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/invariant.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/legacy-int-attribute.sm30.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/locations.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/matrix-attribute.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/matrix-output.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/no-contraction.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/no-input.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/point-size-compat.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/point-size.sm30.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/qualifiers.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/read-from-row-major-array.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-hlsl/vert/return-array.vert
@@ -4748,6 +4811,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/tesc/tess-level-read-write-in-function-tri.asm.tesc
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/tese/copy-tess-level.asm.msl2.tese
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/tese/split-access-chain.asm.tese
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/vert/block-io-use-in-function.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/vert/block-struct-initializer.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/vert/builtin-output-initializer.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/asm/vert/composite-extract-physical-type-id.asm.vert
@@ -4788,6 +4852,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/components/vertex-input-component.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/components/vertex-output-component.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/frag/16bit-constants.invalid.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/frag/combined-sampler-parameter-names.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/frag/demote-to-helper.vk.nocompat.msl21.invalid.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/frag/depth-image-gather.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl-no-opt/frag/force-active-resources.msl2.argument..force-active.discrete.frag
@@ -4892,6 +4957,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/buffer-write.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/copy-object-ssbo-to-ssbo.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/copy-object-ubo-to-ssbo.asm.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/duplicate-spec-id.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/global-parameter-name-alias.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/image-load-store-short-vector.invalid.asm.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/asm/comp/multiple-entry.asm.comp
@@ -4967,6 +5033,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/com
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/argument-buffers-image-load-store.msl2.argument.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/array-length.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/array-length.msl2.argument.discrete.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/atomic-float.msl3.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/atomic.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/barriers.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/basic.comp
@@ -5002,6 +5069,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/com
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/inverse.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/local-invocation-id.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/local-invocation-index.comp
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/local-size-duplicate-spec-id.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/mat3-row-maj-read-write-const.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/mat3.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/comp/mod.comp
@@ -5083,6 +5151,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/fra
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/constant-composites.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/control-dependent-in-branch.desktop.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/cull-distance-varying.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/depth-array-texture-lod.lod-as-grad.1d-as-2d.msl23.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/depth-greater-than.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/depth-less-than.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-msl/frag/depth-out-early-frag-tests.frag
@@ -5433,6 +5502,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/vert/constant-composite-extract.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/vert/debug-printf.asm.vk.nocompat.vert.vk
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/vert/empty-struct-composite.asm.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/vert/fma-legacy-fallback.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/asm/vert/semantic-decoration.asm.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/bitcast-16bit-1.invalid.comp
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/comp/bitcast-16bit-2.invalid.comp
@@ -5474,6 +5544,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/subpass-input.framebuffer-fetch.nocompat.framebuffer-fetch-noncoherent.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/subpass-input.framebuffer-fetch.nocompat.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/subpass-input.framebuffer-fetch.nocompat.legacy.framebuffer-fetch-noncoherent.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/texture-gather-offsets.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/texture-gather-uint-component.asm.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/texture1d-emulation.es.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders-no-opt/frag/texture1d-emulation.legacy.frag
@@ -5763,6 +5834,7 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/sa
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/sampler.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/scalar-refract-reflect.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/selection-block-dominator.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/shader-clock.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/struct-type-unrelated-alias.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/switch-unreachable-break.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/frag/switch-unsigned-case.frag
@@ -5784,13 +5856,19 @@ FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/geom/tr
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/explicit-lod.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/explicit-lod.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/fma.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/hyperbolic.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/io-blocks.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/isnan-isinf.legacy.frag
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/modf.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/multiple-struct-flattening.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/round.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/struct-varying.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/fragment/switch.legacy.frag
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/implicit-lod.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/int-attribute.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/inverse.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/io-block.legacy.vert
+FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/outer-product.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/struct-flatten-inner-array.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/struct-flatten-stores-multi-dimension.legacy.vert
 FILE: ../../../third_party/vulkan-deps/spirv-cross/src/reference/shaders/legacy/vert/struct-varying.legacy.vert
@@ -5984,7 +6062,6 @@ FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulka
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_icd.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_layer.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_platform.h
-FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vk_sdk_platform.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_android.h
@@ -5992,6 +6069,7 @@ FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_core.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_directfb.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_enums.hpp
+FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_extension_inspection.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_format_traits.hpp
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_fuchsia.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_funcs.hpp
@@ -6012,42 +6090,72 @@ FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xcb.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xlib.h
 FILE: ../../../third_party/vulkan-deps/vulkan-headers/src/include/vulkan/vulkan_xlib_xrandr.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/.git-blame-ignore-revs
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/CMakePresets.json
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/GOVERNANCE.md
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/AndroidManifest.xml
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/build-android/res/values/strings.xml
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_ndk_types.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/android_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/base_node.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_error_enums.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/buffer_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cast_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_dynamic_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/cmd_buffer_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/convert_to_renderpass2.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_error_location.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_error_location.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation_error_enums.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/debug_printf.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/debug_printf.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_sets.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_sets.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/descriptor_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_memory_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/device_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.json.in
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_error_enums.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_cmd_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_copy_blit_resolve.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_descriptor.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_device_memory.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_drawdispatch.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_framebuffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_image.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_instance_device.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_pipeline.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_ray_tracing.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_render_pass.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_synchronization.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_video.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_wsi.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/custom_containers.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/qfo_transfer.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/range_vector.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/sparse_containers.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_android.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_buffer_address.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_cmd_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_cmd_buffer_dynamic.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_copy_blit_resolve.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_descriptor.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_memory.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_drawdispatch.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_external_object.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_image.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_image_layout.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_compute.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_graphics.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_pipeline_ray_tracing.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_query.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_queue.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ray_tracing.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_render_pass.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_video.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_wsi.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ycbcr.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/core_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/core_error_location.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/core_error_location.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/validation_error_enums.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/best_practices.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/chassis.cpp
@@ -6071,10 +6179,12 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gener
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_grammar_helper.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_tools_commit_id.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/spirv_validation_helper.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/synchronization_validation_types.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/synchronization_validation_types.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/sync_validation_types.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/sync_validation_types.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/thread_safety.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/thread_safety.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/valid_param_values.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/valid_param_values.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_dispatch_table_helper.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_enum_string_helper.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/generated/vk_extension_helper.h
@@ -6090,77 +6200,90 @@ FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_s
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_dispatch.comp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_draw.vert
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_shaders_constants.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_vuids.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/hash_util.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/hash_vk_types.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_layout_map.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_layout_map.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/image_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/json/VkLayer_khronos_validation.json.in
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/libVkLayer_khronos_validation.map
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_lifetime_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/parameter_name.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/parameter_validation_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_layout_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_layout_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_sub_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/pipeline_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/qfo_transfer.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/query_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/queue_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/range_vector.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/ray_tracing_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/render_pass_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sampler_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_instruction.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_module.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/shader_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sparse_containers.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/subresource_adapter.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/subresource_adapter.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync_vuid_maps.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/synchronization_validation.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_session_state.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/video_validation.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_lifetime_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_tracker_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/base_node.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/base_node.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_layout_map.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_layout_map.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/image_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_layout_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_layout_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_sub_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/pipeline_sub_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/query_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/queue_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/queue_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/ray_tracing_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/render_pass_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/render_pass_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/sampler_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_instruction.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_instruction.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/parameter_name.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer_dynamic.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_descriptor.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_memory.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_external_object.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_framebuffer.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_image.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_instance_device.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_pipeline.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_ray_tracing.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_render_pass.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_synchronization.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_wsi.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/stateless_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_validation.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_validation.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_vuid_maps.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_vuid_maps.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/android_ndk_types.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/cast_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/convert_to_renderpass2.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/convert_to_renderpass2.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/hash_util.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/hash_vk_types.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_data.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_extension_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_logging.h
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings.txt
 FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings_ext.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.cpp
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_utils.h
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/wsi_validation.cpp
 FILE: ../../../third_party/wuffs/release/c/wuffs-v0.2.c
 FILE: ../../../third_party/wuffs/release/c/wuffs-v0.3.c
 ----------------------------------------------------------------------------------------------------
@@ -25418,11 +25541,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: vulkan-validation-layers
-ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
-ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/xxhash.cpp
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/xxhash.h
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.c
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/xxhash.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/xxhash.cpp
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/xxhash.h
 ----------------------------------------------------------------------------------------------------
 Copyright (C) 2012-2020 Yann Collet
 
@@ -27637,8 +27760,8 @@ POSSIBILITY OF SUCH DAMAGE.
 LIBRARY: glslang
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.h
-ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/ResourceLimits.h
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/ResourceLimits/ResourceLimits.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/AST.FromFile.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/BuiltInResource.FromFile.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/Config.FromFile.cpp
@@ -27653,8 +27776,8 @@ ORIGIN: ../../../third_party/vulkan-deps/glslang/src/gtests/main.cpp
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/Logger.h
-FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/ResourceLimits.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/ResourceLimits.h
+FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/ResourceLimits/ResourceLimits.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/AST.FromFile.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/BuiltInResource.FromFile.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/Config.FromFile.cpp
@@ -40302,10 +40425,10 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 ====================================================================================================
 LIBRARY: vulkan-validation-layers
 LIBRARY: vulkan_memory_allocator
-ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_mem_alloc.h
+ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 ORIGIN: ../../../third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 TYPE: LicenseType.mit
-FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_mem_alloc.h
+FILE: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 FILE: ../../../third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2017-2022 Advanced Micro Devices, Inc. All rights reserved.
@@ -41139,11 +41262,11 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ====================================================================================================
 LIBRARY: glslang
-ORIGIN: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.cpp
 ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/resource_limits_c.h
+ORIGIN: ../../../third_party/vulkan-deps/glslang/src/glslang/ResourceLimits/resource_limits_c.cpp
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/vulkan-deps/glslang/src/StandAlone/resource_limits_c.cpp
 FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/Public/resource_limits_c.h
+FILE: ../../../third_party/vulkan-deps/glslang/src/glslang/ResourceLimits/resource_limits_c.cpp
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2020, Travis Fort
 All rights reserved.
