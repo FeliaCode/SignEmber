@@ -1,4 +1,4 @@
-Signature: 699f92adb21e18f064113832aa084b61
+Signature: 9f7c13536970c13263a6fc2348553dde
 
 ====================================================================================================
 LIBRARY: angle
@@ -41971,6 +41971,7 @@ ORIGIN: ../../../third_party/dart/runtime/vm/unwinding_records.cc + ../../../thi
 ORIGIN: ../../../third_party/dart/runtime/vm/unwinding_records.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/unwinding_records_win.cc + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart + ../../../third_party/dart/LICENSE
+ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/records.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/js_allow_interop_patch.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_interop_patch.dart + ../../../third_party/dart/LICENSE
@@ -41998,6 +41999,7 @@ FILE: ../../../third_party/dart/runtime/vm/unwinding_records.cc
 FILE: ../../../third_party/dart/runtime/vm/unwinding_records.h
 FILE: ../../../third_party/dart/runtime/vm/unwinding_records_win.cc
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/patch/js_allow_interop_patch.dart
+FILE: ../../../third_party/dart/sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/records.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/js_allow_interop_patch.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_runtime/lib/records.dart
 FILE: ../../../third_party/dart/sdk/lib/_internal/js_shared/lib/js_interop_patch.dart
