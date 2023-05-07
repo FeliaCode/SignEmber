@@ -1,4 +1,4 @@
-Signature: ff69e6b7879b6fb13ecced79f24ece3e
+Signature: 35cd88d863331a929bbca0251ad2d9b0
 
 ====================================================================================================
 LIBRARY: angle
@@ -54216,6 +54216,7 @@ FILE: ../../../third_party/icu/patches/data_symb.patch
 FILE: ../../../third_party/icu/patches/fix-bool-mix-use.patch
 FILE: ../../../third_party/icu/patches/fuchsia.patch
 FILE: ../../../third_party/icu/patches/gb_table.patch
+FILE: ../../../third_party/icu/patches/include-utility.patch
 FILE: ../../../third_party/icu/patches/iso2022jp.patch
 FILE: ../../../third_party/icu/patches/isvalidenum.patch
 FILE: ../../../third_party/icu/patches/khmer-dictbe.patch
