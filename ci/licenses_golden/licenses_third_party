@@ -1,4 +1,4 @@
-Signature: 64117b7bc9a82db9cec40a048a64e8db
+Signature: 74fc224fc5ad989999dc8456272d066a
 
 ====================================================================================================
 LIBRARY: angle
@@ -44124,6 +44124,7 @@ FILE: ../../../third_party/dart/runtime/observatory_2/web/timeline.html
 FILE: ../../../third_party/dart/runtime/tools/wiki/styles/style.scss
 FILE: ../../../third_party/dart/runtime/tools/wiki/templates/includes/auto-refresh.html
 FILE: ../../../third_party/dart/runtime/tools/wiki/templates/page.html
+FILE: ../../../third_party/dart/sdk.code-workspace
 FILE: ../../../third_party/dart/sdk/lib/html/html_common/conversions_dart2js.dart
 FILE: ../../../third_party/dart/sdk/lib/html/html_common/html_common.dart
 ----------------------------------------------------------------------------------------------------
