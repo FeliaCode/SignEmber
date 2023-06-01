@@ -1,4 +1,4 @@
-Signature: 9e55339bd060f3e085e2a6100bcb0854
+Signature: 7b8aa0c228a7547f0f2f14261ab03ced
 
 ====================================================================================================
 LIBRARY: angle
@@ -54298,7 +54298,6 @@ FILE: ../../../third_party/icu/patches/atomic_template_instantiation.patch
 FILE: ../../../third_party/icu/patches/cjdict.patch
 FILE: ../../../third_party/icu/patches/configure.patch
 FILE: ../../../third_party/icu/patches/data_symb.patch
-FILE: ../../../third_party/icu/patches/fix-bool-mix-use.patch
 FILE: ../../../third_party/icu/patches/fuchsia.patch
 FILE: ../../../third_party/icu/patches/gb_table.patch
 FILE: ../../../third_party/icu/patches/include-utility.patch
@@ -54308,9 +54307,7 @@ FILE: ../../../third_party/icu/patches/khmer-dictbe.patch
 FILE: ../../../third_party/icu/patches/locale1.patch
 FILE: ../../../third_party/icu/patches/locale_google.patch
 FILE: ../../../third_party/icu/patches/restrace.patch
-FILE: ../../../third_party/icu/patches/revert-en-ca-date.patch
 FILE: ../../../third_party/icu/patches/wordbrk.patch
-FILE: ../../../third_party/icu/patches/wpo.patch
 FILE: ../../../third_party/icu/source/data/in/coll/ucadata-implicithan-icu4x.icu
 FILE: ../../../third_party/icu/source/data/in/coll/ucadata-implicithan.icu
 FILE: ../../../third_party/icu/source/data/in/coll/ucadata-unihan-icu4x.icu
@@ -54391,7 +54388,7 @@ THE DATA FILES OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2022 Unicode, Inc. All rights reserved.
+Copyright © 1991-2023 Unicode, Inc. All rights reserved.
 Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -54853,6 +54850,8 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/lstmbe.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/messageimpl.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/messagepattern.cpp
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/mlbe.cpp
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/mlbe.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/msvcres.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/mutex.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/norm2_nfc_data.h
@@ -55195,6 +55194,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/uvectr64.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/wintz.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/common/wintz.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/adaboost/jaml.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/de.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/dictionaries/thaidict.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/el.txt
@@ -55205,6 +55205,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/fi.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/fr.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/it.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/ko.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model4_heavy.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model5_heavy.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model7_heavy.txt
@@ -58153,10 +58154,14 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Cyrl_Gutgarts.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_ALALOC.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_ALALOC_Geminate.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_Aethiopi.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_Aethiopi_Geminate.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_Beta_Metsehaf.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_Beta_Metsehaf_Geminate.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_ES3842.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_IES_JES_1964.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_IES_JES_1964_Geminate.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_Lambdin.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Ethi_Latn_SERA.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Fullwidth_Halfwidth.txt
@@ -58298,6 +58303,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Thai_ThaiSemi.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/Zawgyi_my.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/am_Ethi_am_Brai.txt
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/am_Ethi_am_Ethi_Geminate.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/am_Ethi_d0_Morse.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/am_am_FONIPA.txt
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/data/translit/am_am_Latn_BGN.txt
@@ -59635,6 +59641,8 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/inputext.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/islamcal.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/islamcal.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/iso8601cal.cpp
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/iso8601cal.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/japancal.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/japancal.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/listformatter.cpp
@@ -59697,6 +59705,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_roundingutils.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_scientific.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_scientific.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_simple.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_skeletons.cpp
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_skeletons.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/number_symbolswrapper.cpp
@@ -59873,6 +59882,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/fieldpos.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/fmtable.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/format.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/formattednumber.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/formattedvalue.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/fpositer.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/gender.h
@@ -59897,6 +59907,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/scientificnumberformatter.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/search.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/selfmt.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/simplenumberformatter.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/simpletz.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/smpdtfmt.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/sortkey.h
@@ -59921,6 +59932,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/udisplayoptions.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/ufieldpositer.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/uformattable.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/uformattednumber.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/uformattedvalue.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/ugender.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/ulistformatter.h
@@ -59929,6 +59941,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unirepl.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unum.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unumberformatter.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unumberoptions.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unumberrangeformatter.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/unumsys.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/upluralrules.h
@@ -59936,6 +59949,7 @@ ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/uregion.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/ureldatefmt.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/usearch.h
+ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/usimplenumberformatter.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/uspoof.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/utmscale.h
 ORIGIN: http://www.unicode.org/copyright.html referenced by ../../../third_party/icu/source/i18n/unicode/utrans.h
@@ -60236,6 +60250,8 @@ FILE: ../../../third_party/icu/source/common/lstmbe.cpp
 FILE: ../../../third_party/icu/source/common/lstmbe.h
 FILE: ../../../third_party/icu/source/common/messageimpl.h
 FILE: ../../../third_party/icu/source/common/messagepattern.cpp
+FILE: ../../../third_party/icu/source/common/mlbe.cpp
+FILE: ../../../third_party/icu/source/common/mlbe.h
 FILE: ../../../third_party/icu/source/common/msvcres.h
 FILE: ../../../third_party/icu/source/common/mutex.h
 FILE: ../../../third_party/icu/source/common/norm2_nfc_data.h
@@ -60578,6 +60594,7 @@ FILE: ../../../third_party/icu/source/common/uvectr64.cpp
 FILE: ../../../third_party/icu/source/common/uvectr64.h
 FILE: ../../../third_party/icu/source/common/wintz.cpp
 FILE: ../../../third_party/icu/source/common/wintz.h
+FILE: ../../../third_party/icu/source/data/brkitr/adaboost/jaml.txt
 FILE: ../../../third_party/icu/source/data/brkitr/de.txt
 FILE: ../../../third_party/icu/source/data/brkitr/dictionaries/thaidict.txt
 FILE: ../../../third_party/icu/source/data/brkitr/el.txt
@@ -60589,6 +60606,7 @@ FILE: ../../../third_party/icu/source/data/brkitr/fi.txt
 FILE: ../../../third_party/icu/source/data/brkitr/fr.txt
 FILE: ../../../third_party/icu/source/data/brkitr/it.txt
 FILE: ../../../third_party/icu/source/data/brkitr/ja.txt
+FILE: ../../../third_party/icu/source/data/brkitr/ko.txt
 FILE: ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model4_heavy.txt
 FILE: ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model5_heavy.txt
 FILE: ../../../third_party/icu/source/data/brkitr/lstm/Burmese_codepoints_exclusive_model7_heavy.txt
@@ -63544,10 +63562,14 @@ FILE: ../../../third_party/icu/source/data/translit/Devanagari_InterIndic.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Cyrl_Gutgarts.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_ALALOC.txt
+FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_ALALOC_Geminate.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_Aethiopi.txt
+FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_Aethiopi_Geminate.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_Beta_Metsehaf.txt
+FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_Beta_Metsehaf_Geminate.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_ES3842.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_IES_JES_1964.txt
+FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_IES_JES_1964_Geminate.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_Lambdin.txt
 FILE: ../../../third_party/icu/source/data/translit/Ethi_Latn_SERA.txt
 FILE: ../../../third_party/icu/source/data/translit/Fullwidth_Halfwidth.txt
@@ -63689,6 +63711,7 @@ FILE: ../../../third_party/icu/source/data/translit/Thai_ThaiLogical.txt
 FILE: ../../../third_party/icu/source/data/translit/Thai_ThaiSemi.txt
 FILE: ../../../third_party/icu/source/data/translit/Zawgyi_my.txt
 FILE: ../../../third_party/icu/source/data/translit/am_Ethi_am_Brai.txt
+FILE: ../../../third_party/icu/source/data/translit/am_Ethi_am_Ethi_Geminate.txt
 FILE: ../../../third_party/icu/source/data/translit/am_Ethi_d0_Morse.txt
 FILE: ../../../third_party/icu/source/data/translit/am_am_FONIPA.txt
 FILE: ../../../third_party/icu/source/data/translit/am_am_Latn_BGN.txt
@@ -65037,6 +65060,8 @@ FILE: ../../../third_party/icu/source/i18n/inputext.cpp
 FILE: ../../../third_party/icu/source/i18n/inputext.h
 FILE: ../../../third_party/icu/source/i18n/islamcal.cpp
 FILE: ../../../third_party/icu/source/i18n/islamcal.h
+FILE: ../../../third_party/icu/source/i18n/iso8601cal.cpp
+FILE: ../../../third_party/icu/source/i18n/iso8601cal.h
 FILE: ../../../third_party/icu/source/i18n/japancal.cpp
 FILE: ../../../third_party/icu/source/i18n/japancal.h
 FILE: ../../../third_party/icu/source/i18n/listformatter.cpp
@@ -65099,6 +65124,7 @@ FILE: ../../../third_party/icu/source/i18n/number_rounding.cpp
 FILE: ../../../third_party/icu/source/i18n/number_roundingutils.h
 FILE: ../../../third_party/icu/source/i18n/number_scientific.cpp
 FILE: ../../../third_party/icu/source/i18n/number_scientific.h
+FILE: ../../../third_party/icu/source/i18n/number_simple.cpp
 FILE: ../../../third_party/icu/source/i18n/number_skeletons.cpp
 FILE: ../../../third_party/icu/source/i18n/number_skeletons.h
 FILE: ../../../third_party/icu/source/i18n/number_symbolswrapper.cpp
@@ -65275,6 +65301,7 @@ FILE: ../../../third_party/icu/source/i18n/unicode/dtrule.h
 FILE: ../../../third_party/icu/source/i18n/unicode/fieldpos.h
 FILE: ../../../third_party/icu/source/i18n/unicode/fmtable.h
 FILE: ../../../third_party/icu/source/i18n/unicode/format.h
+FILE: ../../../third_party/icu/source/i18n/unicode/formattednumber.h
 FILE: ../../../third_party/icu/source/i18n/unicode/formattedvalue.h
 FILE: ../../../third_party/icu/source/i18n/unicode/fpositer.h
 FILE: ../../../third_party/icu/source/i18n/unicode/gender.h
@@ -65299,6 +65326,7 @@ FILE: ../../../third_party/icu/source/i18n/unicode/reldatefmt.h
 FILE: ../../../third_party/icu/source/i18n/unicode/scientificnumberformatter.h
 FILE: ../../../third_party/icu/source/i18n/unicode/search.h
 FILE: ../../../third_party/icu/source/i18n/unicode/selfmt.h
+FILE: ../../../third_party/icu/source/i18n/unicode/simplenumberformatter.h
 FILE: ../../../third_party/icu/source/i18n/unicode/simpletz.h
 FILE: ../../../third_party/icu/source/i18n/unicode/smpdtfmt.h
 FILE: ../../../third_party/icu/source/i18n/unicode/sortkey.h
@@ -65323,6 +65351,7 @@ FILE: ../../../third_party/icu/source/i18n/unicode/udatpg.h
 FILE: ../../../third_party/icu/source/i18n/unicode/udisplayoptions.h
 FILE: ../../../third_party/icu/source/i18n/unicode/ufieldpositer.h
 FILE: ../../../third_party/icu/source/i18n/unicode/uformattable.h
+FILE: ../../../third_party/icu/source/i18n/unicode/uformattednumber.h
 FILE: ../../../third_party/icu/source/i18n/unicode/uformattedvalue.h
 FILE: ../../../third_party/icu/source/i18n/unicode/ugender.h
 FILE: ../../../third_party/icu/source/i18n/unicode/ulistformatter.h
@@ -65331,6 +65360,7 @@ FILE: ../../../third_party/icu/source/i18n/unicode/umsg.h
 FILE: ../../../third_party/icu/source/i18n/unicode/unirepl.h
 FILE: ../../../third_party/icu/source/i18n/unicode/unum.h
 FILE: ../../../third_party/icu/source/i18n/unicode/unumberformatter.h
+FILE: ../../../third_party/icu/source/i18n/unicode/unumberoptions.h
 FILE: ../../../third_party/icu/source/i18n/unicode/unumberrangeformatter.h
 FILE: ../../../third_party/icu/source/i18n/unicode/unumsys.h
 FILE: ../../../third_party/icu/source/i18n/unicode/upluralrules.h
@@ -65338,6 +65368,7 @@ FILE: ../../../third_party/icu/source/i18n/unicode/uregex.h
 FILE: ../../../third_party/icu/source/i18n/unicode/uregion.h
 FILE: ../../../third_party/icu/source/i18n/unicode/ureldatefmt.h
 FILE: ../../../third_party/icu/source/i18n/unicode/usearch.h
+FILE: ../../../third_party/icu/source/i18n/unicode/usimplenumberformatter.h
 FILE: ../../../third_party/icu/source/i18n/unicode/uspoof.h
 FILE: ../../../third_party/icu/source/i18n/unicode/utmscale.h
 FILE: ../../../third_party/icu/source/i18n/unicode/utrans.h
