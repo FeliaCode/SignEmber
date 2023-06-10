@@ -1,4 +1,4 @@
-Signature: 9aeb9aa21b566cdd9a640c4db7a2f2dc
+Signature: 40819d3a99e084e734c00ebcce2b95d8
 
 ====================================================================================================
 LIBRARY: angle
@@ -528,7 +528,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/interned_data/interned_data.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_common.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_packet.proto
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.proto
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.proto
@@ -2561,7 +2560,6 @@ FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/interned_data/interned_data.proto
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_common.proto
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_packet.proto
-FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace.proto
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.proto
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.proto
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.proto
@@ -42061,7 +42059,6 @@ ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapsho
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/interned_data/interned_data.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_common.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_packet.pbzero.h + ../../../third_party/dart/LICENSE
-ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.pbzero.h + ../../../third_party/dart/LICENSE
 ORIGIN: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.pbzero.h + ../../../third_party/dart/LICENSE
@@ -42076,7 +42073,6 @@ FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/clock_snapshot.
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/interned_data/interned_data.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_common.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/profiling/profile_packet.pbzero.h
-FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/trace_packet.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/debug_annotation.pbzero.h
 FILE: ../../../third_party/dart/runtime/vm/protos/perfetto/trace/track_event/process_descriptor.pbzero.h
