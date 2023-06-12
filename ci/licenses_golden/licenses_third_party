@@ -1,4 +1,4 @@
-Signature: 25a820f9c3dcc692dedd655a2cdc3cf6
+Signature: 4ffde264edb3a2018628d90f1435b66d
 
 ====================================================================================================
 LIBRARY: angle
@@ -48772,11 +48772,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: angle
-ORIGIN: ../../../third_party/angle/include/platform/FeaturesD3D_autogen.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/include/platform/FeaturesGL_autogen.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/include/platform/FeaturesMtl_autogen.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/include/platform/FeaturesVk_autogen.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/include/platform/FrontendFeatures_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/include/platform/autogen/FeaturesD3D_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/include/platform/autogen/FeaturesGL_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/include/platform/autogen/FeaturesMtl_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/include/platform/autogen/FeaturesVk_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/include/platform/autogen/FrontendFeatures_autogen.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/platform/d3d_features.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/platform/frontend_features.json + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/include/platform/gl_features.json + ../../../third_party/angle/LICENSE
@@ -48853,11 +48853,11 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/Over
 ORIGIN: ../../../third_party/angle/src/libGLESv2/entry_points_glx.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libGLESv2/entry_points_glx.h + ../../../third_party/angle/LICENSE
 TYPE: LicenseType.bsd
-FILE: ../../../third_party/angle/include/platform/FeaturesD3D_autogen.h
-FILE: ../../../third_party/angle/include/platform/FeaturesGL_autogen.h
-FILE: ../../../third_party/angle/include/platform/FeaturesMtl_autogen.h
-FILE: ../../../third_party/angle/include/platform/FeaturesVk_autogen.h
-FILE: ../../../third_party/angle/include/platform/FrontendFeatures_autogen.h
+FILE: ../../../third_party/angle/include/platform/autogen/FeaturesD3D_autogen.h
+FILE: ../../../third_party/angle/include/platform/autogen/FeaturesGL_autogen.h
+FILE: ../../../third_party/angle/include/platform/autogen/FeaturesMtl_autogen.h
+FILE: ../../../third_party/angle/include/platform/autogen/FeaturesVk_autogen.h
+FILE: ../../../third_party/angle/include/platform/autogen/FrontendFeatures_autogen.h
 FILE: ../../../third_party/angle/include/platform/d3d_features.json
 FILE: ../../../third_party/angle/include/platform/frontend_features.json
 FILE: ../../../third_party/angle/include/platform/gl_features.json
