@@ -1,4 +1,4 @@
-Signature: c141bfd886caa4764d107ac50623f92c
+Signature: ef991265b6b4b9b55e75a83622962bcd
 
 ====================================================================================================
 LIBRARY: angle
@@ -47732,8 +47732,6 @@ ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/d3d/RecordUn
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/d3d/RecordUniformBlocksWithLargeArrayMember.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/FlagSamplersWithTexelFetch.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/FlagSamplersWithTexelFetch.h + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/ReplaceForShaderFramebufferFetch.cpp + ../../../third_party/angle/LICENSE
-ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/ReplaceForShaderFramebufferFetch.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteInterpolateAtOffset.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteInterpolateAtOffset.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_util/AsNode.h + ../../../third_party/angle/LICENSE
@@ -48027,8 +48025,6 @@ FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/d3d/RecordUnif
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/d3d/RecordUniformBlocksWithLargeArrayMember.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/FlagSamplersWithTexelFetch.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/FlagSamplersWithTexelFetch.h
-FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/ReplaceForShaderFramebufferFetch.cpp
-FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/ReplaceForShaderFramebufferFetch.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteInterpolateAtOffset.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/RewriteInterpolateAtOffset.h
 FILE: ../../../third_party/angle/src/compiler/translator/tree_util/AsNode.h
@@ -49011,12 +49007,18 @@ LIBRARY: angle
 ORIGIN: ../../../third_party/angle/src/common/FixedQueue.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/RewriteInterpolants.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/RewriteInterpolants.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFramebufferFetch.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFramebufferFetch.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/GlobalMutex.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/GlobalMutex.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/SharedContextMutex.cpp + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/SharedContextMutex.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/blocklayoutMetal.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/blocklayoutMetal.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_library_cache.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_library_cache.mm + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_pipeline_cache.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/process.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/process.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/metal/renderermtl_utils.cpp + ../../../third_party/angle/LICENSE
@@ -49027,16 +49029,24 @@ ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/SecondaryCommand
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/SecondaryCommandPool.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShareGroupVk.cpp + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShareGroupVk.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libGLESv2/egl_context_lock_autogen.h + ../../../third_party/angle/LICENSE
+ORIGIN: ../../../third_party/angle/src/libGLESv2/egl_context_lock_impl.h + ../../../third_party/angle/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../third_party/angle/src/common/FixedQueue.h
 FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/RewriteInterpolants.cpp
 FILE: ../../../third_party/angle/src/compiler/translator/TranslatorMetalDirect/RewriteInterpolants.h
+FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFramebufferFetch.cpp
+FILE: ../../../third_party/angle/src/compiler/translator/tree_ops/vulkan/EmulateFramebufferFetch.h
 FILE: ../../../third_party/angle/src/libANGLE/GlobalMutex.cpp
 FILE: ../../../third_party/angle/src/libANGLE/GlobalMutex.h
+FILE: ../../../third_party/angle/src/libANGLE/SharedContextMutex.cpp
+FILE: ../../../third_party/angle/src/libANGLE/SharedContextMutex.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/blocklayoutMetal.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/blocklayoutMetal.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_library_cache.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_library_cache.mm
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_pipeline_cache.h
+FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/process.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/process.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/metal/renderermtl_utils.cpp
@@ -49047,6 +49057,8 @@ FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/SecondaryCommandPo
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/SecondaryCommandPool.h
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShareGroupVk.cpp
 FILE: ../../../third_party/angle/src/libANGLE/renderer/vulkan/ShareGroupVk.h
+FILE: ../../../third_party/angle/src/libGLESv2/egl_context_lock_autogen.h
+FILE: ../../../third_party/angle/src/libGLESv2/egl_context_lock_impl.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2023 The ANGLE Project Authors. All rights reserved.
 
