@@ -1,4 +1,4 @@
-Signature: 5ef1e1b309e063c0fcac9bf05e72cd33
+Signature: cc43922ed6f49342e50a23ad11cbbe6f
 
 ====================================================================================================
 LIBRARY: angle
@@ -275,7 +275,6 @@ LIBRARY: abseil-cpp
 LIBRARY: angle
 LIBRARY: expat
 LIBRARY: flatbuffers
-LIBRARY: fuchsia-vulkan
 LIBRARY: glslang
 LIBRARY: khronos
 LIBRARY: perfetto
@@ -287,18 +286,10 @@ LIBRARY: wuffs
 ORIGIN: ../../../third_party/angle/src/libANGLE/overlay/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/swift/LICENSE
-ORIGIN: ../../../third_party/fuchsia-vulkan/LICENSE.txt
 ORIGIN: ../../../third_party/shaderc/LICENSE
 ORIGIN: ../../../third_party/vulkan-deps/spirv-cross/src/LICENSE
 ORIGIN: ../../../third_party/vulkan-deps/vulkan-headers/src/LICENSE.txt
 ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/LICENSE.txt
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_enums.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_funcs.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_handles.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_raii.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_structs.hpp
-ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/fuchsia-vulkan/registry/vk.xml
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/spirv-cross/src/main.cpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/spirv-cross/src/spirv_cfg.cpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../third_party/vulkan-deps/spirv-cross/src/spirv_cfg.hpp
@@ -341,31 +332,6 @@ ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/EGL/eglext.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/EGL/eglplatform.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/GLES2/gl2platform.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/GLES3/gl3platform.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std_decode.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std_encode.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std_decode.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std_encode.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codecs_common.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vk_platform.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_android.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_beta.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_core.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_directfb.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_fuchsia.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_ggp.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_ios.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_macos.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_metal.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_screen.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_vi.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_wayland.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_win32.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xcb.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xlib.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xlib_xrandr.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/egl.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/eglext.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/eglplatform.h
@@ -670,9 +636,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/flatbuffers/swift/Sources/FlatBuffers/VeriferOptions.swift
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/flatbuffers/swift/Sources/FlatBuffers/Verifiable.swift
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/flatbuffers/swift/Sources/FlatBuffers/Verifier.swift
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vk_icd.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vk_layer.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/fuchsia-vulkan/include/vulkan/vk_sdk_platform.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/khronos/GLES2/gl2platform.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/khronos/GLES3/gl3platform.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/Android.bp
@@ -2807,42 +2770,6 @@ FILE: ../../../third_party/flatbuffers/swift/Sources/FlatBuffers/Verifier.swift
 FILE: ../../../third_party/flatbuffers/tsconfig.json
 FILE: ../../../third_party/flatbuffers/tsconfig.mjs.json
 FILE: ../../../third_party/flatbuffers/yarn.lock
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std_decode.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h264std_encode.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std_decode.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codec_h265std_encode.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vk_video/vulkan_video_codecs_common.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vk_icd.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vk_layer.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vk_platform.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vk_sdk_platform.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_android.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_beta.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_core.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_directfb.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_enums.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_fuchsia.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_funcs.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_ggp.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_handles.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_ios.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_macos.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_metal.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_raii.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_screen.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_structs.hpp
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_vi.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_wayland.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_win32.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xcb.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xlib.h
-FILE: ../../../third_party/fuchsia-vulkan/include/vulkan/vulkan_xlib_xrandr.h
-FILE: ../../../third_party/fuchsia-vulkan/registry/validusage.json
-FILE: ../../../third_party/fuchsia-vulkan/registry/vk.xml
 FILE: ../../../third_party/khronos/EGL/egl.h
 FILE: ../../../third_party/khronos/EGL/eglext.h
 FILE: ../../../third_party/khronos/EGL/eglplatform.h
