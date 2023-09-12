@@ -1,4 +1,4 @@
-Signature: b24e99340b27a1e3a0e7200cd1c3df32
+Signature: d18c418247db94f3fad4810fc4ab16af
 
 ====================================================================================================
 LIBRARY: angle
@@ -35445,7 +35445,10 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 LIBRARY: libwebp
 ORIGIN: ../../../third_party/libwebp/COPYING
 TYPE: LicenseType.bsd
+FILE: ../../../third_party/libwebp/.pylintrc
 FILE: ../../../third_party/libwebp/extras/webp_quality.c
+FILE: ../../../third_party/libwebp/sharpyuv/libsharpyuv.pc.in
+FILE: ../../../third_party/libwebp/sharpyuv/libsharpyuv.rc
 FILE: ../../../third_party/libwebp/src/demux/libwebpdemux.pc.in
 FILE: ../../../third_party/libwebp/src/demux/libwebpdemux.rc
 FILE: ../../../third_party/libwebp/src/libwebp.pc.in
@@ -43664,6 +43667,43 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: libwebp
+ORIGIN: ../../../third_party/libwebp/src/dsp/lossless_sse41.c + ../../../third_party/libwebp/COPYING
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/libwebp/src/dsp/lossless_sse41.c
+----------------------------------------------------------------------------------------------------
+Copyright 2021 Google Inc. All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Google nor the names of its contributors may
+    be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: angle
 ORIGIN: ../../../third_party/angle/include/angle_cl.h + ../../../third_party/angle/LICENSE
 ORIGIN: ../../../third_party/angle/src/common/CircularBuffer.h + ../../../third_party/angle/LICENSE
@@ -44128,6 +44168,67 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: libwebp
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv.h + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_cpu.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_cpu.h + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_csp.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_csp.h + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_dsp.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_dsp.h + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_gamma.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_gamma.h + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_neon.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/sharpyuv/sharpyuv_sse2.c + ../../../third_party/libwebp/COPYING
+ORIGIN: ../../../third_party/libwebp/src/dsp/cpu.h + ../../../third_party/libwebp/COPYING
+TYPE: LicenseType.bsd
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv.h
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_cpu.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_cpu.h
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_csp.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_csp.h
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_dsp.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_dsp.h
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_gamma.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_gamma.h
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_neon.c
+FILE: ../../../third_party/libwebp/sharpyuv/sharpyuv_sse2.c
+FILE: ../../../third_party/libwebp/src/dsp/cpu.h
+----------------------------------------------------------------------------------------------------
+Copyright 2022 Google Inc. All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Google nor the names of its contributors may
+    be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -61816,4 +61917,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 866
+Total license count: 868
