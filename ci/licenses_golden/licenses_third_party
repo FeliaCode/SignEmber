@@ -1,4 +1,4 @@
-Signature: 0e74d276e12eb0bcc1bfbdbbfabc2574
+Signature: 22b6a63b18dd5d72500a4009598eba44
 
 ====================================================================================================
 LIBRARY: angle
@@ -11942,35 +11942,6 @@ Except as contained in this notice, the name of a copyright holder
 shall not be used in advertising or otherwise to promote the sale,
 use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/mappings.h
-ORIGIN: ../../../third_party/glfw/src/mappings.h.in
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/mappings.h
-FILE: ../../../third_party/glfw/src/mappings.h.in
-----------------------------------------------------------------------------------------------------
-Copyright (C) 1997-2013 Sam Lantinga <slouken@libsdl.org>
-
-This software is provided 'as-is', without any express or implied warranty.
-In no event will the authors be held liable for any damages arising from the
-use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not be
-   misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
 ====================================================================================================
@@ -32648,240 +32619,6 @@ written authorization of the copyright holder.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/LICENSE.md
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/glfw.rc.in
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-
-Copyright (c) 2006-2019 Camilla Löwy
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/context.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/context.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-Copyright (c) 2006-2016 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/linux_joystick.c
-ORIGIN: ../../../third_party/glfw/src/posix_thread.c
-ORIGIN: ../../../third_party/glfw/src/posix_thread.h
-ORIGIN: ../../../third_party/glfw/src/posix_time.c
-ORIGIN: ../../../third_party/glfw/src/posix_time.h
-ORIGIN: ../../../third_party/glfw/src/win32_thread.c
-ORIGIN: ../../../third_party/glfw/src/win32_thread.h
-ORIGIN: ../../../third_party/glfw/src/win32_time.c
-ORIGIN: ../../../third_party/glfw/src/win32_time.h
-ORIGIN: ../../../third_party/glfw/src/xkb_unicode.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/linux_joystick.c
-FILE: ../../../third_party/glfw/src/posix_thread.c
-FILE: ../../../third_party/glfw/src/posix_thread.h
-FILE: ../../../third_party/glfw/src/posix_time.c
-FILE: ../../../third_party/glfw/src/posix_time.h
-FILE: ../../../third_party/glfw/src/win32_thread.c
-FILE: ../../../third_party/glfw/src/win32_thread.h
-FILE: ../../../third_party/glfw/src/win32_time.c
-FILE: ../../../third_party/glfw/src/win32_time.h
-FILE: ../../../third_party/glfw/src/xkb_unicode.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-Copyright (c) 2006-2017 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/include/GLFW/glfw3native.h
-ORIGIN: ../../../third_party/glfw/src/init.c
-ORIGIN: ../../../third_party/glfw/src/platform.c
-ORIGIN: ../../../third_party/glfw/src/platform.h
-ORIGIN: ../../../third_party/glfw/src/vulkan.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/include/GLFW/glfw3native.h
-FILE: ../../../third_party/glfw/src/init.c
-FILE: ../../../third_party/glfw/src/platform.c
-FILE: ../../../third_party/glfw/src/platform.h
-FILE: ../../../third_party/glfw/src/vulkan.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-Copyright (c) 2006-2018 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/include/GLFW/glfw3.h
-ORIGIN: ../../../third_party/glfw/src/cocoa_monitor.m
-ORIGIN: ../../../third_party/glfw/src/egl_context.c
-ORIGIN: ../../../third_party/glfw/src/glx_context.c
-ORIGIN: ../../../third_party/glfw/src/input.c
-ORIGIN: ../../../third_party/glfw/src/internal.h
-ORIGIN: ../../../third_party/glfw/src/monitor.c
-ORIGIN: ../../../third_party/glfw/src/wgl_context.c
-ORIGIN: ../../../third_party/glfw/src/win32_init.c
-ORIGIN: ../../../third_party/glfw/src/win32_joystick.c
-ORIGIN: ../../../third_party/glfw/src/win32_monitor.c
-ORIGIN: ../../../third_party/glfw/src/win32_platform.h
-ORIGIN: ../../../third_party/glfw/src/win32_window.c
-ORIGIN: ../../../third_party/glfw/src/x11_init.c
-ORIGIN: ../../../third_party/glfw/src/x11_monitor.c
-ORIGIN: ../../../third_party/glfw/src/x11_platform.h
-ORIGIN: ../../../third_party/glfw/src/x11_window.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/include/GLFW/glfw3.h
-FILE: ../../../third_party/glfw/src/cocoa_monitor.m
-FILE: ../../../third_party/glfw/src/egl_context.c
-FILE: ../../../third_party/glfw/src/glx_context.c
-FILE: ../../../third_party/glfw/src/input.c
-FILE: ../../../third_party/glfw/src/internal.h
-FILE: ../../../third_party/glfw/src/monitor.c
-FILE: ../../../third_party/glfw/src/wgl_context.c
-FILE: ../../../third_party/glfw/src/win32_init.c
-FILE: ../../../third_party/glfw/src/win32_joystick.c
-FILE: ../../../third_party/glfw/src/win32_monitor.c
-FILE: ../../../third_party/glfw/src/win32_platform.h
-FILE: ../../../third_party/glfw/src/win32_window.c
-FILE: ../../../third_party/glfw/src/x11_init.c
-FILE: ../../../third_party/glfw/src/x11_monitor.c
-FILE: ../../../third_party/glfw/src/x11_platform.h
-FILE: ../../../third_party/glfw/src/x11_window.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-Copyright (c) 2006-2019 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/window.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/window.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2002-2006 Marcus Geelnard
-Copyright (c) 2006-2019 Camilla Löwy <elmindreda@glfw.org>
-Copyright (c) 2012 Torsten Walluhn <tw@mad-cad.net>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/fipsmodule/aes/aes.c
 ORIGIN: ../../../third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.c
@@ -34451,68 +34188,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/cocoa_joystick.h
-ORIGIN: ../../../third_party/glfw/src/null_joystick.h
-ORIGIN: ../../../third_party/glfw/src/win32_joystick.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/cocoa_joystick.h
-FILE: ../../../third_party/glfw/src/null_joystick.h
-FILE: ../../../third_party/glfw/src/win32_joystick.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2006-2017 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/mappings.h
-ORIGIN: ../../../third_party/glfw/src/mappings.h.in
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/mappings.h
-FILE: ../../../third_party/glfw/src/mappings.h.in
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2006-2018 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: khronos
 ORIGIN: ../../../third_party/khronos/noninclude/GL/glxext.h
 TYPE: LicenseType.unknown
@@ -35171,97 +34846,6 @@ THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/cocoa_time.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/cocoa_time.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2009-2016 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/cocoa_init.m
-ORIGIN: ../../../third_party/glfw/src/cocoa_platform.h
-ORIGIN: ../../../third_party/glfw/src/cocoa_window.m
-ORIGIN: ../../../third_party/glfw/src/nsgl_context.m
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/cocoa_init.m
-FILE: ../../../third_party/glfw/src/cocoa_platform.h
-FILE: ../../../third_party/glfw/src/cocoa_window.m
-FILE: ../../../third_party/glfw/src/nsgl_context.m
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2009-2019 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/cocoa_joystick.m
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/cocoa_joystick.m
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2009-2019 Camilla Löwy <elmindreda@glfw.org>
-Copyright (c) 2012 Torsten Walluhn <tw@mad-cad.net>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: libcxx
 LIBRARY: libcxxabi
 ORIGIN: ../../../third_party/libcxx/LICENSE.TXT
@@ -35330,34 +34914,6 @@ CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
 SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/cocoa_time.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/cocoa_time.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2009-2021 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
 ====================================================================================================
 
 ====================================================================================================
@@ -36121,44 +35677,6 @@ SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/linux_joystick.h
-ORIGIN: ../../../third_party/glfw/src/wl_init.c
-ORIGIN: ../../../third_party/glfw/src/wl_monitor.c
-ORIGIN: ../../../third_party/glfw/src/wl_platform.h
-ORIGIN: ../../../third_party/glfw/src/wl_window.c
-ORIGIN: ../../../third_party/glfw/src/xkb_unicode.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/linux_joystick.h
-FILE: ../../../third_party/glfw/src/wl_init.c
-FILE: ../../../third_party/glfw/src/wl_monitor.c
-FILE: ../../../third_party/glfw/src/wl_platform.h
-FILE: ../../../third_party/glfw/src/wl_window.c
-FILE: ../../../third_party/glfw/src/xkb_unicode.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2014 Jonas Ådahl <jadahl@gmail.com>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/bio/socket_helper.c
 ORIGIN: ../../../third_party/boringssl/src/crypto/bytestring/ber.c
@@ -36622,70 +36140,6 @@ SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/null_init.c
-ORIGIN: ../../../third_party/glfw/src/null_platform.h
-ORIGIN: ../../../third_party/glfw/src/osmesa_context.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/null_init.c
-FILE: ../../../third_party/glfw/src/null_platform.h
-FILE: ../../../third_party/glfw/src/osmesa_context.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2016 Google Inc.
-Copyright (c) 2016-2017 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/null_monitor.c
-ORIGIN: ../../../third_party/glfw/src/null_window.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/null_monitor.c
-FILE: ../../../third_party/glfw/src/null_window.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2016 Google Inc.
-Copyright (c) 2016-2019 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../third_party/boringssl/src/crypto/bytestring/asn1_compat.c
 ORIGIN: ../../../third_party/boringssl/src/crypto/cpu_aarch64_linux.c
@@ -36744,34 +36198,6 @@ SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
 OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/null_joystick.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/null_joystick.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2016-2017 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
 ====================================================================================================
 
 ====================================================================================================
@@ -37381,36 +36807,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/posix_module.c
-ORIGIN: ../../../third_party/glfw/src/win32_module.c
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/posix_module.c
-FILE: ../../../third_party/glfw/src/win32_module.c
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2021 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: ceval
 ORIGIN: ../../../third_party/angle/src/third_party/ceval/LICENSE
 TYPE: LicenseType.mit
@@ -37502,36 +36898,6 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
 IN THE MATERIALS.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: glfw
-ORIGIN: ../../../third_party/glfw/src/posix_poll.c
-ORIGIN: ../../../third_party/glfw/src/posix_poll.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/glfw/src/posix_poll.c
-FILE: ../../../third_party/glfw/src/posix_poll.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2022 Camilla Löwy <elmindreda@glfw.org>
-
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would
-   be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not
-   be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source
-   distribution.
 ====================================================================================================
 
 ====================================================================================================
@@ -61899,4 +61265,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 868
+Total license count: 849
