@@ -1,4 +1,4 @@
-Signature: acbe4f6b3fa4b7971a5a8e90fe0ca573
+Signature: f30b8b554d159fc0dc6b3c823881e008
 
 ====================================================================================================
 LIBRARY: angle
@@ -49284,6 +49284,7 @@ FILE: ../../../third_party/icu/patches/locale1.patch
 FILE: ../../../third_party/icu/patches/locale_google.patch
 FILE: ../../../third_party/icu/patches/name_5_langs.patch
 FILE: ../../../third_party/icu/patches/restrace.patch
+FILE: ../../../third_party/icu/patches/revert_realpath.patch
 FILE: ../../../third_party/icu/patches/ultag_parse-double-free.patch
 FILE: ../../../third_party/icu/patches/wordbrk.patch
 FILE: ../../../third_party/icu/source/data/in/coll/ucadata-implicithan-icu4x.icu
