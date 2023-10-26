@@ -1,4 +1,4 @@
-Signature: f30b8b554d159fc0dc6b3c823881e008
+Signature: 69304324d997cc541ddf890752d79626
 
 ====================================================================================================
 LIBRARY: angle
@@ -45208,12 +45208,14 @@ ORIGIN: ../../../third_party/harfbuzz/src/hb-gobject-structs.cc
 ORIGIN: ../../../third_party/harfbuzz/src/hb-uniscribe.h
 ORIGIN: ../../../third_party/harfbuzz/src/hb-version.h
 ORIGIN: ../../../third_party/harfbuzz/src/hb-version.h.in
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-shape.cc
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/harfbuzz/src/hb-fallback-shape.cc
 FILE: ../../../third_party/harfbuzz/src/hb-gobject-structs.cc
 FILE: ../../../third_party/harfbuzz/src/hb-uniscribe.h
 FILE: ../../../third_party/harfbuzz/src/hb-version.h
 FILE: ../../../third_party/harfbuzz/src/hb-version.h.in
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-shape.cc
 ----------------------------------------------------------------------------------------------------
 Copyright © 2011  Google, Inc.
 
@@ -46521,9 +46523,7 @@ ORIGIN: ../../../third_party/harfbuzz/src/hb-ot-vorg-table.hh
 ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff-common.cc
 ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff-common.hh
 ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff1.cc
-ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff1.hh
 ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff2.cc
-ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-cff2.hh
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/harfbuzz/src/hb-cff-interp-common.hh
 FILE: ../../../third_party/harfbuzz/src/hb-cff-interp-cs-common.hh
@@ -46539,9 +46539,7 @@ FILE: ../../../third_party/harfbuzz/src/hb-ot-vorg-table.hh
 FILE: ../../../third_party/harfbuzz/src/hb-subset-cff-common.cc
 FILE: ../../../third_party/harfbuzz/src/hb-subset-cff-common.hh
 FILE: ../../../third_party/harfbuzz/src/hb-subset-cff1.cc
-FILE: ../../../third_party/harfbuzz/src/hb-subset-cff1.hh
 FILE: ../../../third_party/harfbuzz/src/hb-subset-cff2.cc
-FILE: ../../../third_party/harfbuzz/src/hb-subset-cff2.hh
 ----------------------------------------------------------------------------------------------------
 Copyright © 2018 Adobe Inc.
 
@@ -46842,14 +46840,18 @@ LIBRARY: harfbuzz
 ORIGIN: ../../../third_party/harfbuzz/src/hb-priority-queue.hh
 ORIGIN: ../../../third_party/harfbuzz/src/hb-repacker.hh
 ORIGIN: ../../../third_party/harfbuzz/src/test-array.cc
+ORIGIN: ../../../third_party/harfbuzz/src/test-item-varstore.cc
 ORIGIN: ../../../third_party/harfbuzz/src/test-priority-queue.cc
 ORIGIN: ../../../third_party/harfbuzz/src/test-repacker.cc
+ORIGIN: ../../../third_party/harfbuzz/src/test-tuple-varstore.cc
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/harfbuzz/src/hb-priority-queue.hh
 FILE: ../../../third_party/harfbuzz/src/hb-repacker.hh
 FILE: ../../../third_party/harfbuzz/src/test-array.cc
+FILE: ../../../third_party/harfbuzz/src/test-item-varstore.cc
 FILE: ../../../third_party/harfbuzz/src/test-priority-queue.cc
 FILE: ../../../third_party/harfbuzz/src/test-repacker.cc
+FILE: ../../../third_party/harfbuzz/src/test-tuple-varstore.cc
 ----------------------------------------------------------------------------------------------------
 Copyright © 2020  Google, Inc.
 
@@ -47254,9 +47256,31 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 LIBRARY: harfbuzz
 ORIGIN: ../../../third_party/harfbuzz/src/hb-outline.hh
 ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-instancer-solver.cc
+ORIGIN: ../../../third_party/harfbuzz/src/hb-subset-instancer-solver.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-blob.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-buffer.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-common.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-face.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-font.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-list.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api-shape.hh
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api.cc
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api.h
+ORIGIN: ../../../third_party/harfbuzz/src/hb-wasm-api.hh
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/harfbuzz/src/hb-outline.hh
 FILE: ../../../third_party/harfbuzz/src/hb-subset-instancer-solver.cc
+FILE: ../../../third_party/harfbuzz/src/hb-subset-instancer-solver.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-blob.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-buffer.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-common.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-face.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-font.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-list.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api-shape.hh
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api.cc
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api.h
+FILE: ../../../third_party/harfbuzz/src/hb-wasm-api.hh
 ----------------------------------------------------------------------------------------------------
 Copyright © 2023  Behdad Esfahbod
 
@@ -47316,8 +47340,10 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ====================================================================================================
 LIBRARY: harfbuzz
 ORIGIN: ../../../third_party/harfbuzz/src/hb-ot-var-cvar-table.hh
+ORIGIN: ../../../third_party/harfbuzz/src/test-subset-instancer-solver.cc
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/harfbuzz/src/hb-ot-var-cvar-table.hh
+FILE: ../../../third_party/harfbuzz/src/test-subset-instancer-solver.cc
 ----------------------------------------------------------------------------------------------------
 Copyright © 2023  Google, Inc.
 
@@ -47400,6 +47426,9 @@ Copyright (C) 2011, RTFM, Inc.
 LIBRARY: harfbuzz
 ORIGIN: ../../../third_party/harfbuzz/COPYING
 TYPE: LicenseType.unknown
+FILE: ../../../third_party/harfbuzz/.ci/requirements-fonttools.in
+FILE: ../../../third_party/harfbuzz/.ci/requirements-fonttools.txt
+FILE: ../../../third_party/harfbuzz/.ci/requirements.in
 FILE: ../../../third_party/harfbuzz/.ci/win32-cross-file.txt
 FILE: ../../../third_party/harfbuzz/.ci/win64-cross-file.txt
 FILE: ../../../third_party/harfbuzz/.circleci/config.yml
@@ -47415,6 +47444,7 @@ FILE: ../../../third_party/harfbuzz/perf/benchmark-subset.cc
 FILE: ../../../third_party/harfbuzz/perf/fonts/Amiri-Regular.ttf
 FILE: ../../../third_party/harfbuzz/perf/fonts/NotoNastaliqUrdu-Regular.ttf
 FILE: ../../../third_party/harfbuzz/perf/fonts/Roboto-Regular.ttf
+FILE: ../../../third_party/harfbuzz/perf/texts/duployan.txt
 FILE: ../../../third_party/harfbuzz/perf/texts/en-thelittleprince.txt
 FILE: ../../../third_party/harfbuzz/perf/texts/en-words.txt
 FILE: ../../../third_party/harfbuzz/perf/texts/fa-thelittleprince.txt
@@ -47505,6 +47535,13 @@ FILE: ../../../third_party/harfbuzz/src/hb-ot-shaper-vowel-constraints.cc
 FILE: ../../../third_party/harfbuzz/src/hb-ot-tag-table.hh
 FILE: ../../../third_party/harfbuzz/src/hb-ucd-table.hh
 FILE: ../../../third_party/harfbuzz/src/test-use-table.cc
+FILE: ../../../third_party/harfbuzz/src/wasm/graphite/shape.cc
+FILE: ../../../third_party/harfbuzz/src/wasm/rust/harfbuzz-wasm/Cargo.toml
+FILE: ../../../third_party/harfbuzz/src/wasm/sample/c/shape-fallback.cc
+FILE: ../../../third_party/harfbuzz/src/wasm/sample/c/shape-ot.cc
+FILE: ../../../third_party/harfbuzz/src/wasm/sample/c/test.ttf
+FILE: ../../../third_party/harfbuzz/src/wasm/sample/rust/hello-wasm/Cargo.toml
+FILE: ../../../third_party/harfbuzz/src/wasm/sample/rust/hello-wasm/src/lib.rs
 FILE: ../../../third_party/harfbuzz/subprojects/cairo.wrap
 FILE: ../../../third_party/harfbuzz/subprojects/freetype2.wrap
 FILE: ../../../third_party/harfbuzz/subprojects/glib.wrap
