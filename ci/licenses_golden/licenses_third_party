@@ -1,4 +1,4 @@
-Signature: 4f154bc12b90f22707635660097c1613
+Signature: 35c1355b9b0e56ab9edf264c828d1fbd
 
 ====================================================================================================
 LIBRARY: angle
@@ -62,7 +62,6 @@ LIBRARY: abseil-cpp
 LIBRARY: angle
 LIBRARY: expat
 LIBRARY: glslang
-LIBRARY: khronos
 LIBRARY: perfetto
 LIBRARY: spirv-cross
 LIBRARY: vulkan-headers
@@ -114,9 +113,6 @@ ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/EGL/eglext.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/EGL/eglplatform.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/GLES2/gl2platform.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/angle/include/GLES3/gl3platform.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/egl.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/eglext.h
-ORIGIN: Apache-2.0 referenced by ../../../third_party/khronos/EGL/eglplatform.h
 ORIGIN: Apache-2.0 referenced by ../../../third_party/vulkan-deps/spirv-cross/src/Package.swift
 ORIGIN: Apache-2.0 referenced by ../../../third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/barrier.hpp
 ORIGIN: Apache-2.0 referenced by ../../../third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/external_interface.h
@@ -272,8 +268,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/khronos/GLES2/gl2platform.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/khronos/GLES3/gl3platform.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/Android.bp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/BUILD
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/PerfettoIntegrationTests.xml
@@ -2179,11 +2173,6 @@ FILE: ../../../third_party/angle/src/libANGLE/Overlay_font_autogen.cpp
 FILE: ../../../third_party/angle/src/libANGLE/overlay/RobotoMono-Bold.ttf
 FILE: ../../../third_party/expat/expat/fuzz/xml_parse_fuzzer.c
 FILE: ../../../third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
-FILE: ../../../third_party/khronos/EGL/egl.h
-FILE: ../../../third_party/khronos/EGL/eglext.h
-FILE: ../../../third_party/khronos/EGL/eglplatform.h
-FILE: ../../../third_party/khronos/GLES2/gl2platform.h
-FILE: ../../../third_party/khronos/GLES3/gl3platform.h
 FILE: ../../../third_party/perfetto/Android.bp
 FILE: ../../../third_party/perfetto/BUILD
 FILE: ../../../third_party/perfetto/PerfettoIntegrationTests.xml
@@ -33672,34 +33661,6 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: khronos
-ORIGIN: ../../../third_party/khronos/noninclude/GL/glxext.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/khronos/noninclude/GL/glxext.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2007-2012 The Khronos Group Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and/or associated documentation files (the
-"Materials"), to deal in the Materials without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Materials, and to
-permit persons to whom the Materials are furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Materials.
-
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../third_party/icu/source/tools/toolutil/dbgutil.h + ../../../third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -34016,34 +33977,6 @@ AUTHORS  OR COPYRIGHT  HOLDERS  BE  LIABLE FOR  ANY  CLAIM,  DAMAGES OR  OTHER
 LIABILITY, WHETHER IN AN ACTION OF  CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE  OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: khronos
-ORIGIN: ../../../third_party/khronos/KHR/khrplatform.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/khronos/KHR/khrplatform.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2008-2009 The Khronos Group Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and/or associated documentation files (the
-"Materials"), to deal in the Materials without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Materials, and to
-permit persons to whom the Materials are furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Materials.
-
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 ====================================================================================================
 
 ====================================================================================================
@@ -34928,44 +34861,10 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: khronos
 ORIGIN: ../../../third_party/angle/src/third_party/khronos/GL/wglext.h
-ORIGIN: ../../../third_party/khronos/noninclude/GL/glext.h
-ORIGIN: ../../../third_party/khronos/noninclude/GL/wglext.h
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/angle/src/third_party/khronos/GL/wglext.h
-FILE: ../../../third_party/khronos/noninclude/GL/glext.h
-FILE: ../../../third_party/khronos/noninclude/GL/wglext.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2013-2014 The Khronos Group Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and/or associated documentation files (the
-"Materials"), to deal in the Materials without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Materials, and to
-permit persons to whom the Materials are furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Materials.
-
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: khronos
-ORIGIN: ../../../third_party/khronos/GLES3/gl31.h
-ORIGIN: ../../../third_party/khronos/GLES3/gl32.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/khronos/GLES3/gl31.h
-FILE: ../../../third_party/khronos/GLES3/gl32.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2013-2016 The Khronos Group Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and/or associated documentation files (the
@@ -35017,18 +34916,11 @@ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 ====================================================================================================
 LIBRARY: angle
-LIBRARY: khronos
 ORIGIN: ../../../third_party/angle/include/GLES/gl.h
 ORIGIN: ../../../third_party/angle/include/WGL/wgl.h
-ORIGIN: ../../../third_party/khronos/GLES2/gl2.h
-ORIGIN: ../../../third_party/khronos/GLES2/gl2ext.h
-ORIGIN: ../../../third_party/khronos/GLES3/gl3.h
 TYPE: LicenseType.unknown
 FILE: ../../../third_party/angle/include/GLES/gl.h
 FILE: ../../../third_party/angle/include/WGL/wgl.h
-FILE: ../../../third_party/khronos/GLES2/gl2.h
-FILE: ../../../third_party/khronos/GLES2/gl2ext.h
-FILE: ../../../third_party/khronos/GLES3/gl3.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2013-2018 The Khronos Group Inc.
 
@@ -60775,4 +60667,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 844
+Total license count: 841
