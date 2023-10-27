@@ -1,4 +1,4 @@
-Signature: 3e6969e9dde7d980b21c3678036aa8d0
+Signature: 4f60aca850ef76c483743be662f71afc
 
 ====================================================================================================
 LIBRARY: angle
@@ -278,7 +278,6 @@ LIBRARY: flatbuffers
 LIBRARY: glslang
 LIBRARY: khronos
 LIBRARY: perfetto
-LIBRARY: shaderc
 LIBRARY: spirv-cross
 LIBRARY: vulkan-headers
 LIBRARY: vulkan-validation-layers
@@ -286,7 +285,6 @@ LIBRARY: wuffs
 ORIGIN: ../../../third_party/angle/src/libANGLE/overlay/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/LICENSE.txt
 ORIGIN: ../../../third_party/flatbuffers/swift/LICENSE
-ORIGIN: ../../../third_party/shaderc/LICENSE
 ORIGIN: ../../../third_party/vulkan-deps/spirv-cross/src/LICENSE
 ORIGIN: ../../../third_party/vulkan-deps/vulkan-headers/src/LICENSE.txt
 ORIGIN: ../../../third_party/vulkan-deps/vulkan-validation-layers/src/LICENSE.txt
@@ -1109,102 +1107,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/ui/src/assets/trace_info_page.scss
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/ui/src/base/utils/index-browser.js
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/perfetto/ui/src/base/utils/index.js
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/android_test/test.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/dependency_info.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/dependency_info.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file_compiler.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file_compiler.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file_includer.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file_includer.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/file_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/main.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/resource_parse.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/resource_parse.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/resource_parse_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/shader_stage.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/shader_stage.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/glslc/src/stage_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/android-release/continuous_arm.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/android-release/continuous_x86.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/android-release/presubmit_arm.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/android-release/presubmit_x86.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_clang_asan.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_clang_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_clang_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_gcc_coverage.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_gcc_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_gcc_debug_exception.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_gcc_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_license_check.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/continuous_mingw_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_clang_asan.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_clang_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_clang_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_coverage.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/linux/presubmit_license_check.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/macos/continuous_clang_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/macos/continuous_clang_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/macos/presubmit_clang_debug.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/macos/presubmit_clang_release.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/ndk-build/continuous_khronos.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/ndk-build/presubmit_khronos.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/continuous_debug_2017.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/continuous_release_2015.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/continuous_release_2017.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/presubmit_debug_2017.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/presubmit_release_2015.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/kokoro/windows/presubmit_release_2017.cfg
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/include/shaderc/env.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/include/shaderc/shaderc.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/include/shaderc/shaderc.hpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/include/shaderc/status.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/include/shaderc/visibility.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/common_shaders_for_test.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc_c_smoke_test.c
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc_cpp_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc_private.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc_private_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc/src/shaderc_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/args.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/compiler.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/counting_includer.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/exceptions.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/file_finder.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/format.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/io_shaderc.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/message.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/mutex.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/resources.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/resources.inc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/shader_stage.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/spirv_tools_wrapper.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/string_piece.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/universal_unistd.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/version_profile.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/args.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/compiler.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/compiler_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/counting_includer_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/death_test.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/file_finder.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/file_finder_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/format_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/io_shaderc.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/io_shaderc_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/message.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/message_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/mutex_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/resources.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/shader_stage.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/spirv_tools_wrapper.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/string_piece_test.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/version_profile.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/shaderc/libshaderc_util/src/version_profile_test.cc
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/glslang/src/SPIRV/bitutils.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/glslang/src/SPIRV/hex_float.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../third_party/vulkan-deps/glslang/src/gtests/Common.cpp
@@ -3246,107 +3148,6 @@ FILE: ../../../third_party/perfetto/ui/src/assets/topbar.scss
 FILE: ../../../third_party/perfetto/ui/src/assets/trace_info_page.scss
 FILE: ../../../third_party/perfetto/ui/src/base/utils/index-browser.js
 FILE: ../../../third_party/perfetto/ui/src/base/utils/index.js
-FILE: ../../../third_party/shaderc/DEVELOPMENT.howto.md
-FILE: ../../../third_party/shaderc/android_test/test.cpp
-FILE: ../../../third_party/shaderc/downloads.md
-FILE: ../../../third_party/shaderc/glslc/src/dependency_info.cc
-FILE: ../../../third_party/shaderc/glslc/src/dependency_info.h
-FILE: ../../../third_party/shaderc/glslc/src/file.cc
-FILE: ../../../third_party/shaderc/glslc/src/file.h
-FILE: ../../../third_party/shaderc/glslc/src/file_compiler.cc
-FILE: ../../../third_party/shaderc/glslc/src/file_compiler.h
-FILE: ../../../third_party/shaderc/glslc/src/file_includer.cc
-FILE: ../../../third_party/shaderc/glslc/src/file_includer.h
-FILE: ../../../third_party/shaderc/glslc/src/file_test.cc
-FILE: ../../../third_party/shaderc/glslc/src/main.cc
-FILE: ../../../third_party/shaderc/glslc/src/resource_parse.cc
-FILE: ../../../third_party/shaderc/glslc/src/resource_parse.h
-FILE: ../../../third_party/shaderc/glslc/src/resource_parse_test.cc
-FILE: ../../../third_party/shaderc/glslc/src/shader_stage.cc
-FILE: ../../../third_party/shaderc/glslc/src/shader_stage.h
-FILE: ../../../third_party/shaderc/glslc/src/stage_test.cc
-FILE: ../../../third_party/shaderc/kokoro/android-release/continuous_arm.cfg
-FILE: ../../../third_party/shaderc/kokoro/android-release/continuous_x86.cfg
-FILE: ../../../third_party/shaderc/kokoro/android-release/presubmit_arm.cfg
-FILE: ../../../third_party/shaderc/kokoro/android-release/presubmit_x86.cfg
-FILE: ../../../third_party/shaderc/kokoro/img/linux.png
-FILE: ../../../third_party/shaderc/kokoro/img/macos.png
-FILE: ../../../third_party/shaderc/kokoro/img/windows.png
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_clang_asan.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_clang_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_clang_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_gcc_coverage.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_gcc_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_gcc_debug_exception.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_gcc_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_license_check.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/continuous_mingw_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_clang_asan.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_clang_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_clang_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_coverage.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_gcc_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/linux/presubmit_license_check.cfg
-FILE: ../../../third_party/shaderc/kokoro/macos/continuous_clang_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/macos/continuous_clang_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/macos/presubmit_clang_debug.cfg
-FILE: ../../../third_party/shaderc/kokoro/macos/presubmit_clang_release.cfg
-FILE: ../../../third_party/shaderc/kokoro/ndk-build/continuous_khronos.cfg
-FILE: ../../../third_party/shaderc/kokoro/ndk-build/presubmit_khronos.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/continuous_debug_2017.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/continuous_release_2015.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/continuous_release_2017.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/presubmit_debug_2017.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/presubmit_release_2015.cfg
-FILE: ../../../third_party/shaderc/kokoro/windows/presubmit_release_2017.cfg
-FILE: ../../../third_party/shaderc/libshaderc/include/shaderc/env.h
-FILE: ../../../third_party/shaderc/libshaderc/include/shaderc/shaderc.h
-FILE: ../../../third_party/shaderc/libshaderc/include/shaderc/shaderc.hpp
-FILE: ../../../third_party/shaderc/libshaderc/include/shaderc/status.h
-FILE: ../../../third_party/shaderc/libshaderc/include/shaderc/visibility.h
-FILE: ../../../third_party/shaderc/libshaderc/src/common_shaders_for_test.h
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc.cc
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc_c_smoke_test.c
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc_cpp_test.cc
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc_private.h
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc_private_test.cc
-FILE: ../../../third_party/shaderc/libshaderc/src/shaderc_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/args.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/compiler.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/counting_includer.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/exceptions.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/file_finder.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/format.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/io_shaderc.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/message.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/mutex.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/resources.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/resources.inc
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/shader_stage.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/spirv_tools_wrapper.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/string_piece.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/universal_unistd.h
-FILE: ../../../third_party/shaderc/libshaderc_util/include/libshaderc_util/version_profile.h
-FILE: ../../../third_party/shaderc/libshaderc_util/src/args.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/compiler.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/compiler_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/counting_includer_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/death_test.h
-FILE: ../../../third_party/shaderc/libshaderc_util/src/file_finder.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/file_finder_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/format_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/io_shaderc.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/io_shaderc_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/message.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/message_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/mutex_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/resources.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/shader_stage.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/spirv_tools_wrapper.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/string_piece_test.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/version_profile.cc
-FILE: ../../../third_party/shaderc/libshaderc_util/src/version_profile_test.cc
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/bitutils.h
 FILE: ../../../third_party/vulkan-deps/glslang/src/SPIRV/hex_float.h
 FILE: ../../../third_party/vulkan-deps/glslang/src/gtests/Common.cpp
