@@ -1,4 +1,4 @@
-Signature: 69304324d997cc541ddf890752d79626
+Signature: 3e6969e9dde7d980b21c3678036aa8d0
 
 ====================================================================================================
 LIBRARY: angle
@@ -27045,100 +27045,6 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: rapidjson
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/schema.h + http://opensource->org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/schema.h
-TYPE: LicenseType.mit
-FILE: ../../../third_party/rapidjson/include/rapidjson/schema.h
-----------------------------------------------------------------------------------------------------
-Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip-> All rights reserved->
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: rapidjson
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/allocators.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/allocators.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/cursorstreamwrapper.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/cursorstreamwrapper.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/document.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/document.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/encodedstream.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/encodedstream.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/encodings.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/encodings.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/error/en.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/error/en.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/error/error.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/error/error.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/filereadstream.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/filereadstream.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/filewritestream.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/filewritestream.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/fwd.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/fwd.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/biginteger.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/biginteger.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/diyfp.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/diyfp.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/dtoa.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/dtoa.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/ieee754.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/ieee754.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/itoa.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/itoa.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/meta.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/meta.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/pow10.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/pow10.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/regex.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/regex.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/stack.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/stack.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/strfunc.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/strfunc.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/strtod.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/strtod.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/internal/swap.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/internal/swap.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/istreamwrapper.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/istreamwrapper.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/memorybuffer.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/memorybuffer.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/memorystream.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/memorystream.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/ostreamwrapper.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/ostreamwrapper.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/pointer.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/pointer.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/prettywriter.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/prettywriter.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/rapidjson.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/rapidjson.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/reader.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/reader.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/stream.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/stream.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/stringbuffer.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/stringbuffer.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/writer.h + http://opensource.org/licenses/MIT referenced by ../../../third_party/rapidjson/include/rapidjson/writer.h
-TYPE: LicenseType.mit
-FILE: ../../../third_party/rapidjson/include/rapidjson/allocators.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/cursorstreamwrapper.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/document.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/encodedstream.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/encodings.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/error/en.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/error/error.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/filereadstream.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/filewritestream.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/fwd.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/biginteger.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/diyfp.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/dtoa.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/ieee754.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/itoa.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/meta.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/pow10.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/regex.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/stack.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/strfunc.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/strtod.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/internal/swap.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/istreamwrapper.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/memorybuffer.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/memorystream.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/ostreamwrapper.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/pointer.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/prettywriter.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/rapidjson.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/reader.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/stream.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/stringbuffer.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/writer.h
-----------------------------------------------------------------------------------------------------
-Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: libjpeg-turbo
 ORIGIN: ../../../third_party/libjpeg-turbo/simd/jcsample-altivec.c
 ORIGIN: ../../../third_party/libjpeg-turbo/simd/jdcolext-altivec.c
@@ -34149,42 +34055,6 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: rapidjson
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/msinttypes/inttypes.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/msinttypes/stdint.h
-TYPE: LicenseType.bsd
-FILE: ../../../third_party/rapidjson/include/rapidjson/msinttypes/inttypes.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/msinttypes/stdint.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2006-2013 Alexander Chemeris
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-  1. Redistributions of source code must retain the above copyright notice,
-     this list of conditions and the following disclaimer.
-
-  2. Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in the
-     documentation and/or other materials provided with the distribution.
-
-  3. Neither the name of the product nor the names of its contributors may
-     be used to endorse or promote products derived from this software
-     without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
-WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
-EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -49181,19 +49051,6 @@ Legal Terms
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: rapidjson
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/msinttypes/inttypes.h
-ORIGIN: ../../../third_party/rapidjson/include/rapidjson/msinttypes/stdint.h
-TYPE: LicenseType.unknown
-FILE: ../../../third_party/rapidjson/include/rapidjson/msinttypes/inttypes.h
-FILE: ../../../third_party/rapidjson/include/rapidjson/msinttypes/stdint.h
-----------------------------------------------------------------------------------------------------
-The above software in this distribution may have been modified by
-THL A29 Limited ("Tencent Modifications").
-All Tencent Modifications are Copyright (C) 2015 THL A29 Limited.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: sqlite
 ORIGIN: ../../../third_party/sqlite/LICENSE
 TYPE: LicenseType.unknown
@@ -61304,4 +61161,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 849
+Total license count: 845
