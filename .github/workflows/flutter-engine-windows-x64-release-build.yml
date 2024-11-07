@@ -22,7 +22,7 @@ jobs:
           cd engine
           
           fetch flutter
-          git -C src/flutter checkout db49896cf25ceabc44096d5f088d86414e05a7aa
+          git -C src/flutter checkout 3.24.4
 
           $filePath = "src/flutter/shell/platform/windows/flutter_windows_engine.cc"
           (Get-Content $filePath) -replace 'ClearCurrent', 'MakeCurrent' | Set-Content $filePath
