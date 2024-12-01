@@ -1,0 +1,123 @@
+From 48874d5b15afd3704882af181d393888f24dde9e Mon Sep 17 00:00:00 2001
+From: vitoway <vitoway@email.com>
+Date: Sat, 30 Nov 2024 12:02:38 +0800
+Subject: [PATCH] revert file_win.cc
+
+---
+ runtime/bin/BUILD.gn    |  2 +-
+ runtime/bin/file_win.cc | 71 ++++++-----------------------------------
+ 2 files changed, 11 insertions(+), 62 deletions(-)
+
+diff --git a/runtime/bin/BUILD.gn b/runtime/bin/BUILD.gn
+index be0893506f2..1b8f7fb088a 100644
+--- a/runtime/bin/BUILD.gn
++++ b/runtime/bin/BUILD.gn
+@@ -64,7 +64,7 @@ template("build_libdart_builtin") {
+       public_deps = [ "$fuchsia_sdk/pkg/fdio" ]
+     }
+     if (is_win) {
+-      libs = [ "Pathcch.lib" ]
++      # libs = [ "Pathcch.lib" ]
+     }
+     include_dirs = [ ".." ]
+     sources = builtin_impl_sources
+diff --git a/runtime/bin/file_win.cc b/runtime/bin/file_win.cc
+index 07e503ba19a..37627736fba 100644
+--- a/runtime/bin/file_win.cc
++++ b/runtime/bin/file_win.cc
+@@ -13,7 +13,7 @@
+ #include <Shlwapi.h>    // NOLINT
+ #include <fcntl.h>      // NOLINT
+ #include <io.h>         // NOLINT
+-#include <pathcch.h>    // NOLINT
++// #include <pathcch.h>    // NOLINT
+ #include <winioctl.h>   // NOLINT
+ #undef StrDup           // defined in Shlwapi.h as StrDupW
+ #include <stdio.h>      // NOLINT
+@@ -610,74 +610,23 @@ typedef struct _REPARSE_DATA_BUFFER {
+   };
+ } REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER;
+ 
++static constexpr int kReparseDataHeaderSize =
++    sizeof(ULONG) + 2 * sizeof(USHORT);
++static constexpr int kMountPointHeaderSize = 4 * sizeof(USHORT);
++
+ bool File::CreateLink(Namespace* namespc,
+                       const char* utf8_name,
+                       const char* utf8_target) {
+   const auto name = ToWinAPIFilePath(utf8_name);
+-
+-  std::unique_ptr<wchar_t[]> target;
+-  bool target_is_directory;
+-  if (File::IsAbsolutePath(utf8_target)) {
+-    target = ToWinAPIFilePath(utf8_target);
+-    target_is_directory =
+-        File::GetType(target.get(), /*follow_links=*/true) == kIsDirectory;
+-  } else {
+-    // The path of `target` is relative to `name`.
+-    //
+-    // To determine if `target` is a file or directory, we need to calculate
+-    // either its absolute path or its path relative to the current working
+-    // directory.
+-    //
+-    // For example:
+-    //
+-    // name=           C:\A\B\Link      ..\..\Link      ..\..\Link
+-    // target=         MyFile           MyFile          ..\Dir\MyFile
+-    // --------------------------------------------------------------------
+-    // target_path=    C:\A\B\MyFile    ..\..\MyFile    ..\..\..\Dir\MyFile
+-    //
+-    // The transformation steps are:
+-    // 1. target_path := name                           ..\..\Link
+-    // 2. target_path := remove_file(target_path)       ..\..\
+-    // 3. target_path := combine(target_path, target)   ..\..\..\Dir\MyFile
+-    target = Utf8ToWideChar(utf8_target);
+-
+-    // 1. target_path := name
+-    intptr_t target_path_max_length =
+-        wcslen(name.get()) + wcslen(target.get()) + 2;
+-    auto target_path = std::make_unique<wchar_t[]>(target_path_max_length);
+-    wcscpy_s(target_path.get(), target_path_max_length, name.get());
+-
+-    // 2. target_path := remove_file(target_path)
+-    HRESULT remove_result =
+-        PathCchRemoveFileSpec(target_path.get(), target_path_max_length);
+-    if (remove_result == S_FALSE) {
+-      // If the file component could not be removed, then `name` is
+-      // top-level, like "C:\" or "/". Attempts to create files at those paths
+-      // will fail with ERROR_ACCESS_DENIED.
+-      SetLastError(ERROR_ACCESS_DENIED);
+-      return false;
+-    } else if (remove_result != S_OK) {
+-      SetLastError(remove_result);
+-      return false;
+-    }
+-
+-    // 3. target_path := combine(target_path, target)
+-    HRESULT combine_result = PathCchCombineEx(
+-        target_path.get(), target_path_max_length, target_path.get(),
+-        target.get(), PATHCCH_ALLOW_LONG_PATHS);
+-    if (combine_result != S_OK) {
+-      SetLastError(combine_result);
+-      return false;
+-    }
+-
+-    target_is_directory =
+-        File::GetType(target_path.get(), /*follow_links=*/true) == kIsDirectory;
+-  }
++  std::unique_ptr<wchar_t[]> target = ToWinAPIFilePath(utf8_target);
+ 
+   DWORD flags = SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE;
+-  if (target_is_directory) {
++
++  File::Type type = File::GetType(namespc, utf8_target, true);
++  if (type == kIsDirectory) {
+     flags |= SYMBOLIC_LINK_FLAG_DIRECTORY;
+   }
++
+   int create_status = CreateSymbolicLinkW(name.get(), target.get(), flags);
+ 
+   // If running on a Windows 10 build older than 14972, an invalid parameter
+-- 
+2.47.0.windows.1
+
