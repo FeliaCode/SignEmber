@@ -67,7 +67,7 @@ jobs:
 
       # The file will be uploaded to the release page of the repository, and the tag is the branch name of the currently executing workflow.
       - name: Upload files to a GitHub release
-        uses: svenstaro/upload-release-action@2.9.0
+        uses: svenstaro/upload-release-action@2.11.5
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: windows-x64-release.zip
