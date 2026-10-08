@@ -1,0 +1,22 @@
+[Unit]
+Description=Ember slot %i (Next.js)
+After=network.target postgresql.service
+
+[Service]
+User=ember
+Group=ember
+WorkingDirectory=/opt/ember-%i
+EnvironmentFile=/etc/ember.env
+Environment=NODE_ENV=production NEXT_TELEMETRY_DISABLED=1
+ExecStart=/bin/sh -c 'exec node node_modules/next/dist/bin/next start -H 127.0.0.1 -p "$(cat /opt/ember-%i/PORT)"'
+Restart=always
+RestartSec=3
+MemoryMax=900M
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ember-%i/.next/cache
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,22 @@
+[Unit]
+Description=Ember (Next.js) on 127.0.0.1:8195
+After=network.target postgresql.service
+
+[Service]
+User=ember
+Group=ember
+WorkingDirectory=/opt/ember
+EnvironmentFile=/etc/ember.env
+Environment=NODE_ENV=production NEXT_TELEMETRY_DISABLED=1
+ExecStart=/usr/bin/env node node_modules/next/dist/bin/next start -H 127.0.0.1 -p 8195
+Restart=always
+RestartSec=3
+MemoryMax=900M
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/ember/.next/cache
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

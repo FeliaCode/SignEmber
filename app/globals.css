@@ -1,0 +1,173 @@
+/* Ember tokens. The ONLY place raw values live; components use token names. */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Silkscreen:wght@400;700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: 340 100% 99%;
+  --foreground: 330 45% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 330 45% 16%;
+  --primary: 330 88% 56%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 335 85% 95%;
+  --secondary-foreground: 330 45% 16%;
+  --accent: 158 50% 32%;
+  --accent-foreground: 0 0% 100%;
+  --muted: 335 70% 96%;
+  --muted-foreground: 330 16% 40%;
+  --destructive: 0 72% 46%;
+  --destructive-foreground: 0 0% 100%;
+  --warning: 32 92% 42%;
+  --border: 335 45% 87%;
+  --input: 335 40% 82%;
+  --ring: 330 88% 56%;
+  --ash: 335 35% 89%;
+  --radius: 4px;
+  /* pixel scene palette */
+  --sky-1: 330 90% 70%;
+  --sky-2: 340 95% 80%;
+  --sky-3: 350 100% 90%;
+  --cloud: 0 0% 100%;
+  --cloud-shade: 340 60% 92%;
+  --sun: 0 0% 100%;
+  --sea-1: 325 60% 46%;
+  --sea-2: 330 70% 58%;
+  --sea-3: 338 85% 72%;
+  --foam: 0 0% 100%;
+  --rock: 325 40% 24%;
+
+  --glow: 345 95% 72%;
+  --gradient-ember: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--glow)));
+  --shadow-sm: 0 1px 2px hsl(var(--foreground) / 0.06);
+  --shadow-md: 0 10px 30px -12px hsl(var(--foreground) / 0.16);
+  --shadow-card: 0 1px 0 hsl(var(--foreground) / 0.04), 0 12px 32px -18px hsl(var(--foreground) / 0.18);
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, Menlo, monospace;
+  --font-pixel: "Silkscreen", "Space Mono", monospace;
+
+  --dur-instant: 100ms;
+  --dur-fast: 160ms;
+  --dur-base: 240ms;
+  --dur-slow: 400ms;
+  --dur-slower: 700ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.dark {
+  --background: 330 40% 8%;
+  --foreground: 340 60% 96%;
+  --card: 330 35% 11%;
+  --card-foreground: 340 60% 96%;
+  --primary: 330 92% 66%;
+  --primary-foreground: 330 40% 8%;
+  --secondary: 330 30% 16%;
+  --secondary-foreground: 340 60% 96%;
+  --accent: 158 45% 55%;
+  --accent-foreground: 330 40% 8%;
+  --muted: 330 30% 14%;
+  --muted-foreground: 335 20% 72%;
+  --destructive: 0 72% 62%;
+  --warning: 38 92% 60%;
+  --border: 330 25% 24%;
+  --input: 330 25% 28%;
+  --ring: 330 92% 66%;
+  --ash: 330 20% 22%;
+  --sky-1: 300 45% 22%;
+  --sky-2: 320 50% 32%;
+  --sky-3: 335 60% 46%;
+  --cloud: 340 70% 90%;
+  --cloud-shade: 330 30% 70%;
+  --sun: 340 90% 88%;
+  --sea-1: 300 45% 12%;
+  --sea-2: 315 45% 20%;
+  --sea-3: 325 50% 30%;
+  --foam: 340 70% 88%;
+  --rock: 300 30% 6%;
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-warning: hsl(var(--warning));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-ash: hsl(var(--ash));
+  --color-sky-1: hsl(var(--sky-1));
+  --color-sky-2: hsl(var(--sky-2));
+  --color-sky-3: hsl(var(--sky-3));
+  --color-sea-1: hsl(var(--sea-1));
+  --color-sea-2: hsl(var(--sea-2));
+  --color-sea-3: hsl(var(--sea-3));
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 6px);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+  --font-pixel: var(--font-pixel);
+  --shadow-card: var(--shadow-card);
+  --shadow-md: var(--shadow-md);
+  /* type scale 12.5 / 13 / 15 / 17 / 22 / 30 / 44 / 60 */
+  --text-mini: 0.78125rem;
+  --text-label: 0.8125rem;
+  --text-body: 0.9375rem;
+  --text-lead: 1.0625rem;
+  --text-h3: 1.375rem;
+  --text-h2: 1.875rem;
+  --text-h1: 2.75rem;
+  --text-hero: 3.75rem;
+  --text-mega: 5.75rem;
+}
+
+@layer base {
+  * { border-color: hsl(var(--border)); }
+  html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  body { background: hsl(var(--background)); color: hsl(var(--foreground)); font-family: var(--font-body); }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.035em; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+  }
+}
+
+@layer utilities {
+  .bg-ember { background-image: var(--gradient-ember); }
+  .transition-smooth { transition: all var(--dur-base) var(--ease-out); }
+  .transition-bar { transition: width var(--dur-slow) var(--ease-out), background-color var(--dur-slow) var(--ease-out); }
+  .reveal { animation: reveal var(--dur-slower) var(--ease-out) both; }
+  @keyframes reveal { from { opacity: 0; transform: translateY(10px); } }
+  .tick { animation: tick var(--dur-slow) var(--ease-out) both; }
+  @keyframes tick { from { opacity: 0; transform: translateY(6px); } }
+  .tabular { font-variant-numeric: tabular-nums; }
+  .label { font-family: var(--font-mono); font-size: var(--text-mini); text-transform: uppercase; letter-spacing: 0.14em; }
+  .ticket { border: 1px solid hsl(var(--border)); background: hsl(var(--card)); }
+  .sea-fallback {
+    background: linear-gradient(180deg,
+      hsl(var(--sky-1)) 0 27%, hsl(var(--sky-2)) 27% 54%, hsl(var(--sky-3)) 54% 80%,
+      hsl(var(--sea-3)) 80% 84%, hsl(var(--sea-2)) 84% 91%, hsl(var(--sea-1)) 91% 100%);
+  }
+  .sea-fallback-low {
+    background: linear-gradient(180deg,
+      hsl(var(--sky-2)) 0 20%, hsl(var(--sky-3)) 20% 40%, hsl(var(--sea-3)) 40% 49%, hsl(var(--sea-2)) 49% 72%, hsl(var(--sea-1)) 72% 100%);
+  }
+  .pixelated { image-rendering: pixelated; image-rendering: crisp-edges; }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+program/target/
+*.keypair.json
+*-keypair.json
+keys/
+keys/
+*.pem
+acceptance-last.txt

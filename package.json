@@ -1,0 +1,49 @@
+{
+  "name": "ember",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 8195",
+    "build": "next build",
+    "start": "next start -p 8195",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\"",
+    "test:program": "node --import tsx --test \"program/tests/*.test.ts\"",
+    "db:push": "drizzle-kit push",
+    "seed": "tsx scripts/seed.ts",
+    "acceptance": "tsx scripts/acceptance.ts",
+    "deploy:program": "sh program/deploy.sh"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/web3.js": "^1.98.4",
+    "@solana/spl-token": "^0.4.14",
+    "@x402/core": "~2.28.0",
+    "@x402/fetch": "~2.28.0",
+    "@x402/svm": "~2.28.0",
+    "bs58": "^6.0.0",
+    "drizzle-orm": "^0.44.0",
+    "iron-session": "^8.0.4",
+    "next": "^15.5.0",
+    "pg": "^8.16.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.18.0",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "drizzle-kit": "^0.31.0",
+    "litesvm": "^1.5.0",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
